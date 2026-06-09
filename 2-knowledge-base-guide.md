@@ -5491,3 +5491,942 @@ negotiation theory; cultural understanding; observed evidence; continuous reasse
 | India | Contextual | Relationship-based | High | Layered | Flexible |
 | Middle East | High-context | Relationship-based | High | Senior-led | Flexible |
 | Latin America | Expressive | Relationship-based | Moderate-High | Relationship-driven | Flexible |
+
+
+Module III 
+
+
+
+
+
+
+
+
+
+## 1. Core Definition of Negotiation
+
+Negotiation is a back-and-forth communication process used to reach an agreement when parties have:
+- some shared interests;
+- some opposed interests;
+- a need to protect both the substantive outcome and the relationship.
+
+Good negotiation is not only about winning.
+It is about reaching a workable agreement while managing interests, alternatives, power, culture and relationships.
+
+---
+
+## 2. Positions, Interests and BATNA
+
+### Position
+
+A position is what a party says it wants.
+
+Example:
+“We want production to remain in the UK.”
+
+### Interest
+
+An interest is the need, concern, uncertainty or motivation behind the position.
+
+Example:
+“We need to protect jobs, reputation, brand identity and political legitimacy.”
+
+### BATNA
+
+BATNA means Best Alternative To a Negotiated Agreement.
+It answers the question: What will I do if no agreement is reached in this negotiation?
+
+
+A strong BATNA helps negotiators:
+
+- avoid accepting bad agreements;
+- avoid walking away from good agreements;
+- understand their real leverage;
+- compare the proposed deal with realistic alternatives.
+
+---
+
+## 3. Harvard Negotiation Project — 7 Elements
+
+The Harvard model of principled negotiation is based on seven key elements.
+
+1. Interests
+   - The needs, concerns and motivations behind positions.
+
+2. Alternatives / BATNA
+   - What each party can do if no agreement is reached.
+
+3. Options
+   - Possible solutions that could create value for both sides.
+
+4. Legitimacy
+   - Objective criteria used to evaluate whether a proposal is fair.
+
+5. Communication
+   - How information is exchanged, clarified and understood.
+
+6. Relationship
+   - The quality of the working relationship between the parties.
+
+7. Commitment
+   - Clear, realistic and implementable agreements.
+
+
+### Practical preparation checklist
+
+Before negotiating, ask:
+- What are our interests?
+- What are their possible interests?
+- What is our BATNA?
+- What could their BATNA be?
+- What options can create value?
+- Which objective criteria can support our proposal?
+- How should we communicate across cultural differences?
+- How important is the relationship?
+- Who has authority to commit?
+
+---
+
+## 4. Preparation as an Ongoing Process
+
+Preparation is one of the key determinants of negotiation effectiveness, especially in complex business negotiations.
+
+It should not be seen as a one-time activity before the meeting. In complex negotiations, preparation is continuous.
+
+Preparation loop:
+1. Pre-meeting preparation
+2. At-the-table adjustment
+3. Post-meeting debrief
+4. Updated preparation for the next round
+
+### What to prepare
+
+- interests and priorities;
+- BATNA and alternatives;
+- stakeholder map;
+- decision authority;
+- possible coalitions;
+- objective criteria;
+- cultural expectations;
+- risks and implementation issues;
+- communication strategy.
+
+### What to remove from study notes
+
+Long methodological details such as number of recordings, consent forms, data-collection duration and e-mail counts are useful for research design, but not essential for a negotiation theory summary.
+
+---
+
+## 5. Power Dynamics in Negotiation
+
+Power in negotiation is relational and dynamic. It is not only about company size or financial resources.
+
+### Dynamic model of negotiation power
+1. Potential Power
+   - The objective capacity to gain benefits or avoid harm.
+   - Often linked to dependency and alternatives.
+
+2. Perceived Power
+   - How each party believes power is distributed.
+   - Misperceptions can strongly affect behaviour.
+
+3. Power Tactics
+   - Actions used to use or change power.
+   - Examples: improving BATNA, coalition building, deadlines, information control.
+
+4. Realized Power
+   - The actual value captured in the final agreement.
+
+### Key idea
+Power is not fixed.
+It can change when alternatives, perceptions, information and stakeholder support change.
+
+---
+
+## 6. Power Bases and Influence Tactics
+
+Negotiators can use different bases of power.
+
+Expert / Informational Power
+- Based on technical expertise, data or market knowledge.
+- Often supports rational persuasion.
+
+Legitimate Power
+- Based on formal authority, contracts, law, hierarchy or institutional rules.
+
+Coercive Power
+- Based on pressure, threats, deadlines or possible sanctions.
+
+### Corrected interpretation
+
+Coercive tactics can sometimes create short-term movement, but they often:
+
+- increase resistance;
+- reduce trust;
+- damage long-term relationships;
+- raise the risk of impasse.
+
+Use pressure carefully.
+If the relationship matters, combine firmness with legitimacy, explanation and respect.
+
+---
+
+## 7. Cross-Cultural Negotiation: Important Disclaimer
+
+Cultural frameworks describe general tendencies, not fixed rules.
+
+Do not use culture to stereotype individuals.
+Use culture to ask better questions.
+
+Actual behaviour depends on:
+
+- personality;
+- role;
+- organization;
+- industry;
+- relationship history;
+- power position;
+- national culture;
+- professional culture;
+- negotiation context.
+
+---
+
+## 8. High-Context and Low-Context Communication
+
+### Low-context communication
+
+Low-context cultures tend to rely more on:
+
+- explicit verbal messages;
+- direct wording;
+- written documentation;
+- clear contracts;
+- task focus.
+
+Risk:
+Low-context negotiators may interpret indirectness as lack of clarity or lack of commitment.
+
+### High-context communication
+
+High-context cultures tend to rely more on:
+
+- relationship;
+- hierarchy;
+- tone;
+- silence;
+- context;
+- non-verbal signals;
+- face-saving.
+
+Risk:
+High-context negotiators may interpret directness as rude, insensitive or relationship-damaging.
+
+### Practical bridge
+
+- Check understanding explicitly but politely.
+- Do not assume that “yes” always means agreement.
+- Summarize decisions in writing after relational alignment.
+- Protect face when raising disagreement.
+
+---
+
+## 9. Power Distance and Hierarchy
+
+### High power distance contexts
+
+In high power distance contexts, people at the table may have limited authority to make spontaneous concessions. Decisions may require approval from senior leaders.
+
+Practical advice:
+
+- Identify the real decision-makers.
+- Use appropriate titles and formal respect.
+- Avoid public negative feedback to senior people.
+- Be patient with approval processes.
+- Build trust with authority figures.
+
+
+### Low power distance contexts
+
+In low power distance contexts, negotiators are often expected to show initiative and discuss options directly. However, authority still depends on mandate and role.
+
+Practical advice:
+
+- Encourage direct questions.
+- Expect constructive disagreement.
+- Clarify who can commit.
+- Use expertise regardless of rank.
+- Treat feedback as two-way.
+
+---
+
+## 10. Universalism and Particularism
+
+### Universalism
+
+Universalist contexts tend to emphasize:
+
+- rules;
+- contracts;
+- consistency;
+- standardization;
+- fairness through equal treatment.
+
+### Particularism
+
+Particularist contexts tend to emphasize:
+
+- relationships;
+- exceptions;
+- context;
+- flexibility;
+- trust through personal obligation.
+
+### Practical bridge
+
+- Define which rules are non-negotiable.
+- Define where adaptation is possible.
+- Do not dismiss relationship-building as irrelevant.
+- Do not interpret procedural clarity as personal coldness.
+
+---
+
+## 11. Affective and Neutral Communication
+
+### Affective style
+
+Affective communicators may show emotion openly. They may see emotional expression as a sign of openness and trust.
+
+### Neutral style
+
+Neutral communicators may control emotional expression. They may see calmness as a sign of professionalism and credibility.
+
+### Practical bridge
+
+- Do not assume strong emotion means a final decision.
+- Do not assume emotional restraint means disinterest.
+- Separate emotional style from competence and intention.
+- Look for the interest behind the emotional display or silence.
+---
+
+## 12. Uncertainty Tolerance
+
+### Low tolerance of uncertainty
+
+Cultures or organizations with lower tolerance of uncertainty often prefer:
+
+- clear instructions;
+- detailed plans;
+- risk reduction;
+- predictable procedures;
+- early communication of change.
+
+### High tolerance of uncertainty
+
+Cultures or organizations with higher tolerance of uncertainty may be more comfortable with:
+
+- experimentation;
+- flexible planning;
+- learning from mistakes;
+- open-ended discussion;
+- adaptation.
+
+### Practical bridge
+
+Combine structure and flexibility:
+- clear milestones;
+- risk analysis;
+- checkpoints;
+- room for adaptation.
+
+---
+
+## 13. Individualism and Collectivism
+
+### Individualist orientation
+
+- individual responsibility;
+- direct contact;
+- personal initiative;
+- quicker decision-making;
+- visible personal contribution.
+
+### Collectivist orientation
+
+- group harmony;
+- consultation;
+- indirect alignment;
+- shared responsibility;
+- long-term relationships.
+
+### Practical bridge
+
+- Combine individual ownership with group legitimacy.
+- Clarify whether a negotiator can commit alone.
+- Be patient with internal consultation.
+- Invite individual contributions without forcing public disagreement.
+
+---
+
+## 14. Achievement Orientation and Quality-of-Life Orientation
+
+### Achievement / “live to work” orientation
+- competition;
+- performance;
+- recognition;
+- advancement;
+- assertiveness;
+- willingness to work long hours.
+
+### Quality-of-life / “work to live” orientation
+- solidarity;
+- compromise;
+- modesty;
+- work-life balance;
+- consensus;
+- welfare and relationship climate.
+
+### Practical bridge
+- Clarify availability expectations early.
+- Clarify how performance will be recognized.
+- Avoid judging modesty as lack of ambition.
+- Avoid judging assertiveness as lack of empathy.
+
+---
+
+## 15. Multilateral Negotiation and Coalition Building
+
+Negotiations become more complex when there are more than two players.
+
+### Three levels of players
+
+1. Actual negotiators
+   - People formally at the table.
+
+2. Direct players
+   - Stakeholders directly affecting the outcome.
+   - Examples: unions, shareholders, regulators, senior executives.
+
+3. Indirect players
+   - Actors influencing legitimacy, reputation or implementation.
+   - Examples: media, public opinion, customers, local communities.
+```
+
+### Coalition building
+
+Coalition building means aligning parties with shared interests.
+Coalitions can:
+- reduce resistance;
+- increase legitimacy;
+- improve bargaining power;
+- weaken the other side’s alternatives;
+- make implementation easier.
+
+---
+
+## 16. Case Study: Tata-Ford / Jaguar Land Rover
+
+### Core negotiation issue
+
+Tata wanted to acquire Jaguar and Land Rover from Ford. The deal was not only about price. It also involved unions, jobs, British brand identity, technology, reputation and market access.
+
+### Main interests
+Tata interests:
+- enter the luxury automotive segment;
+- acquire know-how and technology;
+- acquire global brands and reputation;
+- access international markets;
+- become a stronger global automotive player.
+
+Ford interests:
+- obtain an acceptable sale price;
+- reduce losses and complexity;
+- protect its image, especially in the UK;
+- sell to a credible buyer.
+
+Union interests:
+- protect jobs, pensions and salaries;
+- keep production and skills in the UK;
+- secure long-term investment.
+```
+
+### Key learning
+Tata strengthened its position by building trust with unions.
+This made Tata a more legitimate buyer and reduced the attractiveness of Ford’s alternatives.
+
+---
+
+## 17. Case Study: Ryanair
+
+Ryanair shows how negotiation can become an organizational capability aligned with business strategy.
+
+### Corrected summary
+Ryanair negotiates aggressively on financial terms while offering selected non-financial benefits to counterparties, such as passenger traffic, visibility, tourism impact and local economic activity.
+
+
+# Why it matters
+Ryanair historically resisted union recognition and adopted a strong take-it-or-leave-it approach in several labour negotiation contexts.The Ryanair case shows that negotiation capability can support competitive advantage when it is embedded in the organization’s strategy, routines and stakeholder relationships.
+
+```
+
+---
+
+## 18. Case Study: Renault-Nissan Alliance
+By 1999, Nissan was burdened with very high debt, estimated at more than 2 trillion yen, around US$16.7 billion at the time of the alliance announcement.
+
+Renault acquired a 36.8% equity stake with corresponding voting rights in Nissan in 1999.
+Later, the alliance developed into a cross-shareholding structure: Renault increased its Nissan stake, while Nissan acquired a 15% stake in Renault. Under French law, the voting rights associated with Nissan’s Renault shares were not exercisable while held by Nissan.
+
+The Renault-Nissan alliance shows how a cross-border deal can balance control and identity.
+Instead of a hostile takeover, the alliance structure helped preserve Nissan’s institutional identity while giving Renault significant strategic influence.
+
+---
+
+## 19. Case Study: Danone-Wahaha
+The Danone-Wahaha dispute illustrates the difference between formal contractual control and contextual operational power.
+Danone relied heavily on legal ownership and contractual enforcement.
+Wahaha controlled key local resources such as distribution, operational execution, brand legitimacy and local stakeholder support.
+Danone was forced to exit the joint venture at a heavily discounted price.
+Danone eventually exited the joint venture through a settlement, selling its 51% stake to its Chinese partners. The official price was not disclosed, although media reports suggested a figure far below some earlier claims.
+Formal ownership does not automatically equal practical control.
+In cross-cultural ventures, legal agreements, operational control, political support, distribution networks and legitimacy all shape power.
+
+---
+
+## 21. Final Integration Framework
+
+```markdown
+1. Prepare continuously
+   - before, during and after each meeting.
+
+2. Separate positions from interests
+   - ask why each party wants what it wants.
+
+3. Know the BATNA
+   - yours and theirs.
+
+4. Map power dynamically
+   - potential power, perceived power, tactics and realized power.
+
+5. Map all players
+   - negotiators, direct stakeholders and indirect influencers.
+
+6. Build coalitions
+   - align shared interests and increase legitimacy.
+
+7. Adapt culturally
+   - communication, hierarchy, time, rules, emotions, uncertainty and group orientation.
+
+8. Avoid stereotypes
+   - use cultural frameworks as lenses, not labels.
+
+9. Manage conflict constructively
+   - facts, I-messages, active listening and Method III.
+
+10. Protect both deal and relationship
+   - a good agreement must be implementable and relationally sustainable.
+
+11. Use more accurate expressions:
+- tend to
+- may
+- often
+- in many contexts
+- depending on mandate
+- as a broad cultural tendency
+
+---
+
+## 22. Ultra-Short Exam Summary
+Cross-cultural negotiation is the process of reaching agreements across different cultural, organizational and power contexts.
+The key is to understand interests, BATNA, power dynamics, stakeholders and cultural assumptions.
+Culture affects how people communicate, build trust, use time, respect hierarchy, apply rules, express emotions, manage uncertainty and make decisions.
+Good negotiators avoid stereotypes, prepare continuously, build coalitions, use objective criteria, protect relationships and create agreements that can actually be implemented.
+
+
+
+
+
+
+
+
+
+# Module V
+
+## 20. Negotiation Fundamentals
+
+Negotiation is a basic way of getting what you want from others while preserving the relationship. It is a back-and-forth communication process designed to reach an agreement when the parties have some shared interests and some opposed interests.
+
+### Key concepts
+
+POSITION
+- What a party says it wants.
+- Example: “We need production to remain in the UK.”
+
+INTEREST
+- The need, concern, uncertainty, constraint or desire that explains the position.
+- Example: “We need to protect jobs, reputation and brand identity.”
+
+BATNA
+- Best Alternative To a Negotiated Agreement.
+- It answers: “What will we do if we do not reach an agreement here?”
+
+
+### Why interests matter
+
+Negotiating only on positions can create deadlock. Negotiating on interests creates space for options.
+
+Position: “We need a lower price.”
+Possible interests:
+- reduce financial risk;
+- justify the acquisition internally;
+- preserve capital for future investment;
+- avoid overpaying for uncertain performance.
+
+### BATNA discipline
+
+A strong negotiator does not only ask, “What do I want?” but also:
+- What is my best alternative if there is no deal?
+- What is the other side’s BATNA?
+- Can I improve my BATNA before negotiating?
+- Can I weaken the other side’s alternatives ethically by building coalitions or increasing my legitimacy?
+
+
+---
+
+## 21. Multilateral Negotiation and Coalition Building
+
+Negotiation becomes much more complex when more than two players are involved. The number of possible interactions grows rapidly as players increase, so the negotiator must map the system, not only the person across the table.
+
+### Three levels of players
+
+1. Actual negotiators
+   - The people formally present at the negotiation table.
+
+2. Direct players
+   - Parties that directly affect the negotiation outcome.
+   - Example: unions, shareholders, senior executives, lenders, regulators.
+
+3. Indirect players
+   - Parties that influence the context, legitimacy, timing or reputation of the deal.
+   - Example: media, public opinion, national institutions, customers, local communities.
+
+
+### Why sequencing matters
+
+In multilateral negotiation, the order in which players are involved can change the outcome. A player who is not formally at the table may still shape the decision by supporting, blocking or legitimizing the deal.
+
+### Coalition building
+
+Coalition building means identifying common interests among different parties and using these common interests to reduce negotiation complexity.
+
+
+Coalitions help negotiators to:
+- align multiple stakeholders around shared interests;
+- reduce resistance;
+- increase legitimacy;
+- weaken unattractive alternatives;
+- create momentum toward agreement.
+
+
+### Practical coalition questions
+
+- Who can support the agreement?
+- Who can block it?
+- Who needs reassurance before the deal is credible?
+- Which interests overlap across parties?
+- Which player should be involved first, second and last?
+- Which coalition can make the agreement safer for everyone?
+
+
+---
+
+## 22. Tata-Ford JLR Case: Updated Negotiation Reading
+
+The Tata-Ford negotiation over Jaguar and Land Rover is a useful example of multilateral, cross-cultural and stakeholder-based negotiation.
+
+### Tata interests
+
+Tata’s main interests:
+- enter the luxury automotive segment;
+- acquire know-how and technology;
+- acquire brands and reputation;
+- enter new international markets through JLR’s global dealer network;
+- strengthen its position as a global automotive player.
+```
+
+### Tata alternatives
+
+Tata’s possible alternatives:
+- acquire another premium or international brand;
+- pursue other strategic acquisitions;
+- develop international capabilities more gradually;
+- avoid overpaying for assets with uncertain profitability.
+```
+
+### Ford interests
+
+Ford’s main interests:
+- obtain an acceptable sale price;
+- protect its image, especially because the UK was an important market;
+- sell to a credible buyer;
+- reduce financial and managerial burden;
+- preserve stakeholder confidence.
+
+
+### Ford alternatives
+
+Ford’s possible alternatives:
+- sell to one of the other bidders;
+- keep JLR and continue restructuring;
+- negotiate different deal structures;
+- potentially sell assets separately if feasible.
+
+
+### Role of unions
+
+The unions were not just a side issue. They were a critical stakeholder because they influenced legitimacy, political risk and Ford’s image in the UK.
+
+Key lesson:
+Tata strengthened its position by building a coalition with the unions.
+This reduced Ford’s attractive alternatives because a buyer rejected by labour stakeholders
+would create reputational and implementation risk.
+
+
+### Case learning
+
+In cross-cultural M&A negotiation:
+- price is important, but it is not the only issue;
+- brand identity and national pride matter;
+- labour stakeholders can influence deal feasibility;
+- trust-building can be a strategic move, not only a relational gesture;
+- coalition building can change the power balance;
+- a credible integration style can reduce resistance.
+
+
+---
+
+## 23. Multicultural Drivers: Practical Negotiation Guidance
+
+This section adds practical guidance for working with the major cultural drivers. Repeated definitions are avoided; the focus is on what to do in negotiation and project work.
+
+### 23.1 Time: working with monochronic and polychronic preferences
+
+| Polychronic preference | Monochronic preference | Negotiation risk | Practical bridge |
+|---|---|---|---|
+| Multitasking, evolving plans, open agenda, people focus. | One thing at a time, fixed plans, strict agenda, plan focus. | One side sees flexibility; the other sees unreliability. | Agree both milestones and rules for adapting them. |
+
+#### Working with polychronic partners
+
+- Be prepared for changing priorities and evolving plans.
+- Invest in relationships, not only tasks.
+- Allow some flexibility in agendas and timing.
+- Expect last-minute adjustments.
+- Keep the big picture visible.
+
+
+#### Working with monochronic partners
+
+- Respect schedules and agendas.
+- Send materials in advance.
+- Define tasks, owners and deadlines.
+- Avoid unnecessary interruptions.
+- Close discussions with clear agreements and next steps.
+
+
+### 23.2 Hierarchy: high and low power distance
+
+| High power distance | Low power distance | Negotiation risk | Practical bridge |
+|---|---|---|---|
+| Centralized leadership, status, titles, line reporting. | Distributed leadership, informality, multiple stakeholders. | One side sees respect; the other sees passivity or bureaucracy. | Clarify authority, consultation needs and feedback channels. |
+
+#### Working with high power distance contexts
+
+- Identify the real decision-makers.
+- Use appropriate titles and formal respect.
+- Avoid public negative feedback to senior people.
+- Be patient with hierarchical approval processes.
+- Build personal trust with key authority figures.
+``
+
+#### Working with low power distance contexts
+
+- Encourage open dialogue.
+- Expect questions and constructive disagreement.
+- Use direct access to expertise regardless of rank.
+- Delegate authority where possible.
+- Treat feedback as a two-way process.
+
+
+### 23.3 Rules or exceptions: universalism and particularism
+
+| Universalism | Particularism | Negotiation risk | Practical bridge |
+|---|---|---|---|
+| Rules, contracts, consistency, standardization. | Relationships, exceptions, flexibility, customization. | One side sees fairness; the other sees rigidity. | Define non-negotiables and areas where adaptation is allowed. |
+
+#### Universalists working with particularists
+
+- Do not dismiss relationship-building as irrelevant small talk.
+- Consider the personal and relational implications of legal safeguards.
+- Leave room for context-specific adaptation when possible.
+
+
+#### Particularists working with universalists
+
+- Do not interpret direct professional arguments as personal coldness.
+- Prepare the legal and procedural ground carefully.
+- Show how flexibility can still protect fairness and transparency.
+
+
+### 23.4 Emotions: affective and neutral styles
+
+| Affective style | Neutral style | Negotiation risk | Practical bridge |
+|---|---|---|---|
+| Emotionally transparent, expressive, person-focused. | Emotionally restrained, objective, problem-focused. | One side sees openness; the other sees loss of control. | Separate emotional style from commitment, competence and intentions. |
+
+#### Working with affective communicators
+
+- Do not assume strong emotion means final decision.
+- Respond warmly when goodwill is expressed.
+- Allow space for animated debate without escalating defensively.
+- Look for the interest behind the emotion.
+
+#### Working with neutral communicators
+
+- Do not assume emotional restraint means disinterest.
+- Prepare facts, logic and written material.
+- Watch for subtle signs of tension or disagreement.
+- Keep the discussion focused and structured.
+
+
+### 23.5 Uncertainty tolerance
+
+| High tolerance of uncertainty | Low tolerance of uncertainty | Negotiation risk | Practical bridge |
+|---|---|---|---|
+| Curiosity, experimentation, learning from mistakes. | Stability, predictability, avoidance of mistakes. | One side sees innovation; the other sees risk. | Combine experimentation with risk management and clear checkpoints. |
+
+#### Working with low uncertainty tolerance
+
+
+- Provide clear instructions and step-by-step plans.
+- Communicate changes early.
+- Use risk analysis and contingency planning.
+- Offer reassurance through structure and follow-up.
+
+
+#### Working with high uncertainty tolerance
+
+
+- Encourage experimentation and creative options.
+- Keep plans adaptable.
+- Discuss uncertainty openly.
+- Balance innovation with practical risk management.
+
+
+### 23.6 Individualism and collectivism
+
+| Individualism | Collectivism | Negotiation risk | Practical bridge |
+|---|---|---|---|
+| Individual responsibility, direct contact, quick decisions. | Group harmony, consultation, indirect alignment. | One side sees efficiency; the other sees lack of consultation. | Combine individual ownership with group legitimacy. |
+
+#### Individualists working with collectivists
+
+- Be patient with consultation processes.
+- Do not assume tentative agreement is final.
+- Respect the role of intermediaries and group approval.
+- Build lasting relationships, not only quick deals.
+
+
+#### Collectivists working with individualists
+
+
+- Be prepared for quicker decisions.
+- Clarify who can commit and to what extent.
+- Recognize that acting alone may signal trust from the organization.
+- Make relationship expectations explicit.
+
+### 23.7 Achievement orientation and quality-of-life orientation
+
+Some cultures emphasize achievement, competition, recognition and advancement. Others emphasize quality of life, solidarity, modesty and compromise.
+
+| Achievement / “live to work” | Quality of life / “work to live” | Negotiation risk | Practical bridge |
+|---|---|---|---|
+| Performance, competition, long hours, assertiveness. | Consensus, welfare, modesty, work-life balance. | One side sees commitment; the other sees aggressiveness or imbalance. | Agree expectations about availability, performance, recognition and conflict style. |
+
+#### Practical implications
+
+- In achievement-oriented contexts, incentives may focus on challenge, recognition and advancement.
+- In quality-of-life contexts, incentives may include benefits, balance, solidarity and work climate.
+- Conflict may be approached through strong debate in one context and compromise in another.
+- Clarify working-hours expectations early in international projects.
+- Avoid judging modesty as lack of ambition or assertiveness as lack of empathy.
+
+---
+
+## 24. Updated Final Integration Framework
+
+1. Understand the negotiation system
+   - players, direct stakeholders, indirect influencers;
+   - interests, positions and BATNAs;
+   - possible coalitions.
+
+2. Understand the global and cultural context
+   - economic shifts, demographics, language, distance, age;
+   - cultural frameworks and practical drivers.
+
+3. Diagnose cultural dimensions
+   - time, hierarchy, rules, emotions, uncertainty, individual/group orientation,
+     achievement and work-life expectations.
+
+4. Build trust early
+   - Team Culture Portrait;
+   - Project Tree Life;
+   - relationship-building rituals;
+   - face-to-face or high-quality virtual contact.
+
+5. Define shared direction
+   - Common Purpose;
+   - SWOT;
+   - non-negotiable behaviours.
+
+6. Negotiate collaboration rules
+   - Team Ground Rules;
+   - Aligning Work Practices;
+   - communication, decision and escalation protocols.
+
+7. Influence without relying on hierarchy
+   - balance Push and Pull;
+   - adapt style to culture, relationship and context;
+   - build coalitions where interests overlap.
+
+8. Manage disagreement constructively
+   - facts before opinions;
+   - I-messages;
+   - active listening;
+   - Method III;
+   - Conflict Style Matrix.
+
+9. Check deal quality
+   - Does the solution satisfy interests?
+   - Is the BATNA still worse than the agreement?
+   - Are key stakeholders sufficiently committed?
+   - Are cultural risks and implementation risks addressed?
+
+10. Learn and disseminate
+   - Review, Reflect, Revise;
+   - Dissemination Mind Map;
+   - transfer lessons to future projects and the wider organization.
+
+---
+
+## 25. Final Summary
+
+Cross-cultural negotiation works when negotiators:
+- distinguish positions from interests;
+- understand BATNA and alternatives;
+- map all relevant players and stakeholders;
+- build coalitions around shared interests;
+- adapt to different cultural drivers without stereotyping;
+- clarify time, hierarchy, rules, emotion, uncertainty and group expectations;
+- protect both relationship and task outcomes;
+- transform cultural difference into negotiated working agreements;
+- rev
