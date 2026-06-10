@@ -463,6 +463,21 @@ Geert Hofstede's framework is the most widely cited cultural model in internatio
 
 ---
 
+### Quick-Reference Summary Table
+
+| Dimension | High-Score Cultures | Low-Score Cultures | Negotiation Impact |
+|---|---|---|---|
+| **Power Distance (PDI)** | Accept hierarchy and centralized authority; decisions require senior sign-off | Prefer equality and participative decision-making; junior staff may commit | Identify the real decision-maker; respect rank where hierarchy is expected |
+| **Individualism vs. Collectivism (IDV)** | Prioritize autonomy, personal accountability, direct contracts | Prioritize group harmony, loyalty, relationships, consensus | Balance contract logic with relationship investment |
+| **Masculinity vs. Femininity (MAS)** | Value competition, achievement, assertiveness | Value consensus, cooperation, quality of life | Adapt conflict style: competitive vs. cooperative framing |
+| **Uncertainty Avoidance (UAI)** | Prefer rules, detail, procedures, risk control | Accept ambiguity and flexibility | Adjust contract detail and risk documentation |
+| **Long-Term Orientation (LTO)** | Focus on future rewards and strategic partnerships | Focus on immediate results and current performance | Align short-term commercial demands with long-term partnership value |
+| **Indulgence vs. Restraint (IVR)** | Allow emotional expression and informal social bonding | Emphasize discipline, formality, and emotional restraint | Calibrate tone, informality level, and social interaction |
+
+*For detailed treatment of each dimension with national scores, examples, and cross-cultural notes, see the sub-sections below.*
+
+---
+
 ### Dimension 1 — Power Distance (PDI)
 
 Measures the degree to which less powerful members of a society accept and expect unequal power distribution.
@@ -895,6 +910,8 @@ Traditional cultural frameworks often describe culture as a relatively stable ch
 **Example:** A 28-year-old software entrepreneur from Shanghai may be influenced by Chinese culture, startup culture, global technology culture, Western education, and international business networks. Their negotiation behavior may differ substantially from the Hofstede model's predictions for China.
 
 **Cultural Frame Switching:** The same individual may display direct communication in one context and indirect communication in another — depending on language, counterpart, organizational setting, and stakes. A single cultural label rarely explains everything.
+
+**Culture-as-Paradox:** People can hold apparently contradictory cultural values simultaneously — hierarchy and flexibility, indirectness and pragmatism, collectivism and strong personal initiative. These are not contradictions to resolve; they are the normal complexity of cultural identity. Negotiation itself may also create a temporary working culture between parties — a shared interaction style that neither side fully owns and that may not match either party's national profile. Expert negotiators observe this emergent culture and adapt to it rather than insisting on their home cultural frame.
 
 **Globalization and convergence:** International managers increasingly share MBA education, global business practices, English-language communication, and multinational work experience. Professional culture sometimes becomes more influential than national culture. A German procurement manager and a Japanese procurement manager may share more behavioral similarities with each other than with members of their own societies in unrelated professions.
 
