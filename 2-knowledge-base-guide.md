@@ -79,9 +79,24 @@ Without a clearly defined reservation point, emotions drive decisions, pressure 
 
 *Strategic Link — See Section 1.5 (Integrative Negotiation): value creation can expand the perceived ZOPA. See Section 2.4 (Meyer, Trusting): trust determines whether negotiators reveal the information needed to identify the ZOPA.*
 
+### Target Point
+
+**Principle:** The target point (also called the aspiration point) is the outcome the negotiator ideally aims to achieve — distinct from the reservation point (worst acceptable) and the BATNA (alternative outside the negotiation). The target point sets the internal ambition level and directly influences the opening offer and concession behavior.
+
+Research consistently shows that negotiators who set ambitious but realistic target points achieve better outcomes than those who focus only on avoiding the reservation point. Anchoring the target too low — "I just want a deal" — produces concessions before they are necessary.
+
+**Example:** A supplier has a reservation point of €9.00/unit (minimum acceptable) and a BATNA of a secondary buyer willing to pay €8.50. The target point might be €11.50 — ambitious but justifiable given input costs and market price data. This target shapes the opening anchor (e.g., €13.00) and the concession pace.
+
+**Cross-cultural note:** In face-sensitive or relationship-first cultures, articulating a target point too aggressively as an opening anchor may damage the relationship at the start. Target setting still matters, but the *expression* of ambition must be culturally calibrated.
+
+*Strategic Link — See Section 1.6 (Anchoring and Concession Strategy): the target point shapes both the anchor and the concession rate.*
+
+---
+
 **Key Takeaways:**
 - BATNA → best alternative if negotiation fails
 - Reservation Point → worst acceptable agreement
+- Target Point → ideal outcome the negotiator aims for; sets ambition level and influences opening offer
 - ZOPA → range where agreement is possible
 - Power comes less from what negotiators want and more from the quality of their alternatives
 
@@ -511,6 +526,30 @@ Edward T. Hall is considered one of the founders of intercultural communication.
 *Negotiation implication:* A German buyer and a Brazilian supplier share a common assumption that both are acting in good faith — but "deadline means commitment" and "deadline means target" are different operating systems. Neither party is necessarily acting badly. Diagnosing time orientation early prevents misread intentions from becoming relational damage.
 
 *Strategic Link — See Section 2.3 (Trompenaars, Sequential vs. Synchronic); Section 2.1 (Hofstede, Uncertainty Avoidance).*
+
+---
+
+### Proxemics and Personal Space
+
+Hall introduced the concept of **proxemics** — the study of how people use and interpret physical space in social interaction. Interpersonal distance carries cultural meaning; comfortable conversational distance varies significantly across cultures.
+
+**Hall's four distance zones:**
+- **Intimate zone (0–45 cm):** Reserved for close personal relationships.
+- **Personal zone (45–120 cm):** Comfortable conversational distance in most Western contexts.
+- **Social zone (120–360 cm):** Formal business interactions in low-context cultures.
+- **Public zone (360 cm+):** Presentations, public address.
+
+**Cultural variation:** In Latin American, Middle Eastern, and Southern European cultures, standing closer signals warmth, trust, and engagement — moving away reads as coldness or rejection. In Northern European, North American, and East Asian cultures, greater interpersonal distance is the professional norm — physical closeness may feel invasive.
+
+**Negotiation implication:** Proxemic discomfort during initial rapport-building moments can create unexplained tension before any substantive exchange occurs. A counterpart who steps backward may not be withdrawing from the negotiation — they may be recalibrating to their comfortable spatial norm. Misinterpreting this as disengagement produces unnecessary relational friction.
+
+**Non-Verbal Communication:** Beyond proxemics, Hall emphasized that nonverbal signals — eye contact, posture, gesture, facial expression, touch, and silence — carry more communicative weight in high-context cultures than explicit verbal content. In low-context cultures, nonverbal cues supplement but do not replace verbal statements. In high-context cultures, they often *are* the primary message.
+
+*Negotiation implication:* A negotiator who can only read verbal content in a high-context interaction is operating with partial information. Observe spatial behavior, eye contact patterns, the pace and timing of verbal responses, and the signals carried by what is *not* said.
+
+*Strategic Link — See Section 2.2 (High-Context Communication); Section 2.4 (Meyer, Communicating).*
+
+---
 
 **Sources:** Hall, E.T. (1976), *Beyond Culture*; Hall, E.T. (1983), *The Dance of Life*; Meyer (2014), *The Culture Map*
 
@@ -1200,19 +1239,48 @@ Many cultural frameworks were developed before virtual work became widespread. D
 
 ---
 
-## Section 4.11 — Risks of Stereotyping
+## Section 4.11 — Risks of Stereotyping, Cultural Bias, and Ethnocentrism
 
-The greatest risk in cross-cultural negotiation is replacing ignorance with oversimplification. Frameworks describe probabilities, not certainties.
+The greatest risk in cross-cultural negotiation is replacing ignorance with oversimplification. Three related but distinct cognitive errors undermine good cultural analysis:
+
+---
+
+### Stereotyping
+
+Stereotyping applies group-level statistical tendencies directly to an individual, without evidence, qualification, or hypothesis-testing. It is the error of treating a framework as a prediction instead of a probability.
 
 **Dangerous statement:** "Japanese negotiators avoid conflict."
 **Better statement:** "Japanese negotiators may be more likely to avoid direct confrontation in some contexts, but behavior depends on the individual, situation, organizational environment, and which cultural code is currently active."
 
-**The Three-Step Validation Rule:**
+---
+
+### Cultural Bias
+
+Cultural bias is the systematic tendency to interpret ambiguous behavior through the lens of one's own cultural expectations — finding confirmation of what you already expect rather than observing what is actually happening.
+
+**Example:** A German negotiator receives a vague response to a direct proposal. Their cultural frame expects directness and precision, so they interpret vagueness as incompetence or bad faith — when the counterpart may be communicating indirectly and clearly within their own cultural system.
+
+**Diagnostic question:** "Am I observing what this behavior means in their context, or am I judging it against my own cultural default?"
+
+---
+
+### Ethnocentrism
+
+Ethnocentrism is the deeper error underlying both stereotyping and cultural bias: treating one's own cultural framework as the natural, normal, or superior standard against which others are measured.
+
+**Effect in negotiation:** An ethnocentric negotiator frames slow decisions as "inefficiency," indirect communication as "evasion," relationship-building time as "wasted time," and formal hierarchy as "bureaucracy" — because all these behaviors diverge from their cultural norm. The counterpart is not performing poorly; they are operating in a different and equally valid system.
+
+**Anti-Ethnocentrism Principle:** The first diagnostic question is not "why is the counterpart behaving oddly?" but "which cultural logic makes this behavior entirely rational in their context?"
+
+---
+
+### The Three-Step Validation Rule
+
 1. Generate a cultural hypothesis based on frameworks.
 2. Collect behavioral evidence from the actual counterpart.
 3. Update the hypothesis — continuously.
 
-Expert negotiators continuously revise assumptions. Poor negotiators search only for evidence that confirms them. The discipline is to treat every cultural framework as an hypothesis-generator, never as a conclusion-provider.
+Expert negotiators continuously revise assumptions. Poor negotiators search only for evidence that confirms them. The discipline is to treat every cultural framework as a hypothesis-generator, never as a conclusion-provider.
 
 **Sources:** Meyer (2014); Earley & Ang (2003); Thomas & Peterson (2017); Brannen & Thomas (2010); House et al. (2004)
 
@@ -1447,32 +1515,60 @@ Expert negotiators continuously revise assumptions. Poor negotiators search only
 | Bicultural Negotiators | 2.8, 4.2 |
 | Camp David case | 5.6 |
 | Code-Switching | 2.8 |
+| Concession Strategy | 1.6 |
 | CQ | 2.6 |
+| Cultural Bias | 4.11 |
+| Cultural Stereotyping | 4.11 |
 | Daimler-Chrysler case | 5.1 |
 | Deadlock Resolution | 1.8 |
-| Face / Mianzi | 3.6, 5.6 |
+| Direct Communication | 2.2 |
+| Distributive Negotiation | 1.5 |
+| Dutch-Chinese SOE case | 5.8 |
+| Ethnocentrism | 4.11 |
+| Expatriate Adaptation | 4.4 |
+| Face / Mianzi | 1.2, 2.3, 3.6, 5.6 |
+| Face-Saving | 1.2, 2.3, 3.6, 5.6 |
+| Formality and Hierarchy | 2.1, 2.5 |
+| Generational Differences | 4.7 |
 | GLOBE | 2.5 |
 | Guanxi | 3.6 |
 | Hall | 2.2 |
+| High-Context Communication | 2.2 |
 | Hofstede | 2.1 |
+| Indulgence vs. Restraint | 2.1 |
 | Individual Variation | 4.1 |
+| Indirect Communication | 2.2 |
+| Industry Culture | 4.6 |
 | Integrative Negotiation | 1.5 |
 | Interests vs. Positions | 1.2 |
 | Lenovo-IBM case | 5.4 |
+| Long-Term Orientation | 2.1 |
+| Low-Context Communication | 2.2 |
+| Masculinity vs. Femininity | 2.1 |
 | Meyer Culture Map | 2.4 |
+| Monochronic Time | 2.2 |
+| Individualism vs. Collectivism | 2.1 |
 | Nemawashi / Ringi-sho | 2.4, 3.7 |
+| Non-Verbal Communication | 2.2 |
+| Opening Offer | 1.6 |
+| Organizational Culture | 4.5 |
+| Polychronic Time | 2.2 |
 | Post-Negotiation Review | 1.9 |
 | Power and Leverage | 1.3 |
 | Power Distance | 2.1, 2.4 |
+| Proxemics / Personal Space | 2.2 |
+| Regional Variation | 4.8 |
 | Renault-Nissan case | 5.2 |
 | Reservation Point | 1.1 |
 | Schwartz Value Theory | 2.7 |
+| Silence | 2.2 |
 | Stakeholder Mapping | 1.4 |
+| Target Point | 1.1 |
 | Third-Culture Individuals | 4.3 |
 | Trompenaars | 2.3 |
 | Trust Building | 1.7 |
+| Uncertainty Avoidance | 2.1 |
 | US-Japan Automotive case | 5.7 |
 | Walmart Germany case | 5.3 |
 | Yin & Yang / Duality | 2.8 |
 | ZOPA | 1.1 |
-| Dutch-Chinese SOE case | 5.8 |
