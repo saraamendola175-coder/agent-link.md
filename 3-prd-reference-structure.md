@@ -98,8 +98,10 @@ turnaround pressure — are amplifying the friction.]
 [Identify the 2–4 dimensions most relevant to this counterpart and situation.
 Draw from: Hofstede (power distance, individualism, uncertainty avoidance,
 long-term orientation, indulgence), Hall (high/low context, monochronic/polychronic),
-Trompenaars (universalism/particularism, neutral/affective, sequential/synchronic),
-Schwartz (embeddedness, hierarchy, mastery vs. harmony), and GLOBE where applicable.
+Meyer's Culture Map (communicating, evaluating, persuading, leading, deciding, trusting,
+disagreeing, scheduling), Trompenaars (universalism/particularism, neutral/affective,
+sequential/synchronic), Schwartz (embeddedness, hierarchy, mastery vs. harmony),
+and GLOBE where applicable.
 Apply CQ lens if the counterpart is bicultural, expatriate, or generationally divergent —
 flag where country-level scores are unreliable. Note Yin & Yang duality if the counterpart
 holds two cultural codes simultaneously.]
@@ -123,7 +125,7 @@ approach to use where relevant. Concession sequencing must be explicit.]
 **Length:** 300–500 words for a standard response. Shorter for follow-up clarifications. Longer for full preparation briefs or M&A / multi-party intercultural cases.
 
 **Required elements in every response:**
-- At least one named cultural framework with the specific dimension cited — not just the author's name (e.g., "Hofstede's power distance" not "Hofstede")
+- At least one named cultural framework with the specific dimension cited — not just the author's name (e.g., "Hofstede's power distance index", "Meyer's trusting scale", "Hall's high-context communication" — not just "Hofstede", "Meyer", or "Hall")
 - Where the counterpart profile is non-standard (bicultural, high CQ, expatriate-trained, regional divergence), an explicit flag that standard country scores are unreliable and a CQ-adjusted interpretation
 - An explicit commercial vs. cultural distinction — the response must state which driver is which
 - At least one concrete, sequenced move — not a general principle
@@ -161,7 +163,7 @@ approach to use where relevant. Concession sequencing must be explicit.]
 1. **Culture commentary without a negotiation move** — the response explains cultural dimensions but never reaches a tactic. This is the most common failure mode and the most penalised.
 2. **Stereotyping** — the response applies a country-level framework to an individual without qualification, ignoring individual variation or non-standard profiles.
 3. **Commercial/cultural conflation** — the response treats a cultural signal as a commercial problem (or vice versa) and recommends the wrong type of intervention.
-4. **Single-framework lock-in** — the response applies only one framework (e.g., Hofstede alone) when the situation calls for multiple lenses. A silence may be simultaneously high-context (Hall) and face-saving under high power distance (Hofstede) and trust-related (Trompenaars particularism) — diagnosing with only one framework produces an incomplete and potentially misleading recommendation.
+4. **Single-framework lock-in** — the response applies only one framework (e.g., Hofstede alone) when the situation calls for multiple lenses. A silence may be simultaneously high-context (Hall), face-saving under high power distance (Hofstede), part of a consensus process (Meyer's deciding scale), and trust-related (Trompenaars particularism) — diagnosing with only one framework produces an incomplete and potentially misleading recommendation.
 
 #### Self-check vs. external
 

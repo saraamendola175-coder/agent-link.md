@@ -85,8 +85,8 @@ Analytical approach to negotiation. Key contributions: the importance of knowing
 **Malhotra, D. & Bazerman, M. (2007). *Negotiation Genius*. Bantam Books.**
 Extends the rational framework by identifying systematic cognitive biases in negotiation. Relevant concepts: mythical fixed pie (assuming the counterpart's priorities are the mirror image of yours); overconfidence bias; reactive devaluation (automatically discounting proposals that come from the other side). *Cross-cultural application: reactive devaluation is amplified in low-trust intercultural negotiations; the way a proposal is framed — and who presents it — often matters more than the content.*
 
-**The 4Ps Framework** *(from course — expand with course material)*
-Diagnostic lens for identifying where a negotiation has broken down: **Problem** (the substance being negotiated — price, terms, structure), **Process** (how the negotiation is being conducted — sequence, format, pace), **People** (the relationship and trust dynamic between the parties), **Purpose** (the underlying strategic goals that motivate each party). Each level requires a different intervention. A breakdown at Process level cannot be fixed by conceding on Problem. *[TO EXPAND with course notes on 4Ps application to intercultural cases.]*
+**The 4Ps Framework**
+Diagnostic lens for identifying where a negotiation has broken down: **Problem** (the substance being negotiated — price, terms, structure), **Process** (how the negotiation is being conducted — sequence, format, pace), **People** (the relationship and trust dynamic between the parties), **Purpose** (the underlying strategic goals that motivate each party). Each level requires a different intervention. A breakdown at Process level cannot be fixed by conceding on Problem. The 4Ps lens is applied throughout the KB — see in particular Section 5.5 (International Supplier Crisis Case) and Section 5.2 (Renault-Nissan). It is also a required element in every SI response when friction involves process or relationship dimensions.
 
 **Concession strategy**
 Key principles: (1) never make a unilateral concession — every concession should extract information or a reciprocal move; (2) concession size and pacing signal strength or weakness — large early concessions suggest the opening was inflated; (3) the final concession should be small, signalling that the reservation price is near. *Cross-cultural adjustment: in relationship-first cultures, the opening offer may be genuinely exploratory rather than a strategic anchor — treating it as a positional opening and anchoring aggressively can damage the relationship before negotiation begins.*
@@ -150,13 +150,13 @@ Eight bipolar scales positioned relative to each other (not absolute). More gran
 
 **GLOBE Study: House, R.J. et al. (2004). *Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies*. Sage.**
 
-Nine dimensions across 62 societies. Distinguishes between "As Is" (current practices) and "Should Be" (valued ideals) — a unique feature not in Hofstede. Most relevant for negotiation: Power Distance, Uncertainty Avoidance, In-Group Collectivism, Assertiveness, Future Orientation. Best used for macro-level cultural comparison in M&A or multi-national contexts. Less granular than Meyer for individual interaction. *[TO EXPAND with course material on GLOBE application.]*
+Nine dimensions across 62 societies. Distinguishes between "As Is" (current practices) and "Should Be" (valued ideals) — a unique feature not in Hofstede. Most relevant for negotiation: Power Distance, Uncertainty Avoidance, In-Group Collectivism, Assertiveness, Future Orientation. Best used for macro-level cultural comparison in M&A or multi-national contexts. Less granular than Meyer for individual interaction. *(Fully incorporated in KB Section 2.5, including cultural clusters and universally positive leadership attributes.)*
 
 ---
 
 **Schwartz, S.H. Value theory** *(multiple papers from 1992 onwards in Journal of Cross-Cultural Psychology and others — verify specific citations)*
 
-Ten universal value types at the individual level; three bipolar dimensions at the national level: **Embeddedness vs. Intellectual/Affective Autonomy** (group loyalty vs. individual independence), **Hierarchy vs. Egalitarianism** (acceptance of hierarchical roles vs. equal treatment), **Mastery vs. Harmony** (active assertive pursuit of goals vs. fitting into the world as it is). Useful complement to Hofstede — Schwartz's methodology avoids some of the Western-IBM bias. *[TO EXPAND with course notes on Schwartz application.]*
+Ten universal value types at the individual level; three bipolar dimensions at the national level: **Embeddedness vs. Intellectual/Affective Autonomy** (group loyalty vs. individual independence), **Hierarchy vs. Egalitarianism** (acceptance of hierarchical roles vs. equal treatment), **Mastery vs. Harmony** (active assertive pursuit of goals vs. fitting into the world as it is). Useful complement to Hofstede — Schwartz's methodology avoids some of the Western-IBM bias. *(Incorporated in KB Section 2.7 with all three national-level dimensions and their negotiation implications.)*
 
 ---
 
@@ -164,8 +164,8 @@ Ten universal value types at the individual level; three bipolar dimensions at t
 
 CQ is the capacity to function effectively in culturally diverse settings. Four dimensions: CQ Drive (motivation to engage with other cultures), CQ Knowledge (understanding of cultural systems), CQ Strategy (metacognitive awareness — planning and adjusting based on cultural cues), CQ Action (ability to adapt behaviour). High-CQ individuals are not bound by their home-culture defaults — they read their counterpart's style and adjust. A counterpart with high CQ (typically: bicultural, significant international experience, multilingual) will adapt to your style, reducing the predictive value of their home-country cultural scores. *Negotiation implication: do not assume a high-CQ counterpart needs the cultural accommodations you prepared — test their preferred style early.*
 
-**Yin & Yang cultural duality** *(from course — expand with course notes)*
-Cultural identity is not fixed: individuals can hold two cultural codes simultaneously and activate one or the other depending on context. A Chinese executive who studied in the US may operate in low-context, task-first mode in formal meetings and shift to high-context, relationship-first mode in informal settings. The implication: bicultural counterparts are not "in between" two cultures — they code-switch. The negotiator's task is to read which code is active. *[TO EXPAND with course material on duality and code-switching.]*
+**Yin & Yang cultural duality**
+Cultural identity is not fixed: individuals can hold two cultural codes simultaneously and activate one or the other depending on context. A Chinese executive who studied in the US may operate in low-context, task-first mode in formal meetings and shift to high-context, relationship-first mode in informal settings. The implication: bicultural counterparts are not "in between" two cultures — they code-switch. The negotiator's task is to read which code is active. *(Incorporated in KB Section 2.8 with full treatment of code-switching signals, negotiation implications, and the diagnostic for identifying which code is active in each context.)*
 
 ---
 
