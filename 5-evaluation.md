@@ -103,6 +103,37 @@ Score the output against your **Definition of Success from PRD §7** — the suc
 
 Then write an overall verdict: what is working, what is falling short, how far the output is from the bar you set yourself.
 
+### Per-Response Quality Checklist
+
+Before writing your verdict, run this checklist on the agent's output. Each item is a binary check — yes or no. A "no" is a finding.
+
+```
+□ Does the response separate facts from hypotheses?
+□ Does it avoid deterministic cultural statements ("X culture always...", "he is Japanese therefore...")?
+□ Does it analyze BATNA, ZOPA, interests, stakeholders, and trust?
+□ Does it use cultural frameworks as analytical lenses, not as fixed predictions?
+□ Does it consider organizational culture, decision-making structure, and individual variation?
+□ Does it identify the risks of the proposed course of action?
+□ Does it provide practical, sequenced next steps?
+□ Does it include a culturally adapted communication option (email, framing, reframe)?
+□ Does it avoid reducing individuals to national averages without qualification?
+```
+
+### Language and Framing Patterns to Check
+
+These are the most common framing errors in cultural analysis responses. Check whether the agent used any of the following — each one is a finding:
+
+| Problematic pattern | What to replace it with |
+|---|---|
+| "almost certainly" / "definitely" / "the supplier knows" | "may indicate" / "could suggest" / "one plausible interpretation is" |
+| "Japan is relationship-based" as a fixed rule | "In Japan, trust may develop gradually through reliability, consistency, and process respect — though individual and organizational variation applies" |
+| Delays explained solely by time orientation (polychronic) | Frame delays through consensus processes, high UAI, and internal approval structures (nemawashi, ringi-sho) — these are more specific and more accurate |
+| "Japan has the highest MAS globally" | "Japan scores very high on Masculinity in Hofstede's framework" — avoid ranking claims without source reference |
+| "Italy is low-context / direct" as a fixed label | "Compared with Japan, Italian negotiators may communicate more explicitly — but Italy itself is relationship-oriented and context-sensitive; the gap is relative, not absolute" |
+| "The individuals in the room definitely lack authority" | "They may lack unilateral authority — this should be validated" |
+| "We will study this internally" = indirect refusal | Treat as ambiguous: could indicate genuine consultation, consensus process, discomfort, indirect rejection, or technical review |
+| "Do not send the email under any circumstances" | "The Italian team should not send a threatening email at this stage — given weak BATNA and relationship dependency, a coercive message would likely increase deadlock risk" |
+
 ### Diagnosis and SI revisions
 
 For every gap, trace it to a root cause in the SI:
@@ -151,6 +182,166 @@ Honesty matters more than polish. If the second output is not better than the fi
 ## Reference back to the methodology
 
 This step is the student-weight version of Phases 6, 7, and 8 of the eight-stage methodology — Self-Evaluation, Synthetic Validation, and Real-World Iteration. The production methodology runs all three with multiple cases per phase and the iteration loop running until a 10/10 bar. For this project we ask for one round of each at group scale. The principles are the same; the volume is reduced.
+
+---
+
+## Appendix A — Worked Example: Italian-Japanese Supplier Case
+
+This appendix documents a real evaluation run of the Culturae agent against a cross-cultural negotiation case. It shows what a good evaluation looks like: what the agent got right, where it overstepped, and how to correct it. Use it as a reference when running your own Part B evaluation.
+
+---
+
+### The Case (input)
+
+An Italian manufacturing company is negotiating with a Japanese supplier for a 3-year contract on critical electronic components. The Italian buyer wants a 12% price reduction, stricter late-delivery penalties, and faster confirmation of delivery schedules. The Japanese supplier has responded indirectly. In the last meeting, the supplier remained silent several times and said: "We will study this internally." Since then, email replies have become slower and less specific. The Italian team wants to send a threatening message. The buyer's BATNA is weak: switching suppliers requires 10 months of technical certification, and the supplier holds know-how needed for future product development.
+
+---
+
+### Overall Assessment
+
+**What the agent got right:**
+- Correctly identified that the visible problem (price, penalties, schedules) is not the real bottleneck — the Process and People layers are in failure
+- Applied BATNA, ZOPA, Interests vs. Positions, Stakeholder Mapping, and Trust correctly
+- Used Hall's high-context framework, Hofstede's Japan profile, Meyer's Culture Map, and Japan regional profile (nemawashi, ringi-sho)
+- Recommended against the threatening email with sound reasoning
+- Produced a culturally appropriate sample email
+- Applied hypothesis-based framing throughout
+
+**Main issue:** Several statements were too absolute. The corrections below show where to apply more precise, hypothesis-based language.
+
+---
+
+### Correction 1 — BATNA and Supplier Awareness
+
+| | Text |
+|---|---|
+| **Original** | "The supplier almost certainly knows it. Any threat to switch is a credibility-destroying bluff." |
+| **Corrected** | "The Italian buyer's BATNA appears weak because switching suppliers would require 10 months of technical certification. The supplier *may* be aware of this dependency, or may infer it from the technical nature of the components and continued engagement. A threat to switch would therefore be risky — if not credible, it may weaken the Italian team's position and damage trust." |
+| **Why** | Avoid assuming what the supplier knows without direct evidence. |
+
+---
+
+### Correction 2 — Japanese Trust Formation
+
+| | Text |
+|---|---|
+| **Original** | "In Japan, trust is relationship-based… It does not develop through contract terms or pressure." |
+| **Corrected** | "In Japan, trust often develops gradually through reliability, consistency, reputation, repeated interaction, and respect for process. It should not be treated as something created only through contract pressure. The cooling signals *may* indicate weakening trust — but this should be validated through further interaction." |
+| **Why** | Japan is not purely relationship-based in the same way as Brazil, China, or Middle Eastern contexts. Japanese trust also has strong task-based and process-based components. |
+
+---
+
+### Correction 3 — Delays and Time Orientation
+
+| | Text |
+|---|---|
+| **Original** | "The demand for faster schedule confirmation is applying monochronic time logic to an organization whose internal decision process follows a consensus-based timeline that cannot be unilaterally accelerated." |
+| **Corrected** | "The issue is less about polychronic time and more about consensus-based decision-making, high UAI, and internal approval processes. Faster confirmation may require internal alignment, technical verification, risk assessment, and formal approval before the supplier can commit externally." |
+| **Why** | Japan is not primarily a polychronic culture — framing the delay through UAI, nemawashi, and ringi-sho is more precise and more grounded in the KB. |
+
+---
+
+### Correction 4 — Hofstede Masculinity Claim
+
+| | Text |
+|---|---|
+| **Original** | "Japan MAS: 95 (highest globally)" |
+| **Corrected** | "Japan scores very high on Masculinity in Hofstede's framework. This may be associated with strong concern for performance, quality, and professional reputation. Stricter penalty clauses may be interpreted as questioning the supplier's reliability — a reputational concern in a high-MAS context." |
+| **Why** | Avoid ranking claims without a specific source reference. Keep the interpretation, drop the superlative. |
+
+---
+
+### Correction 5 — Italy as Direct Communication Culture
+
+| | Text |
+|---|---|
+| **Original** | "Italy sits toward the direct end. This is a textbook example of what happens when these two extremes interact." |
+| **Corrected** | "Compared with Japan, Italian negotiators may communicate more explicitly and expressively. However, Italy is not a purely low-context culture — it is relationship-oriented, context-sensitive, and regionally variable. The miscommunication is better described as a *relative gap*: the Italian team is using a more explicit and pressure-oriented style than the Japanese supplier expects." |
+| **Why** | Italy's position on Meyer's Communicating scale is not at the low-context extreme. Framing this as two extremes is inaccurate and risks stereotyping both cultures. |
+
+---
+
+### Correction 6 — Stakeholder Authority
+
+| | Text |
+|---|---|
+| **Original** | "The individuals in the room almost certainly do not have unilateral decision authority." |
+| **Corrected** | "The individuals in the room *may* not have unilateral authority to approve significant price reductions, stricter penalty clauses, or delivery schedule commitments without internal consultation. 'We will study this internally' may indicate that additional stakeholders, technical reviewers, or formal approval processes are involved." |
+| **Why** | This is a plausible hypothesis — not a certainty. Preserve the insight while flagging the uncertainty. |
+
+---
+
+### Correction 7 — Interpreting "We Will Study This Internally"
+
+| | Text |
+|---|---|
+| **Original** | "'We will study this internally' is likely an indirect refusal signal or serious discomfort." |
+| **Corrected** | "'We will study this internally' may indicate several things: genuine internal consultation, consensus-building, technical or legal review, discomfort with the proposal, or an indirect signal that the current framing is unacceptable. It should not be treated as clear agreement — but it should not be automatically decoded as refusal either." |
+| **Why** | High-context signals are genuinely ambiguous. Giving multiple interpretations is better analysis. |
+
+---
+
+### Correction 8 — Tone of the Recommendation
+
+| | Text |
+|---|---|
+| **Original** | "Do not send the threatening email under any circumstances before that senior-level meeting has occurred." |
+| **Corrected** | "The Italian team should not send a threatening email at this stage. Given the weak BATNA, the relationship dependency, and the possible face-threatening effects, a coercive message would likely increase the risk of deadlock. A firmer message should be considered only after the team has clarified authority, explored the supplier's constraints, and strengthened its alternatives." |
+| **Why** | The recommendation is correct — but absolute phrasing in professional advice should be reserved for genuine certainties. |
+
+---
+
+### Improved Cultural Analysis (reference version)
+
+```markdown
+## Cultural Analysis
+
+The following is hypothesis-based. It describes possible cultural and organizational
+explanations, not guaranteed facts about the Japanese supplier.
+
+### Hall — High-Context Communication
+Japan is commonly treated as a high-context communication culture. Silence, slower
+replies, and "we will study this internally" may indicate: genuine internal
+consultation; need for consensus-building; discomfort with the proposal; reluctance
+to reject directly; technical or legal review. The Italian team should not interpret
+indirectness as bad faith — nor as agreement.
+
+### Hofstede — Japan Profile
+- High UAI: may require precise procedures and internal risk review before accepting
+  penalty clauses or schedule commitments.
+- High LTO: may evaluate the negotiation in terms of long-term partnership, not only
+  short-term price.
+- Very High MAS: may be sensitive to reputational framing. Penalty clauses may be
+  perceived as questioning delivery reliability.
+- Moderate PDI: hierarchy may matter; significant concessions may require senior-level
+  involvement.
+- Moderate Collectivism: internal consensus may be required before commitment.
+These are hypotheses, not conclusions. Test through follow-up meetings.
+
+### Meyer — Culture Map
+- Communicating: Japan is relatively high-context. Pay attention to silence,
+  indirect wording, reduced engagement.
+- Deciding: Japanese organizations often require consensus and formal approval
+  before decisions become final.
+- Disagreeing: direct confrontation may be avoided. Absence of explicit refusal
+  does not mean agreement.
+
+### Japan Regional Profile
+Nemawashi (informal pre-alignment) and ringi-sho (formal upward approval) may be
+active. The Italian team should support the supplier's internal process rather than
+try to bypass it through pressure.
+```
+
+---
+
+### What This Example Teaches
+
+1. Well-structured analytical responses can still contain overgeneralization — precision at the framing level matters as much as structural correctness.
+2. The checklist and language patterns in Part B above catch the majority of quality gaps before they appear in a final evaluation.
+3. Treating hypothesis-based language as a discipline (not just a caveat) produces better recommendations — because it forces the analyst to hold multiple interpretations open rather than committing prematurely.
+4. The Italy–Japan case illustrates that cultural gaps are relative, not absolute. Both cultures have contextual and relationship-oriented dimensions; the gap between them is real but should not be described as extreme-vs-extreme.
+
+---
 
 ## When you are done with this step
 
