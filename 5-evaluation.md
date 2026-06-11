@@ -483,6 +483,89 @@ The response treats Brazil as culturally uniform. A stronger response would note
 
 ---
 
+## Appendix D — Worked Example: French Manager vs Indian IT Partner
+
+This appendix evaluates the Culturae agent on a case centered on power distance and feedback channel design in an outsourcing context. The primary value of this case is the analysis of how organizational structure (client-vendor relationship) compounds existing cultural PDI dynamics — and how to redesign information flow to counteract it.
+
+---
+
+### The Case (input)
+
+A French company outsources software development to an Indian IT firm. The French manager expects critical discussion and open disagreement. The Indian team avoids openly contradicting senior counterparts.
+
+**Agent tasks:** analyze power distance implications; suggest ways to obtain honest feedback; rewrite requests to encourage open communication.
+
+---
+
+### Scoring Table
+
+| Category | Score | Key finding |
+|---|---|---|
+| Cultural Accuracy | 9.5/10 | Correct identification of France PDI 68 vs India PDI 77, Meyer Disagreeing scale (France: confrontational; India: avoids confrontation), Trompenaars Achievement vs Ascription. The "double authority structure" insight (client + seniority = compounded deference) goes beyond standard framework application. Minor gap: no mention of regional or generational variation in India's IT sector. |
+| Power Distance Analysis | 10/10 | Correctly identifies that the score gap (68 vs 77) understates the behavioral gap — the direction of hierarchy expression differs sharply. The "silent failure mode" is named explicitly: the team implements what they were told, not what they know is right. |
+| Honest Feedback Mechanisms | 10/10 | Six specific, differentiated mechanisms — risk-first questions, written pre-meeting assessments, devil's advocate role, 1:1 conversations, separating technical review from authority relationship, explicit normalization. Each mechanism targets a different constraint. |
+| Rewritten Requests | 10/10 | Four table-format rewrites with original, failure reason, adapted version, and explanation of why it works. Immediately transferable to a real outsourcing context. |
+| Structure and Clarity | 9/10 | Logical sectioning. Tables are effective. The response could be slightly more compact for rapid retrieval. |
+| Agent Optimization | 9/10 | Higher than Appendix C: the rewrite tables provide direct→adapted language; mechanisms are numbered; the Immediate Next Step is specific and actionable. Small gap: Step-Based Strategy format (trigger/steps/outcome) not fully applied — the response describes the mechanisms but does not sequence them as a strategy. |
+| **Overall** | **9.7/10** | Expert-level response on a case requiring multi-layer analysis. The outsourcing multiplier insight elevates it above standard PDI analysis. |
+
+---
+
+### Notable Analytical Strength: The Outsourcing Multiplier
+
+The strongest insight in this response is the identification that the French manager holds two authority positions simultaneously: **client** (external authority) and **decision-maker** (functional authority). In Indian business culture, both dimensions produce deference — independently. The compound effect means the Indian team is navigating:
+
+1. Internal hierarchy — junior developers deferring to senior Indian developers
+2. External hierarchy — the entire Indian team deferring to the French client as authority figure
+
+This "outsourcing multiplier" is not visible in standard Hofstede PDI scores (which compare 68 vs 77 and suggest modest difference). It explains why a French manager who successfully elicits debate from peers in Paris receives only agreement from a technically equivalent Indian team. The structural dynamic, not the cultural gap alone, is generating the failure.
+
+This insight should appear in any evaluation of a response involving client-vendor or outsourcing relationships where PDI is a relevant dimension.
+
+---
+
+### Notable Methodological Strength: Feedback Channel Redesign
+
+The response correctly identifies that the solution is not to ask harder for honesty — it is to redesign the channel through which honest information flows. Each of the six mechanisms targets a specific structural constraint:
+
+| Mechanism | Constraint it removes |
+|---|---|
+| Risk-first questions | Reframes critique as a deliverable, not a challenge to authority |
+| Written pre-meeting assessment | Removes real-time social discomfort of verbal confrontation |
+| Devil's advocate role | Depersonalizes critique — the person is performing a function, not expressing dissent |
+| One-on-one conversations | Removes audience pressure from junior observers |
+| Separate technical review from authority relationship | Allows problems to be attributed to processes, not to the manager's decisions |
+| Explicit normalization | Gives the team a legitimate permission structure to raise concerns |
+
+This "constraint-by-constraint" structure is the correct analytical approach for high-PDI feedback problems. A response that only says "create a safe space for feedback" would score much lower — it names the goal without addressing the mechanism.
+
+---
+
+### Minor Gaps
+
+| Gap | What a stronger response would add |
+|---|---|
+| No regional variation in India | Indian IT hubs (Bangalore, Hyderabad, Pune) have a more internationally adapted tech culture with lower effective PDI in professional settings — worth noting for context |
+| No generational variation | Younger Indian IT professionals (20s–30s) in globally connected firms may be significantly more comfortable with direct feedback than the national PDI average suggests |
+| Step-Based Strategy format not fully applied | The six mechanisms are well-described but not sequenced as a trigger/steps/expected outcome strategy — KB Part VI Section 6.6 Strategy 2 formalizes exactly this, and the agent should reference it |
+
+---
+
+### Connection to KB Part VI
+
+This case was the direct inspiration for **Section 6.6 Strategy 2 — Obtain Honest Feedback in High-PDI Contexts**. The five steps in that strategy map directly to the mechanisms identified here. Evaluators should check whether the agent, when facing a similar PDI-feedback case, references the Step-Based Strategy from Part VI rather than re-deriving the answer from scratch. Referencing the strategy template is a sign of operational maturity; re-deriving it each time is analytically correct but operationally inefficient.
+
+---
+
+### What This Example Teaches
+
+1. PDI score differences do not fully capture behavioral gaps — the *direction* of hierarchy (how deference is expressed and toward whom) matters as much as the absolute score.
+2. Organizational structure (client-vendor, outsourcing, senior-junior) compounds existing cultural PDI dynamics multiplicatively, not additively. This requires explicit analysis beyond the national score comparison.
+3. The correct solution to high-PDI feedback problems is channel redesign, not increased pressure for honesty. Each mechanism addresses a specific structural constraint — not a general cultural tendency.
+4. The rewrite table format (original / why it fails / adapted / why it works) is the highest-value output format for communication adaptation cases. It converts analysis into immediately usable tools.
+
+---
+
 ## When you are done with this step
 
 You have a complete Evaluation Report and the agent in its post-iteration state. Package the deliverables in `final-submission/` per the instructions there, and submit.
