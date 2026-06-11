@@ -1567,6 +1567,20 @@ This part translates the analytical frameworks in Parts I–V into operational d
 
 ---
 
+## Pre-Analysis Checklist — Cultural Modifiers
+
+Before applying any national-level framework, verify three modifiers that frequently override country averages. If any modifier is present and significant, apply the CQ lens (Section 2.6) and flag where national scores are unreliable before proceeding.
+
+| Modifier | What to check | KB Reference |
+|---|---|---|
+| **Industry** | Tech, consulting, automotive, banking, government — professional culture may align more with industry peers than with national culture | Section 4.6 |
+| **Region** | Country-level scores mask significant regional variation: São Paulo ≠ Brazil; Milan ≠ Italy; Shanghai ≠ China | Section 4.8 |
+| **International exposure** | Significant time abroad, multilingual proficiency, or high CQ shifts behavior away from national averages | Sections 2.6, 4.4, 4.7 |
+
+*If all three modifiers are absent or negligible: national scores are a reliable starting hypothesis. If one or more is significant: adjust confidence to Medium or Low (see Confidence Calibration in Section 6.4).*
+
+---
+
 ## Section 6.1 — Action Patterns
 
 Action patterns are quick-reference decision rules for recurring cross-cultural signals. Each pattern maps an observable signal to its possible meanings and recommended actions.
@@ -1737,6 +1751,18 @@ Direct-to-adapted communication transformations for high-context, face-sensitive
 
 ---
 
+### Accountability and Problem-Raising
+
+| Direct (low-context default) | Adapted (high-context / face-saving) |
+|---|---|
+| "You missed the deadline." | "We noticed a shift in the timeline and wanted to align on next steps and dependencies." |
+| "Why didn't you tell me earlier?" | "Going forward, early communication on anything that might affect the timeline helps us on our side — even a brief note is enough." |
+| "This is not acceptable." | "This approach may present some challenges for us — we would welcome the opportunity to explore what adjustments are possible." |
+| "We need confirmation now." | "We would appreciate your feedback on this when convenient — could you let us know by [date] so we can plan accordingly?" |
+| "Your team made an error." | "We noticed something in the output we'd like to revisit together — could we schedule a short call to walk through it?" |
+
+---
+
 ## Section 6.3 — Scenario Library
 
 Scenario-specific guidance for high-frequency situations in cross-cultural negotiations.
@@ -1828,6 +1854,20 @@ Scenario-specific guidance for high-frequency situations in cross-cultural negot
 
 ---
 
+**Confidence Calibration for Cultural Hypotheses** — rate each hypothesis before acting on it.
+
+| Confidence | Conditions | What to do |
+|---|---|---|
+| **High** | Observable signal matches a structural cultural pattern; counterpart profile is standard (no significant modifiers) | Act on the hypothesis; monitor for disconfirmation |
+| **Medium** | Pattern fits but context-dependent modifiers apply (outsourcing relationship, international exposure, industry culture, generational divergence) | State the assumption explicitly; test before committing to strategy |
+| **Low** | Strong individual variation likely — bicultural, high CQ, long expatriate experience, or signal has equally plausible non-cultural causes | State uncertainty explicitly; use an open-ended follow-up question before acting |
+
+*Example:* "Japanese counterpart silent after proposal" → **High** (structural pattern, standard profile). "Japanese counterpart with 12 years in New York is silent" → **Medium/Low** (test preferred style first).
+
+*Always consider non-cultural causes before concluding cultural cause:* delays may reflect operational overload, not consensus process; silence may be a bad connection, not high-context communication; agreement may be genuine, not face-saving compliance.
+
+---
+
 ## Section 6.5 — Communication Templates
 
 Ready-to-adapt templates. These are calibration models — adapt tone, specifics, and cultural register to the actual situation.
@@ -1902,6 +1942,82 @@ Use after a meeting with a direct, monochronic counterpart who expects clarity o
 ---
 
 *Strategic Links — Section 6.1 (Action Patterns); Section 6.2 (Language Patterns); Section 2.2 (Hall); Section 2.4 (Meyer); Section 1.10 (4Ps Diagnostic)*
+
+---
+
+## Section 6.6 — Step-Based Strategy Templates
+
+These templates convert strategic advice into sequenced execution steps. Format: **Trigger** (when to activate), **Steps** (what to do in order), **Expected Outcome** (what changes). Use when a situation requires a multi-step approach rather than a single move.
+
+---
+
+### Strategy 1 — Build Relationship Before Negotiation
+
+**Trigger:** Counterpart is from a relationship-first, high-context, or diffuse culture (Meyer, Trusting: relationship-based; Trompenaars, Diffuse); or trust has not yet been established and substantive discussion is stalling.
+
+**Steps:**
+1. First contact/meeting — relationship only. No operational pressure, no commercial proposals. Goal: mutual introduction, organizational context, shared interests.
+2. Second meeting — light business topics. Show genuine interest in the counterpart's strategic context. No formal proposals yet.
+3. Third phase onward — structured negotiation, now with a relational foundation in place. Introduce substantive content only once basic trust is established.
+
+**Expected Outcome:** Counterpart more willing to share internal constraints, accept risk, and honor commitments — because the relationship is the enforcement mechanism.
+
+*KB References: Section 1.7 (Trust Building); Section 2.4 (Meyer, Trusting); Section 2.3 (Trompenaars, Diffuse)*
+
+---
+
+### Strategy 2 — Obtain Honest Feedback in High-PDI Contexts
+
+**Trigger:** Counterpart is from a high power-distance culture (Hofstede PDI > 65); OR you are the client/senior figure in the relationship; OR direct questions consistently produce only agreement or silence.
+
+**Steps:**
+1. Remove yes/no questions. Replace with risk-framed prompts: "What are the top three risks you see in this approach?" — makes problem-identification a deliverable, not a challenge.
+2. Shift critique to writing. Request short written pre-meeting assessments. Document format removes the social discomfort of verbal confrontation in real time.
+3. Assign a formal devil's advocate role. One team member is explicitly tasked with identifying weaknesses — rotating the role depersonalizes critique entirely.
+4. Use one-on-one conversations. Group settings suppress candor in high-PDI cultures; private 1:1 sessions remove social audience pressure.
+5. Explicitly invite early warning. "Flagging a risk early is the right call — there's no penalty for raising a concern, only for raising it too late."
+
+**Expected Outcome:** Counterpart gains a legitimate path to surface concerns without violating hierarchy norms; requester receives more accurate information before it is too late to act on it.
+
+*KB References: Section 2.1 (Hofstede PDI); Section 2.4 (Meyer, Leading, Deciding); Section 6.2 (Language Patterns — Accountability); Pattern 5 (Section 6.1)*
+
+---
+
+### Strategy 3 — Manage Decision Delay Without Escalating
+
+**Trigger:** No response or commitment after 10+ days; counterpart references internal review without a timeline; standard follow-up has produced no progress.
+
+**Steps:**
+1. Wait 7–14 days from last contact before following up. Send no more than one follow-up per cycle.
+2. Send one soft check-in (Template 1, Section 6.5). One open question, no deadline, no urgency language.
+3. If no response: request a process call. "We'd welcome a brief call to understand where your team is in the review and whether anything from our side would be helpful."
+4. Assess authority level. Sustained delay may mean the visible counterpart lacks mandate — consider whether to engage a more senior level, framed as a partnership escalation, not a complaint.
+5. Manage the deadline internally first. Reframe the internal deadline before exposing it externally. Direct deadline pressure on a high-UAI counterpart accelerates stalling, not closure.
+
+**Expected Outcome:** Forward motion without relationship damage; identification of whether the delay is process-related (normal) or authority-related (requires escalation).
+
+*KB References: Section 1.4 (Stakeholder Mapping); Section 2.1 (Hofstede UAI, PDI); Section 2.4 (Meyer, Deciding); Section 6.1 Pattern 3*
+
+---
+
+### Strategy 4 — Recover from a Face-Threatening Move
+
+**Trigger:** A public challenge, direct criticism, or pressure tactic has damaged rapport with a face-sensitive counterpart. Tone has shifted, responses have become shorter, or communication has slowed.
+
+**Steps:**
+1. Do not escalate or double down. Acknowledge the shift in tone, even indirectly.
+2. Send a relationship-first message with no commercial content (Template 2, Section 6.5). Signal continued interest and respect before any further commercial engagement.
+3. If a meeting follows: open with genuine appreciation before any substantive agenda item. Allow the other side to restore dignity through small wins or acknowledgments.
+4. Reframe any prior direct criticism as a shared problem-solving question: "We want to revisit [X] together — we may not have framed it in the most useful way."
+5. Offer a face-saving path forward on the contested issue — not a concession, but a reframe that allows the counterpart to adjust without publicly reversing.
+
+**Expected Outcome:** Relationship stabilized; commercial discussion can resume from a restored foundation.
+
+*KB References: Section 1.7 (Trust Repair); Section 2.3 (Trompenaars, Face-Saving); Section 3.6 (China, Face/Mianzi); Section 5.6 (Camp David case)*
+
+---
+
+*Strategic Links — Section 6.1 (Action Patterns); Section 6.4 (Quick Diagnostic); Section 1.10 (4Ps Diagnostic)*
 
 ---
 
@@ -2039,3 +2155,6 @@ Use after a meeting with a direct, monochronic counterpart who expects clarity o
 | ZOPA | 1.1 |
 | Quick Diagnostic Reference | 6.4 |
 | Communication Templates | 6.5 |
+| Step-Based Strategy Templates | 6.6 |
+| Cultural Modifiers Checklist | Part VI preamble |
+| Confidence Calibration | 6.4 |

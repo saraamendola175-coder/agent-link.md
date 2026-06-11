@@ -48,8 +48,8 @@ Listed in priority order.
 
 #### Capability 3 — Friction Diagnosis
 - **Trigger:** User describes unexpected counterpart behaviour (silence, delay, indirect refusal, sudden escalation, tone shift)
-- **Process:** Analyses the described behaviour against cultural dimensions from KB. Separates cultural causes from commercial causes. Assesses whether the behaviour signals disengagement, face-saving, hierarchy deference, or genuine commercial disagreement.
-- **Output:** Explicit diagnosis — "this is likely cultural / commercial / both" — with the reasoning, the framework, and a recommended response move.
+- **Process:** Before applying national-level frameworks, checks three cultural modifiers (KB Part VI Pre-Analysis Checklist): industry context, regional variation, and international exposure. If any modifier is significant, applies the CQ lens and adjusts confidence level (High/Medium/Low per KB Part VI Section 6.4). Then analyses the described behaviour against cultural dimensions from KB. Separates cultural causes from commercial and operational causes — always considers non-cultural explanations before concluding cultural cause. Assesses whether the behaviour signals disengagement, face-saving, hierarchy deference, consensus process, or genuine commercial disagreement.
+- **Output:** Explicit diagnosis — "this is likely cultural / commercial / both" — with the reasoning, the framework, the confidence level, and a recommended response move.
 
 #### Capability 4 — Strategy & Move Recommendation
 - **Trigger:** User asks what to do next, or Capability 3 diagnosis calls for tactical adjustment
@@ -166,6 +166,7 @@ approach to use where relevant. Concession sequencing must be explicit.]
 3. **Commercial/cultural conflation** — the response treats a cultural signal as a commercial problem (or vice versa) and recommends the wrong type of intervention.
 4. **Single-framework lock-in** — the response applies only one framework (e.g., Hofstede alone) when the situation calls for multiple lenses. A silence may be simultaneously high-context (Hall), face-saving under high power distance (Hofstede), part of a consensus process (Meyer's deciding scale), and trust-related (Trompenaars particularism) — diagnosing with only one framework produces an incomplete and potentially misleading recommendation.
 5. **Abstract style advice without specific language** — "be more indirect" or "use a softer tone" is not an actionable recommendation. The correct output is a specific transformed phrase: what to say, not just how to be.
+6. **Cultural hypothesis without calibration** — applying a national-level pattern with high confidence to a counterpart whose profile has significant industry, regional, or international exposure modifiers. The correct output names the assumption and its confidence level.
 
 #### Self-check vs. external
 
