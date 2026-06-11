@@ -483,9 +483,9 @@ The response treats Brazil as culturally uniform. A stronger response would note
 
 ---
 
-## Appendix D — Worked Example: French Manager vs Indian IT Partner
+## Appendix D — Worked Example: French Manager vs Indian IT Partner (Revised)
 
-This appendix evaluates the Culturae agent on a case centered on power distance and feedback channel design in an outsourcing context. The primary value of this case is the analysis of how organizational structure (client-vendor relationship) compounds existing cultural PDI dynamics — and how to redesign information flow to counteract it.
+This appendix evaluates the revised Culturae agent response on a case centered on power distance and feedback channel design in an outsourcing context. This is the most operationally complex case in the evaluation set: it requires diagnosing a structural communication failure, redesigning a feedback channel, and producing immediately usable rewritten requests — all in a high-PDI, client-vendor context. Use this appendix to calibrate what near-production-ready output looks like, and to identify the three output enhancements that close the remaining gap.
 
 ---
 
@@ -497,72 +497,160 @@ A French company outsources software development to an Indian IT firm. The Frenc
 
 ---
 
+### Overall Assessment
+
+**Verdict: ✅ Excellent — near production-ready**
+
+The response correctly identifies the core issue as a **Process layer failure**: the French manager is relying on a feedback mechanism that works in debate-tolerant environments but fails in a high-power-distance, client-facing hierarchy. The addition of Cultural Modifiers, Confidence Calibration, and the Step-Based Strategy format (from KB Part VI) substantially strengthens this version over the previous one. Three targeted additions would make it fully production-grade.
+
+---
+
 ### Scoring Table
 
 | Category | Score | Key finding |
 |---|---|---|
-| Cultural Accuracy | 9.5/10 | Correct identification of France PDI 68 vs India PDI 77, Meyer Disagreeing scale (France: confrontational; India: avoids confrontation), Trompenaars Achievement vs Ascription. The "double authority structure" insight (client + seniority = compounded deference) goes beyond standard framework application. Minor gap: no mention of regional or generational variation in India's IT sector. |
-| Power Distance Analysis | 10/10 | Correctly identifies that the score gap (68 vs 77) understates the behavioral gap — the direction of hierarchy expression differs sharply. The "silent failure mode" is named explicitly: the team implements what they were told, not what they know is right. |
-| Honest Feedback Mechanisms | 10/10 | Six specific, differentiated mechanisms — risk-first questions, written pre-meeting assessments, devil's advocate role, 1:1 conversations, separating technical review from authority relationship, explicit normalization. Each mechanism targets a different constraint. |
-| Rewritten Requests | 10/10 | Four table-format rewrites with original, failure reason, adapted version, and explanation of why it works. Immediately transferable to a real outsourcing context. |
-| Structure and Clarity | 9/10 | Logical sectioning. Tables are effective. The response could be slightly more compact for rapid retrieval. |
-| Agent Optimization | 9/10 | Higher than Appendix C: the rewrite tables provide direct→adapted language; mechanisms are numbered; the Immediate Next Step is specific and actionable. Small gap: Step-Based Strategy format (trigger/steps/outcome) not fully applied — the response describes the mechanisms but does not sequence them as a strategy. |
-| **Overall** | **9.7/10** | Expert-level response on a case requiring multi-layer analysis. The outsourcing multiplier insight elevates it above standard PDI analysis. |
+| Cultural Accuracy | 9.6/10 | Correctly identifies PDI interaction with client-vendor structure, Meyer Disagreeing scale, Trompenaars Achievement vs Ascription, and the outsourcing multiplier (compound authority). Cultural Modifiers check now included — major improvement. Remaining gap: no explicit Signal→Meaning→Action diagnostic blocks. |
+| Depth of Diagnosis | 10/10 | Textbook identification of Process layer failure. "Silent failure mode" is analytically excellent — captures the real outsourcing risk. Compound authority (client + decision-maker) is expert-level synthesis. |
+| Strategy Recommendations | 9.6/10 | Step-Based Strategy (trigger / steps / expected outcome) now applied. Five highly realistic mechanisms. Remaining gap: no compact Decision Rules block for consistent extraction and reuse. |
+| Communication Adaptation | 9.7/10 | Five rewrite tables with original / why it fails / adapted / why it works format. Strong. Minor language issue: "This is exactly what I'm paying for" introduces unintended hierarchy — see improvement note below. |
+| Structure and Clarity | 9.3/10 | Modifiers, confidence calibration, step logic, and adapted requests all present. Remaining gap: no Quick Summary block for fast retrieval. |
+| Agent Optimization | 9.4/10 | High improvement over previous version. Three additions (Quick Summary, Signal→Meaning→Action, Decision Rules) would bring this to fully production-ready. |
+| **Overall** | **9.6/10** | Expert-level, near production-ready. Closest to gold-standard of all cases evaluated. |
 
 ---
 
 ### Notable Analytical Strength: The Outsourcing Multiplier
 
-The strongest insight in this response is the identification that the French manager holds two authority positions simultaneously: **client** (external authority) and **decision-maker** (functional authority). In Indian business culture, both dimensions produce deference — independently. The compound effect means the Indian team is navigating:
+The strongest insight is that France PDI 68 vs India PDI 77 (a 9-point difference) understates the behavioral gap because the client-vendor relationship adds a second, independent layer of deference. The French manager holds two authority positions simultaneously — **client** and **decision-maker** — and in Indian professional culture both generate deference independently. The compound effect:
 
-1. Internal hierarchy — junior developers deferring to senior Indian developers
-2. External hierarchy — the entire Indian team deferring to the French client as authority figure
+| Authority source | Deference generated |
+|---|---|
+| Client relationship | "We must not disappoint or contradict the client" |
+| Seniority hierarchy | "We must not challenge the authority figure in the room" |
+| **Combined** | **Doubly reinforced silence — even when the team has critical technical information** |
 
-This "outsourcing multiplier" is not visible in standard Hofstede PDI scores (which compare 68 vs 77 and suggest modest difference). It explains why a French manager who successfully elicits debate from peers in Paris receives only agreement from a technically equivalent Indian team. The structural dynamic, not the cultural gap alone, is generating the failure.
-
-This insight should appear in any evaluation of a response involving client-vendor or outsourcing relationships where PDI is a relevant dimension.
+This "outsourcing multiplier" should appear in any evaluation of a response involving client-vendor or outsourcing relationships where PDI is a relevant dimension.
 
 ---
 
 ### Notable Methodological Strength: Feedback Channel Redesign
 
-The response correctly identifies that the solution is not to ask harder for honesty — it is to redesign the channel through which honest information flows. Each of the six mechanisms targets a specific structural constraint:
+The correct diagnosis is that the solution is **not** to ask harder for honesty — it is to redesign the channel through which honest information flows. Each mechanism targets a specific structural constraint:
 
-| Mechanism | Constraint it removes |
+| Mechanism | Constraint removed |
 |---|---|
 | Risk-first questions | Reframes critique as a deliverable, not a challenge to authority |
 | Written pre-meeting assessment | Removes real-time social discomfort of verbal confrontation |
-| Devil's advocate role | Depersonalizes critique — the person is performing a function, not expressing dissent |
+| Devil's advocate role | Depersonalizes critique — person is performing a function, not expressing dissent |
 | One-on-one conversations | Removes audience pressure from junior observers |
-| Separate technical review from authority relationship | Allows problems to be attributed to processes, not to the manager's decisions |
+| Separate technical review from authority | Allows problems to be attributed to processes, not the manager's decisions |
 | Explicit normalization | Gives the team a legitimate permission structure to raise concerns |
 
-This "constraint-by-constraint" structure is the correct analytical approach for high-PDI feedback problems. A response that only says "create a safe space for feedback" would score much lower — it names the goal without addressing the mechanism.
+A response that only says "create a safe space for feedback" would score much lower — it names the goal without addressing the mechanism.
 
 ---
 
-### Minor Gaps
+### Language Improvement Note
+
+**Current phrasing in the Immediate Next Step:**
+> *"This is exactly what I'm paying for."*
+
+**Issue:** This reinforces the client-authority hierarchy in a message intended to reduce it.
+
+**Recommended replacement:**
+> *"This is an important part of how we ensure project quality together."*
+
+This keeps the accountability message while signaling a collaborative rather than transactional relationship — important in a context where the goal is to reduce deference, not reinforce it.
+
+---
+
+### Three Required Additions for Production Readiness
+
+The following additions are recommended before any similar case response is considered fully production-grade.
+
+**A — Quick Summary Block**
+
+Add near the opening or close of the response. Enables fast retrieval and reuse.
+
+```
+### Quick Summary
+
+Problem:
+- The feedback channel produces false agreement
+
+Risk:
+- Technical concerns surface too late to fix
+
+Core Fix:
+- Make disagreement structured, required, and low-risk
+```
+
+---
+
+**B — Signal → Meaning → Action Blocks**
+
+Embed within the Power Distance Analysis section or the Feedback Mechanisms section. These make the response operational for an agent re-encountering the same signal in a new case.
+
+```
+### Signal → Meaning → Action
+
+Signal:
+- Team agrees immediately to an ambitious deadline
+
+Possible Meanings:
+- Deference to client authority
+- Avoidance of confrontation
+- Optimistic commitment under social pressure
+- (Non-cultural): Genuine confidence — do not assume cultural cause without verification
+
+Action:
+- Do not treat fast agreement as confirmed
+- Ask for dependencies, blockers, and risk points
+- Apply Confidence Calibration: Medium (IT sector, client-facing context moderates pure PDI effect)
+```
+
+---
+
+**C — Decision Rules Block**
+
+Add at the close of the Strategy Recommendations section. Converts the full analysis into a compact, reusable rule set.
+
+```
+### Decision Rules
+
+- Never validate through yes/no questions in high-PDI contexts
+- Always ask for risks, blockers, and alternatives — make it a task, not a question
+- Treat fast agreement as provisional until dependencies are confirmed
+- Use private channels (1:1, written) for sensitive technical pushback
+- Normalize early warning explicitly — reward it, do not punish it
+- Separate technical evaluation from authority dynamics wherever possible
+```
+
+---
+
+### Minor Remaining Gaps
 
 | Gap | What a stronger response would add |
 |---|---|
-| No regional variation in India | Indian IT hubs (Bangalore, Hyderabad, Pune) have a more internationally adapted tech culture with lower effective PDI in professional settings — worth noting for context |
-| No generational variation | Younger Indian IT professionals (20s–30s) in globally connected firms may be significantly more comfortable with direct feedback than the national PDI average suggests |
-| Step-Based Strategy format not fully applied | The six mechanisms are well-described but not sequenced as a trigger/steps/expected outcome strategy — KB Part VI Section 6.6 Strategy 2 formalizes exactly this, and the agent should reference it |
+| No regional variation in India | Indian IT hubs (Bangalore, Hyderabad, Pune) have more internationally adapted PDI dynamics — worth a one-line note |
+| No generational variation | Younger Indian IT professionals (20s–30s) in global-facing firms may be significantly more comfortable with direct feedback |
 
 ---
 
 ### Connection to KB Part VI
 
-This case was the direct inspiration for **Section 6.6 Strategy 2 — Obtain Honest Feedback in High-PDI Contexts**. The five steps in that strategy map directly to the mechanisms identified here. Evaluators should check whether the agent, when facing a similar PDI-feedback case, references the Step-Based Strategy from Part VI rather than re-deriving the answer from scratch. Referencing the strategy template is a sign of operational maturity; re-deriving it each time is analytically correct but operationally inefficient.
+This case directly maps to **Section 6.6 Strategy 2 — Obtain Honest Feedback in High-PDI Contexts**. The five steps in that strategy formalize the mechanisms identified here. Evaluators should check whether the agent references the pre-built strategy rather than re-deriving the answer from scratch — referencing Part VI is a marker of operational maturity.
+
+The three additions above (Quick Summary, Signal→Meaning→Action, Decision Rules) are now incorporated into KB Part VI as standard output enhancement blocks, available for any similar case.
 
 ---
 
 ### What This Example Teaches
 
-1. PDI score differences do not fully capture behavioral gaps — the *direction* of hierarchy (how deference is expressed and toward whom) matters as much as the absolute score.
-2. Organizational structure (client-vendor, outsourcing, senior-junior) compounds existing cultural PDI dynamics multiplicatively, not additively. This requires explicit analysis beyond the national score comparison.
-3. The correct solution to high-PDI feedback problems is channel redesign, not increased pressure for honesty. Each mechanism addresses a specific structural constraint — not a general cultural tendency.
-4. The rewrite table format (original / why it fails / adapted / why it works) is the highest-value output format for communication adaptation cases. It converts analysis into immediately usable tools.
+1. PDI score differences understate behavioral gaps when organizational structure (client-vendor) compounds the cultural dynamic multiplicatively. Always analyze the structural authority layers, not only the national score comparison.
+2. The correct intervention for high-PDI feedback failure is channel redesign, not increased pressure. Each mechanism addresses a specific structural constraint — not a generic cultural tendency.
+3. Three output blocks — Quick Summary, Signal→Meaning→Action, Decision Rules — make an analytically strong response operationally retrievable. Without them, the response is excellent but dense; with them, it is production-grade.
+4. Language that reinforces authority while trying to reduce it (e.g., "this is what I'm paying for") works against its own purpose. Collaborative framing ("how we ensure quality together") is more effective when the goal is to flatten hierarchy in communication.
 
 ---
 

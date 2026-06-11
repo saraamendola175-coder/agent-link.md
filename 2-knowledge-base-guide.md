@@ -12,7 +12,7 @@ This Knowledge Base integrates negotiation methodology with cross-cultural analy
 - **Part III** — Regional negotiation profiles: ten country/region guides.
 - **Part IV** — Exceptions and limitations: individual variation, biculturalism, generational shifts, organizational culture, stereotyping risks, red flags.
 - **Part V** — Real cases: six documented cross-cultural negotiation cases with applied analysis.
-- **Part VI** — Execution layer: action patterns, language patterns, scenario library, quick diagnostic tools, and communication templates for real-time use.
+- **Part VI** — Execution layer: action patterns, language patterns, scenario library, quick diagnostic tools, communication templates, step-based strategies, and output enhancement blocks (Quick Summary, Signal→Meaning→Action, Decision Rules).
 - **Glossary and Concept Index** at the end for quick reference.
 
 **Navigation logic:**
@@ -2021,6 +2021,85 @@ These templates convert strategic advice into sequenced execution steps. Format:
 
 ---
 
+## Section 6.7 — Output Enhancement Blocks
+
+These three block formats make a strong analysis operationally retrievable. Use them in responses where the complexity, signal density, or stakeholder stakes justify structured extraction. They are optional but strongly recommended for process-design cases, feedback channel redesign cases, and any multi-mechanism recommendation.
+
+---
+
+### Block A — Quick Summary
+
+Place at the opening or close of the response. Enables fast retrieval and orients the reader before the full analysis.
+
+```
+### Quick Summary
+
+Problem:
+- [One-line statement of the core failure or friction]
+
+Risk:
+- [What happens if the problem is not addressed]
+
+Core Fix:
+- [The single most important structural intervention]
+```
+
+**When to use:** Cases with three or more simultaneous mechanisms in play; cases where the user needs a rapid reorientation before reading the full analysis; any process-layer failure (4Ps Process or People diagnosis).
+
+---
+
+### Block B — Signal → Meaning → Action
+
+Embed inline within the diagnosis section of the response when a specific observable signal is present. Converts signal analysis into an operational mini-decision tree.
+
+```
+### Signal → Meaning → Action
+
+Signal:
+- [The observable behavior — what was seen or heard]
+
+Possible Meanings:
+- [Most culturally likely explanation, with confidence level]
+- [Alternative non-cultural explanation — always include at least one]
+
+Action:
+- [What to do in response to this specific signal]
+- [What NOT to do — the wrong reaction for this signal type]
+```
+
+**When to use:** Any time a specific behavioral signal (silence, fast agreement, indirect refusal, decision delay, etc.) is described. The block makes the diagnosis transparent and reusable across future cases with the same signal.
+
+*Signal-to-framework mapping: Section 6.4 (Quick Diagnostic Reference, Signal-to-Framework Map)*
+
+---
+
+### Block C — Decision Rules
+
+Place at the close of the Recommended Moves section. Converts the full strategic analysis into a compact, reusable rule set for consistent decision-making.
+
+```
+### Decision Rules
+
+- [Rule 1 — specific to the case signal or dynamic]
+- [Rule 2]
+- [Rule 3]
+- [Rule 4]
+- [Rule 5 — maximum five rules per block]
+```
+
+**When to use:** Cases where the strategy involves multiple recurring choices (e.g., how to validate feedback, when to treat fast agreement as provisional, how to route technical concerns). Rules must be prescriptive and context-specific — not generic cultural advice.
+
+**Examples from the French-Indian IT case (KB Appendix D):**
+- Never validate through yes/no questions in high-PDI contexts
+- Always ask for risks, blockers, and alternatives — make it a task, not a question
+- Treat fast agreement as provisional until dependencies are confirmed
+- Use private channels (1:1, written) for sensitive technical pushback
+- Normalize early warning explicitly — reward it, do not penalize it
+
+*Strategic Links — Section 6.1 (Action Patterns); Section 6.4 (Confidence Calibration); Section 6.6 (Step-Based Strategies)*
+
+---
+
 # Glossary
 
 **Achievement Culture:** Status earned primarily through performance, competence, and accomplishments. *See Trompenaars, Section 2.3.*
@@ -2158,3 +2237,7 @@ These templates convert strategic advice into sequenced execution steps. Format:
 | Step-Based Strategy Templates | 6.6 |
 | Cultural Modifiers Checklist | Part VI preamble |
 | Confidence Calibration | 6.4 |
+| Output Enhancement Blocks | 6.7 |
+| Quick Summary Block | 6.7 |
+| Signal → Meaning → Action | 6.1, 6.7 |
+| Decision Rules | 6.7 |
