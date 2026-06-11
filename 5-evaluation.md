@@ -410,6 +410,79 @@ These are not errors; they are opportunities for stronger responses:
 
 ---
 
+## Appendix C — Worked Example: German Company vs Brazilian Supplier Case
+
+This appendix documents a third evaluation run. Where Appendix A shows corrections to a response with framing errors, and Appendix B benchmarks a high-quality response, this appendix introduces a new evaluation dimension — **Agent Optimization** — and shows what a near-excellent response still lacks in terms of operational usability. Use it to calibrate the gap between analytical quality and practical retrievability.
+
+---
+
+### The Case (input)
+
+A German automotive company is negotiating delivery deadlines with a Brazilian supplier. The German side focuses on precision, planning, and strict schedules. The Brazilian side emphasizes flexibility, personal relationships, and adaptability.
+
+**Agent tasks:** detect differences in time orientation; recommend negotiation strategies; predict possible misunderstandings; generate culturally adapted meeting notes.
+
+---
+
+### Scoring Table
+
+| Category | Score | Key finding |
+|---|---|---|
+| Cultural Accuracy | 9.5/10 | Correct identification of monochronic vs polychronic (Hall), sequential vs synchronic (Trompenaars), and the UAI paradox (both cultures score high on UAI but manage uncertainty through opposite mechanisms). Minor gap: no mention of regional variation within Brazil (e.g., São Paulo business culture vs. other regions). |
+| Depth of Diagnosis (4Ps) | 10/10 | Textbook application: correctly identifies Process and People as the blocked layers, explicitly excludes the Problem layer as the bottleneck. |
+| Strategic Recommendations | 9.5/10 | Bilateral guidance (for both German and Brazilian sides). Particularly strong: buffer timelines, early-warning protocol, and senior-level relationship investment. Could be slightly more step-by-step. |
+| Misunderstanding Analysis | 10/10 | Six realistic misunderstandings, each presented as a mutual misread with both cultural perspectives — immediately transferable to training contexts. |
+| Meeting Notes Adaptation | 10/10 | Exceptional balance between German need for structure and Brazilian relationship tone. Explanation of design choices is included inline. |
+| Theory / Practice Integration | 10/10 | Hall + Hofstede + Trompenaars + 4Ps applied without framework dumping — everything connected to a concrete behavior or recommendation. |
+| **Agent Optimization** | **7.5/10** | See below. |
+| **Overall** | **9.4/10** | Expert-level analytical response. Main growth area: operational retrievability. |
+
+---
+
+### Notable Analytical Strength: The UAI Paradox
+
+The strongest analytical moment in this response is the identification that Germany (UAI 65) and Brazil (UAI 76) both score relatively high on Uncertainty Avoidance — yet manage uncertainty through opposite mechanisms. Germany uses formal documentation, defined procedures, and written contracts. Brazil uses personal relationships and trust as the primary risk-management system. This means that the German team's contract-heavy approach may register as suspicious to a Brazilian partner who considers the relationship itself the guarantee — and the Brazilian team's relational reassurances may register as insufficient to a German team that needs written confirmation.
+
+This is expert-level synthesis: same Hofstede dimension, opposite behavioral outputs. It should appear in every analysis involving these two cultural profiles.
+
+---
+
+### Agent Optimization Finding (Score 7.5/10)
+
+Even a near-perfect analytical response can have limited operational usability if its structure is narrative rather than retrieval-ready. This case illustrates that gap.
+
+**The limitation:** The response is well-organized but primarily written in paragraph form. Under time pressure or in a live negotiation, a user cannot quickly extract the specific action to take when a specific signal appears. The analysis explains *why* Brazilian suppliers communicate delivery delays late; it does not give the agent a quick pattern to fire when that signal occurs.
+
+**What was missing:** If→then action blocks of the form used in KB Part VI:
+
+> *Signal:* Late delivery notice received with short lead time
+> *Meaning:* Relationship-based hesitation to deliver bad news — not negligence
+> *Action:* Reinforce no-penalty early-warning rule; reframe as shared problem-solving, not blame assignment
+
+**Why this matters for evaluation:** KB Part VI (Execution Layer, added to this project) was built in direct response to this gap. A response that applies Part VI Action Patterns and Language Patterns will score higher on Agent Optimization than one that provides the same cultural analysis in purely narrative form.
+
+**How to check for this in evaluation:**
+- Are the recommended moves specific enough to be executed by someone who stopped reading after the diagnosis?
+- Does the response include at least one direct→adapted phrase, not just a style description?
+- Would the key action for the most likely next signal fit in two sentences?
+
+---
+
+### Minor Gap: Regional Variation Within Brazil
+
+The response treats Brazil as culturally uniform. A stronger response would note that São Paulo business culture — more monochronic, more internationally adapted, with a larger German-Brazilian and Japanese-Brazilian community — may sit closer to European norms than the national average suggests. This is the KB Part IV regional variation caveat (Section 4.8) applied to the Brazilian context.
+
+---
+
+### What This Example Teaches
+
+1. Analytical quality and operational usability are different properties. A response can be analytically correct and expert-level while still being too dense for rapid real-time retrieval. Both dimensions should be evaluated.
+2. The UAI paradox (same dimension, opposite mechanism) is one of the most powerful insights available in cross-cultural analysis — it surfaces the cases where frameworks predict similarity but behavior diverges sharply.
+3. The Agent Optimization gap was the direct motivation for KB Part VI. Evaluators should check whether the agent is drawing from Part VI Action Patterns and Language Patterns, not only providing narrative cultural analysis.
+4. Bilateral framing — providing recommendations for both sides — is a mark of high-quality analysis. Single-sided advice ("the German team should...") treats the negotiation asymmetrically; bilateral advice treats it as a shared system with friction on both sides.
+
+---
+
 ## When you are done with this step
 
 You have a complete Evaluation Report and the agent in its post-iteration state. Package the deliverables in `final-submission/` per the instructions there, and submit.
