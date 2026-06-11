@@ -343,6 +343,71 @@ try to bypass it through pressure.
 
 ---
 
+## Appendix B — Worked Example: US Company vs Japanese Supplier Case
+
+This appendix documents a second evaluation run of the Culturae agent. Where Appendix A focuses on corrections to a response that contained framing errors, this appendix shows what a high-quality response looks like and how to score it. Use it as the reference benchmark when the agent performs well.
+
+---
+
+### The Case (input)
+
+A US technology company is negotiating a long-term supply agreement with a Japanese manufacturer of precision components. The American team prefers direct communication, quick decisions, and immediate discussion of pricing. The Japanese team values relationship-building, consensus, hierarchy, and indirect communication.
+
+**Agent tasks:**
+1. Identify cultural differences between the two parties
+2. Suggest communication adaptations
+3. Rewrite a negotiation email for a Japanese audience
+4. Highlight risks of excessive directness
+5. Recommend face-saving language
+
+---
+
+### Scoring Table
+
+| Category | Score | What the agent did |
+|---|---|---|
+| Cultural Accuracy | 9/10 | Correctly identified low- vs high-context communication, task-based vs relationship-based trust, nemawashi and ringi-sho, and relevant Hofstede indicators (LTO 26 vs 88, UAI 46 vs 92). Minor gap: could briefly acknowledge globalization or industry effects for highly internationalized Japanese firms. |
+| Depth of Analysis | 10/10 | Multi-layer diagnosis using the 4Ps (Problem, Process, People) was applied correctly and explicitly. Clear causal logic, not just description. |
+| Practical Recommendations | 9.5/10 | Actionable guidance: allow silence, avoid binary questions, match seniority, 10–14 day follow-up timing. Could add a sample meeting agenda or guidance on non-verbal cues. |
+| Email Rewrite | 10/10 | Formal, respectful, relationship-oriented. Avoids hard price anchors, deadlines, and pressure language. Comparison table (original vs rewritten) is effective. |
+| Risk Awareness | 10/10 | Five clearly articulated risks with causal logic linking American behavior to Japanese consequences. |
+| Face-Saving Language | 10/10 | Six-scenario table with direct-to-indirect transformations, immediately applicable in live negotiation. |
+| Structure and Clarity | 9/10 | Logical sectioning and effective use of tables. Slightly dense in places for executive audiences. |
+| **Overall** | **9.6/10** | High-quality, expert-level response suitable for professional or academic use. |
+
+---
+
+### What the Agent Got Right
+
+- Correctly diagnosed the root problem as a **People and Process layer issue before a Problem layer issue** — pricing cannot be negotiated productively before trust and process alignment are established
+- Used hypothesis-based language throughout ("may indicate", "could suggest") without prompting
+- Applied multiple frameworks together: Hall (communication context), Hofstede (LTO, UAI, PDI comparisons), Meyer (Trusting, Deciding, Disagreeing scales)
+- Produced a culturally adapted email and a face-saving language table that are directly usable
+- Framed Japanese trust as gradual and reliability-based, not as a purely social or personal relationship — this is the correction established in Appendix A, applied correctly here
+
+---
+
+### Minor Gaps
+
+These are not errors; they are opportunities for stronger responses:
+
+| Gap | What a stronger response would add |
+|---|---|
+| No acknowledgment of organizational or generational variation | A brief note that highly internationalized Japanese firms may display more direct communication styles; the framework applies to tendencies, not certainties |
+| No "what to do if the negotiation stalls" guidance | A short decision tree: if no response after 2–3 weeks, escalate to senior executive contact rather than increase pressure |
+| No engagement timeline | A Week 1–4 roadmap: relationship meeting → follow-up email → topic-specific working session → pricing discussion |
+
+---
+
+### What This Example Teaches
+
+1. A response can be structurally correct and still benefit from richer qualification at the edges — acknowledging individual, organizational, and generational variation strengthens every analysis.
+2. Face-saving language tables are among the highest-value deliverables an agent can produce — they convert cultural insight into immediately usable communication tools.
+3. The multi-layer diagnosis (Problem / Process / People) does the most analytical work in this type of case; it should appear early and explicitly.
+4. Hypothesis-based framing is not only about avoiding overstatement — it also signals to the counterpart that the analysis is being held open to revision, which is a professional and accurate posture.
+
+---
+
 ## When you are done with this step
 
 You have a complete Evaluation Report and the agent in its post-iteration state. Package the deliverables in `final-submission/` per the instructions there, and submit.
