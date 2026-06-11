@@ -654,6 +654,114 @@ The three additions above (Quick Summary, Signal→Meaning→Action, Decision Ru
 
 ---
 
+## Appendix E — Worked Example: Chinese Investor vs Italian Startup
+
+This appendix evaluates the Culturae agent on a case centered on relationship sequencing and face dynamics in a cross-border investment context. The central analytical contribution is the **UAI paradox**: Italy and China both score relatively high on uncertainty avoidance but manage uncertainty through structurally opposite mechanisms — Italy through contracts, China through relationships. This produces a dynamic where both sides are acting rationally by their own cultural logic while generating maximum friction with each other.
+
+---
+
+### The Case (input)
+
+A Chinese investment group is evaluating a partnership with an Italian startup. The Italian founders want to move quickly to contract discussions. The Chinese side prioritizes trust, long-term relationships, and reputation.
+
+**Agent tasks:** identify face-saving concerns; suggest relationship-building activities; adapt negotiation strategy.
+
+---
+
+### Overall Assessment
+
+**Verdict: ✅ Excellent — fully production-ready**
+
+The response correctly identifies this as a **Process layer failure** (wrong sequence, not wrong terms) and connects it to a multi-framework diagnosis that goes beyond surface-level "Chinese value relationships" commentary. The UAI paradox is the analytical highlight: it reframes what looks like a cultural clash as a structural collision between two equally rational uncertainty-management systems. All three output blocks (Quick Summary, Signal→Meaning→Action, Decision Rules) are applied. Strategy 1 from KB Part VI Section 6.6 is referenced and sequenced correctly.
+
+---
+
+### Scoring Table
+
+| Category | Score | Key finding |
+|---|---|---|
+| Cultural Accuracy | 9.7/10 | Guanxi, Mianzi, LTO, Meyer Trusting scale, and Trompenaars Ascription all correctly applied and linked to specific negotiation behaviors. UAI paradox is analytically precise — not a generic insight. Minor gap: Hall High-Context not explicitly cited; Trompenaars Diffuse dimension present but underdeveloped. |
+| Depth of Diagnosis | 9.8/10 | UAI paradox is the key contribution: Italy UAI 75 drives contract urgency; China UAI 30 uses relationships as the uncertainty reduction instrument. The "contracts document established trust, they do not create it" principle is correctly articulated. 4Ps Process diagnosis is accurate and shapes the move sequence. |
+| Strategy Recommendations | 9.6/10 | Four moves sequenced correctly. Strategy 1 from KB Section 6.6 explicitly referenced and applied as a three-phase meeting sequence. Warm intermediary suggestion is present but brief — the mechanism could be more specific. Gap: no differentiation between Chinese investor types (institutional, PE/VC, family office) which significantly affects the relationship-formality balance. |
+| Communication Adaptation | 9.7/10 | Five rewrite tables with full original / why it fails / adapted / why it works format. Immediate Next Step email is well-framed: collaborative, no commercial pressure, personal register. Strong. |
+| Structure and Clarity | 9.5/10 | All three output blocks applied. Notably, this response uses two Signal→Meaning→Action blocks (one for Chinese warmth without commercial commitment; one for Chinese withdrawal when terms are raised) — the first case to use the block format twice for different signals. Both are precise. |
+| Agent Optimization | 9.6/10 | Cultural Modifiers check with Medium confidence calibration. Strategy 1 from KB 6.6 explicitly referenced. Output blocks fully applied. One gap: no reference to KB Section 3.6 (China regional profile — Guanxi, Mianzi) which covers this case in depth. |
+| **Overall** | **9.7/10** | Highest-scoring case in this evaluation set. The UAI paradox, multi-block structure, and the "contracts as documentation vs. creation" distinction make this a near-definitive gold standard. |
+
+---
+
+### Notable Analytical Strength: The UAI Paradox
+
+The strongest insight is the reframing of the Italian urgency and Chinese patience not as a clash between a deal-driven culture and a relationship-driven one, but as a collision between two equally rational **uncertainty-management systems**:
+
+| Side | UAI Score | Uncertainty Reduction Instrument |
+|---|---|---|
+| Italy | 75 (high) | Formal contracts — written terms reduce legal and commercial uncertainty |
+| China | 30 (lower) | Relationships and reputation (Guanxi) — trust in the counterpart reduces uncertainty better than a contract |
+
+Both sides are acting coherently within their own logic. The Italian founders are not impatient; they are doing exactly what high-UAI cultures do to manage risk. The Chinese side is not slow; they are doing what a Guanxi-driven, high-LTO culture does to establish durable commitments.
+
+The failure is that each side's risk-management instrument is illegible to the other:
+- To the Italians: the Chinese refusal to engage with contract structure looks like lack of seriousness or bad faith
+- To the Chinese: the Italian urgency toward contracts looks like either distrust (why do you need a document if you trust us?) or a purely transactional orientation (you only care about the deal, not the partnership)
+
+This pattern recurs in any Chinese-Western negotiation and should be the standard diagnostic lens whenever one side is contract-first and the other is relationship-first. See also: **Appendix C** (Germany-Brazil UAI paradox) — UAI scores describe how intensely a culture manages uncertainty, not what instrument it uses.
+
+---
+
+### Notable Methodological Strength: Face Risk Analysis (Two Directions)
+
+The response correctly identifies two distinct face risk vectors, not just one:
+
+| Face risk | Direction | Mechanism |
+|---|---|---|
+| Rushing to contracts signals distrust | Italian → Chinese | Implies the Chinese side cannot be trusted to honor informal commitments — the very thing Guanxi-culture prides itself on |
+| Premature commitment creates face risk | Chinese → Italian | If the Chinese group commits before internal stakeholders endorse the relationship, any later adjustment creates public loss of face |
+
+Most responses to this case type identify only the first risk (Italian urgency offending the Chinese). The second risk — that the Chinese side is also protecting their own face by not committing prematurely — is the insight that explains *why* the Chinese side never simply says "we need more time." They are managing their own internal face risk, not just avoiding an awkward conversation.
+
+---
+
+### Two Signal → Meaning → Action Blocks (first case to use both)
+
+This is the first response in the evaluation set to deploy two Signal→Meaning→Action blocks for two different signals in the same case. This is the correct use of the block format for complex, multi-signal cases:
+
+1. **Warm engagement without commercial commitment** → relationship-assessment phase, not disengagement (Action: invest more, do not escalate)
+2. **Chinese withdrawal when terms are raised** → face discomfort, not commercial objection (Action: pivot immediately to relationship framing)
+
+Using a single block for both signals would conflate two different dynamics requiring different responses. This dual-block structure should be the template for future multi-signal cases.
+
+---
+
+### Minor Gaps
+
+| Gap | What a stronger response would add |
+|---|---|
+| Hall High-Context not cited | Hall's High-Context Communication directly explains why the Chinese side's non-verbal and indirect signals (warmth, personal questions, avoidance of commercial topics) carry substantive meaning — worth one explicit sentence |
+| Trompenaars Diffuse underdeveloped | China is a Diffuse culture (whole person involved in business relationships, not just professional role) — this explains why the Chinese side asks about founders' personal backgrounds and company history; they are performing relational due diligence, not making small talk |
+| Chinese investor type not analyzed | A state-adjacent institutional investor operates very differently from a private equity group or a family office — the relationship-formality balance and decision timeline vary significantly |
+| Warm introduction mechanism brief | The Guanxi intermediary suggestion is correct but could specify: the intermediary's credibility derives from their own Guanxi with both parties; a casual mutual acquaintance does not qualify — the connection must be someone who has face to vouch with the Chinese group |
+
+---
+
+### Connection to KB
+
+This case maps directly to **KB Part VI, Section 6.6 Strategy 1 — Build Relationship Before Negotiation**, which the response correctly references and sequences as a three-phase meeting protocol. Evaluators should check whether the agent applies the trigger conditions for Strategy 1 (relationship-based trust culture, trust not yet established) before invoking it — checking the trigger rather than mechanically applying it is the sign of operational maturity.
+
+This case also connects to **KB Section 3.6 (China — Guanxi, Mianzi, face dynamics)** and the **UAI paradox** first documented in Appendix C (Germany-Brazil). Both appendices should be read together to understand the full range of cases where the UAI score is high but the instrument differs.
+
+---
+
+### What This Example Teaches
+
+1. UAI scores describe the *intensity* of uncertainty management, not the *instrument*. High UAI does not mean "uses contracts" — it means the culture actively reduces uncertainty. The instrument (formal procedures vs. relationship trust) is determined by collectivism, LTO, and Guanxi norms, not by UAI alone.
+2. Contracts in high-LTO, Guanxi-driven cultures are downstream of trust, not upstream. Proposing a contract before trust is established inverts the causal logic and reads as distrust or transactionalism — both disqualifying signals.
+3. Face risk runs in both directions. The Chinese side is not only potentially offended by Italian urgency — they are also actively protecting their own internal face by not committing before their stakeholder network is aligned.
+4. The "meeting sequence" fix (relationship → vision → commercial) is not a delay — it is the correct Process architecture for this counterpart type. Applying it does not slow the deal; it creates the conditions under which a durable deal is possible.
+5. The dual Signal→Meaning→Action block format (two different signals, two different responses) should be the default for multi-signal cases. A single block that conflates two different dynamics produces conflated guidance.
+
+---
+
 ## When you are done with this step
 
 You have a complete Evaluation Report and the agent in its post-iteration state. Package the deliverables in `final-submission/` per the instructions there, and submit.
