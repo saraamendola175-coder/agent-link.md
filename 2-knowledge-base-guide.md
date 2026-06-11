@@ -571,6 +571,37 @@ Six rules for applying Hofstede's dimensions in live negotiations:
 
 ---
 
+### In Case Responses — Framework Application Note Format
+
+When applying Hofstede's dimensions in a case response, do **not** reproduce this section. Cite only the 2–4 dimensions that are active in the specific case, each with its case-specific implication. The format:
+
+**Dimension (score comparison):** one sentence explaining how this dimension manifests in *this* negotiation — not a general description.
+
+**Quality check:** If the sentence could apply to any other case without modification, it is too generic — rewrite with case-specific content.
+
+**Example — China-Italy investment case:**
+
+```
+### Hofstede Application Note
+
+- LTO (China 87 / Italy 61): Chinese side evaluating a 10-year partnership, not a
+  single deal — their due diligence is relational, not primarily financial
+- IDV/Collectivism (China 20): relationship legitimacy required before contract
+  formalization; a contract introduced too early signals transaction over partnership
+- PDI (China 80): internal senior alignment required before visible commercial commitment;
+  the visible counterparts may not yet have mandate to proceed
+- UAI (Italy 75 / China 30): Italian founders seek contracts as uncertainty reduction;
+  Chinese side reduces uncertainty through trust — both rational, instrumentally incompatible
+  in this sequence
+
+Practical implication: do not use this to predict that Chinese investors "always move slowly."
+Use it to explain why commercial discussion must follow trust formation and internal alignment.
+```
+
+*This application principle applies to all frameworks in this KB. When referencing Hall, Meyer, Trompenaars, or Schwartz in a case response, cite the specific dimension and its case-specific manifestation — do not reproduce the framework description.*
+
+---
+
 **Sources:** Hofstede, Hofstede & Minkov (2010), *Cultures and Organizations: Software of the Mind* (3rd ed.); Hofstede Insights Database; House et al. (2004), GLOBE Study
 
 ---

@@ -59,6 +59,7 @@ A bad response does any of the following:
 - Applies a national-level cultural framework with high confidence to a counterpart whose profile has significant industry, regional, or international exposure modifiers — without flagging the uncertainty
 - Treats a cultural explanation as the only possible cause for a signal that may have equally plausible non-cultural (operational, technical, personal) causes
 - Interprets warmth, personal questions, hospitality, or social engagement as commercial readiness in a relationship-first, high-LTO culture — warmth is relational due diligence, not a buying signal
+- Reproduces a full framework description (Hofstede dimensions, Meyer scales, Hall overview) instead of a case-specific application note — cite only the active dimensions with their case-specific implication; the KB is the reference, the response is the application
 
 ---
 

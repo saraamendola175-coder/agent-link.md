@@ -817,13 +817,51 @@ Italian side negotiates from genuine optionality, not from urgency.
 
 ---
 
+### Framework Application Quality — The Hofstede Precision Test
+
+An external evaluation specifically assessed whether inserting the full Hofstede framework section (KB Part II, Section 2.1) into a case response is appropriate. The finding is relevant for evaluating all cases, not only Case 4.
+
+| Context | Score | Reason |
+|---|---|---|
+| Full Hofstede section as a standalone KB reference section | 9.0/10 | Strong theoretical quality, accurate, well-organized |
+| Full Hofstede section inserted verbatim inside a case response | 6.8/10 | Too long, too generic, dilutes case-specific reasoning, duplicates KB content |
+| Short Framework Application Note (case-specific dimensions only) | 9.5/10 (target) | Tight, relevant, operationally extractable |
+
+**The problem is not quality — it is placement density.** A full framework reproduction inside a case response encourages generic theory over case-specific diagnosis, reduces readability, and trains the agent to apply the framework as a template rather than as a lens.
+
+**Correct format — Framework Application Note.** When Hofstede is relevant, cite only the 2–4 active dimensions with their case-specific implication. No general descriptions.
+
+```
+### Hofstede Application Note
+
+- LTO (China 87 / Italy 61): Chinese side is evaluating a 10-year relationship, not a
+  single deal — timeline pressure conflicts with a fundamentally different evaluation horizon
+- IDV/Collectivism (China 20): relationship legitimacy required before contract formalization;
+  a contract introduced too early signals transaction over partnership
+- PDI (China 80): internal senior alignment required before visible commitment;
+  visible counterparts may not yet have mandate to proceed commercially
+- UAI (Italy 75 / China 30): Italian founders seek contracts as uncertainty reduction;
+  Chinese side reduces uncertainty through trust — both are managing risk,
+  through opposite instruments
+
+Practical implication: Hofstede does not predict that Chinese investors "always move slowly."
+It explains why commercial discussion must follow trust formation and internal alignment.
+```
+
+**This principle applies to all frameworks across all cases.** When citing Hall, Meyer, Trompenaars, or any other framework in a response, cite the specific dimension and its case-specific manifestation — do not reproduce the framework description. The KB is the reference; the case response is the application note.
+
+**Evaluators should flag** any response that devotes more than two sentences to describing a framework rather than applying it to the specific case as a quality issue — see PRD §7 Failure Mode 1 (culture commentary without a negotiation move) and Failure Mode 5 (abstract style advice).
+
+---
+
 ### Connection to KB
 
-This case maps directly to **KB Section 6.6 Strategy 1** (Build Relationship Before Negotiation) and **KB Section 3.6** (China — Guanxi, Mianzi, face dynamics). The four additions above are now incorporated into KB Part VI:
+This case maps directly to **KB Section 6.6 Strategy 1** (Build Relationship Before Negotiation) and **KB Section 3.6** (China — Guanxi, Mianzi, face dynamics). The additions from this evaluation are now incorporated into KB Part VI:
 
 - Addition A (Warmth ≠ Commitment) → **KB Section 6.1 Pattern 7**
 - Addition C (What Not to Do) → **KB Section 6.7 Block D**
 - Addition D (BATNA dependence) → applicable to any high-LTO investment case via **KB Section 1.3 (Leverage)**
+- Framework Application Note format → **KB Section 2.1 (Hofstede, In-Case Application sub-section)**
 
 ---
 
