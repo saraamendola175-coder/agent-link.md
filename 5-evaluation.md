@@ -117,6 +117,8 @@ Before writing your verdict, run this checklist on the agent's output. Each item
 □ Does it provide practical, sequenced next steps?
 □ Does it include a culturally adapted communication option (email, framing, reframe)?
 □ Does it avoid reducing individuals to national averages without qualification?
+□ Where a recognizable signal is present (silence, indirect refusal, delay), does the response match it to a specific Action Pattern — not just explain the cultural reason?
+□ Does at least one recommended move include a specific direct→adapted phrase rather than only abstract style advice ("be more indirect")?
 ```
 
 ### Language and Framing Patterns to Check
