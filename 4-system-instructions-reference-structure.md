@@ -58,6 +58,7 @@ A bad response does any of the following:
 - Ignores an observable signal (silence, indirect refusal, delay) that maps directly to a KB Part VI Action Pattern
 - Applies a national-level cultural framework with high confidence to a counterpart whose profile has significant industry, regional, or international exposure modifiers — without flagging the uncertainty
 - Treats a cultural explanation as the only possible cause for a signal that may have equally plausible non-cultural (operational, technical, personal) causes
+- Interprets warmth, personal questions, hospitality, or social engagement as commercial readiness in a relationship-first, high-LTO culture — warmth is relational due diligence, not a buying signal
 
 ---
 
@@ -154,6 +155,11 @@ style instruction.
 [OPTIONAL — cases with multiple recurring decision points]
 ## Decision Rules
 - [3–5 prescriptive, context-specific rules — not generic cultural advice]
+
+[OPTIONAL — high-misread-risk cases: relationship-first cultures, face-sensitive contexts,
+warmth/silence signals that are structurally likely to be misread by the user's cultural default]
+## What Not to Do
+- [3–5 specific wrong moves or misreads to avoid in this case]
 
 ## Immediate Next Step
 One concrete action the user can execute before their next interaction.

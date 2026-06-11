@@ -1704,6 +1704,29 @@ Action patterns are quick-reference decision rules for recurring cross-cultural 
 
 ---
 
+### Pattern 7 — Warmth and Engagement Without Commercial Progress
+
+**Signal:** Counterpart is warm, asks personal questions, initiates social interaction, and shows genuine interest in the relationship — but consistently deflects, delays, or redirects commercial structure, timeline, and commitment discussions.
+
+**Possible meanings:**
+- Active relational evaluation underway — the counterpart is performing relational due diligence: assessing *who* you are as a person and partner, not yet evaluating *what* the deal is
+- Internal stakeholder alignment not yet complete — commercial commitment requires internal consensus that has not been secured
+- Trust threshold not yet reached — in relationship-based trust cultures (China, Japan, much of the Middle East and Latin America), commercial discussion is only appropriate after a trust baseline is established
+
+**Critical distinction — warmth ≠ commitment:**
+In relationship-first cultures, warmth, personal questions, hospitality, and social engagement are *active deal-making behaviors* — they are the due diligence phase, not pre-meeting courtesy. Interpreting social warmth as a buying signal or as evidence that the deal is progressing commercially is one of the most common and costly misreads in cross-cultural investment and partnership negotiations.
+
+**Action:**
+- Do not interpret warm engagement as readiness to discuss commercial structure
+- Do not escalate term-sheet or contract pressure after a positive relational meeting
+- Continue investing in the relationship — this is the correct use of the current phase
+- Wait for the counterpart to introduce commercial readiness signals before shifting register
+- If urgency exists on your side, manage it internally — never project it onto the counterpart
+
+*Diagnostic check: Section 2.4 (Meyer, Trusting); Section 3.6 (China, Guanxi); Section 2.1 (Hofstede, IDV, LTO); Section 6.6 Strategy 1*
+
+---
+
 ## Section 6.2 — Language Patterns
 
 Direct-to-adapted communication transformations for high-context, face-sensitive, or relationship-first negotiation contexts. Use these as source material for specific phrasing — not as scripts, but as calibration tools.
@@ -2100,6 +2123,31 @@ Place at the close of the Recommended Moves section. Converts the full strategic
 
 ---
 
+### Block D — What Not to Do
+
+Place at the close of the Recommended Moves section in cases where common misreads are high-risk: relationship-first cultures, face-sensitive contexts, high-LTO investment negotiations, and any case where the observable signal (warmth, silence, politeness) is structurally likely to be misinterpreted by the user's cultural default.
+
+```
+### What Not to Do
+- [Rule 1 — specific misread or wrong action to avoid in this case]
+- [Rule 2]
+- [Rule 3]
+- [Rule 4 — maximum five rules]
+```
+
+**When to use:** Cases where the wrong move is as important to name as the right one — particularly: warmth-as-commitment misreads (high-LTO, Guanxi cultures); silence-as-rejection misreads (high-context cultures); urgency-projection misreads (startup/deadline-pressure situations in relationship-first cultures); junior intermediary substitution for senior relationship-building.
+
+**Examples from the Chinese-Italian investment case (KB Appendix E):**
+- Do not send term sheets immediately after a positive relational meeting
+- Do not interpret warmth, personal interest, or hospitality as deal commitment
+- Do not project internal cash runway urgency onto the negotiation pace
+- Do not bypass senior relationship-building through junior or associate intermediaries
+- Do not treat commercial silence as disengagement — respond with relationship investment, not commercial pressure
+
+*Strategic Links — Section 6.1 Pattern 7 (Warmth ≠ Commitment); Section 6.4 (Confidence Calibration); Section 3.6 (China, Guanxi)*
+
+---
+
 # Glossary
 
 **Achievement Culture:** Status earned primarily through performance, competence, and accomplishments. *See Trompenaars, Section 2.3.*
@@ -2241,3 +2289,6 @@ Place at the close of the Recommended Moves section. Converts the full strategic
 | Quick Summary Block | 6.7 |
 | Signal → Meaning → Action | 6.1, 6.7 |
 | Decision Rules | 6.7 |
+| What Not to Do Block | 6.7 |
+| Warmth vs Commitment Distinction | 6.1 Pattern 7 |
+| Zhongjianren / Intermediary | 3.6, 6.6 |
