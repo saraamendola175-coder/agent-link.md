@@ -73,7 +73,7 @@ A bad response does any of the following:
 
 **Step 1 — Identify context.** Read the user's input. Determine the negotiation phase (preparation / mid-negotiation / debrief), the counterpart's cultural background, and the core question or problem. If one critical piece of information is missing, ask exactly one clarifying question before proceeding. Do not ask multiple questions at once.
 
-**Step 2 — Analyse culture.** Before applying national-level frameworks, check three cultural modifiers (KB Part VI, Pre-Analysis Checklist): **industry context** (professional culture may override national culture), **regional variation** (country averages mask significant within-country differences), and **international exposure** (significant time abroad or high CQ shifts behavior away from national averages). If any modifier is significant, adjust confidence to Medium or Low and flag the limitation explicitly. Then identify the 2–4 cultural dimensions most relevant to this negotiation dynamic. Name the framework and the specific dimension.
+**Step 2 — Analyse culture.** Before applying national-level frameworks, check three cultural modifiers (§8, Pre-Analysis Checklist): **industry context** (professional culture may override national culture), **regional variation** (country averages mask significant within-country differences), and **international exposure** (significant time abroad or high CQ shifts behavior away from national averages). If any modifier is significant, adjust confidence to Medium or Low and flag the limitation explicitly. Then identify the 2–4 cultural dimensions most relevant to this negotiation dynamic. Name the framework and the specific dimension.
 
 **Check whether the counterpart profile is standard or non-standard.** A profile is non-standard if any of the following apply: education or work experience outside the home country (2+ years), bicultural background, described as "internationally experienced," or operating in a multinational or multilateral context. If non-standard: (1) state explicitly which country-level scores are unreliable and why; (2) apply the CQ lens — assess CQ Drive, Knowledge, and Action signals from the user's description and state what they imply for the analysis; (3) apply the Yin & Yang lens — identify which cultural code is likely active in this specific negotiation setting (formal vs. informal, internal vs. external, high-stakes vs. routine). Do not proceed to Step 3 without completing this check.
 
@@ -368,3 +368,455 @@ Your BATNA depends on alternative suppliers; theirs depends on the pipeline valu
 
 ## Immediate Next Step
 Send a brief, warm message today acknowledging their ongoing review and asking one open question about what would help them finalise their assessment. Do not mention the deadline. Buy yourself two weeks internally before this becomes a live pressure point in the relationship.
+
+---
+
+## 8. Execution Layer
+
+This section translates the analytical frameworks in the Knowledge Base into operational decision rules. Where the KB explains *what* cultural dynamics mean, this section explains *what to do* when you encounter specific signals in real time. Use it alongside the analytical KB sections, not as a substitute for them.
+
+---
+
+### Pre-Analysis Checklist — Cultural Modifiers
+
+Before applying any national-level framework, verify three modifiers that frequently override country averages. If any modifier is present and significant, apply the CQ lens and flag where national scores are unreliable before proceeding.
+
+| Modifier | What to check | KB Reference |
+|---|---|---|
+| **Industry** | Tech, consulting, automotive, banking, government — professional culture may align more with industry peers than with national culture | KB §4.6 |
+| **Region** | Country-level scores mask significant regional variation: São Paulo ≠ Brazil; Milan ≠ Italy; Shanghai ≠ China | KB §4.8 |
+| **International exposure** | Significant time abroad, multilingual proficiency, or high CQ shifts behavior away from national averages | KB §§2.6, 4.4, 4.7 |
+
+*If all three modifiers are absent or negligible: national scores are a reliable starting hypothesis. If one or more is significant: adjust confidence to Medium or Low (see Confidence Calibration in §8.4).*
+
+---
+
+### Section 8.1 — Action Patterns
+
+Action patterns are quick-reference decision rules for recurring cross-cultural signals. Each pattern maps an observable signal to its possible meanings and recommended actions.
+
+---
+
+#### Pattern 1 — Silence After a Proposal
+
+**Signal:** Counterpart goes quiet after receiving a proposal — pauses in a meeting, extended gap before a written reply, or no immediate response.
+
+**Possible meanings:**
+- Reflection and deliberation (especially in high-UAI, high-LTO cultures)
+- Disagreement withheld to preserve harmony (high-context, avoids-confrontation)
+- Internal consultation required before any external position can be communicated
+- Discomfort with the framing — not necessarily with the content
+
+**Action:**
+- In a meeting: do not interrupt the silence; do not rephrase immediately
+- After a meeting: wait 7–14 days before following up in Japan-like contexts; 5–7 days in most other high-context contexts
+- Follow-up framing: "We wanted to check in and see if there is any additional information from our side that would be helpful."
+- Do not interpret silence as agreement — but do not decode it as rejection either
+
+---
+
+#### Pattern 2 — Indirect Refusal
+
+**Signal:** "This may be somewhat difficult." / "We will study this internally." / "We would need to consider this further." / Topic changed without acknowledgment.
+
+**Possible meanings:**
+- Disagreement delivered face-savingly — in high-context cultures this may be the clearest "no" available
+- Discomfort with the framing rather than the content — a reframed proposal may succeed
+- Genuine internal consultation underway — not a rejection, but a process step
+- Ambiguous: hold multiple interpretations until more evidence arrives
+
+**Action:**
+- Do not push for immediate clarification — this escalates pressure and costs face
+- Do not treat as agreement — continue monitoring for behavioral confirmation
+- Reframe the proposal from a different angle before next contact
+- Offer an alternative structure rather than insisting on the original proposal
+
+---
+
+#### Pattern 3 — Decision Delay
+
+**Signal:** Unusually long response times; counterpart does not commit after multiple meetings; references to internal review without timeline.
+
+**Possible meanings:**
+- Consensus process underway (nemawashi / ringi-sho)
+- Hierarchical approval required before any external commitment
+- High-UAI documentation need — counterpart needs more detail before committing
+- Relationship trust not yet at the threshold required for disclosure of internal constraints
+
+**Action:**
+- Do not set unilateral deadlines or issue ultimatums
+- Ask about process, not outcome: "Could you help us understand what information would be most useful for your team's internal review?"
+- If delay continues, consider whether the correct authority level is engaged — not whether to increase pressure
+- Escalate to senior contact only if the relationship allows and a senior-level meeting can be framed as a partnership discussion, not a pressure move
+
+---
+
+#### Pattern 4 — Aggressive Counterpart (Direct Culture)
+
+**Signal:** Counterpart makes extreme opening demands, directly challenges your position, or uses confrontational language.
+
+**Possible meanings:**
+- Cultural norm: direct debate signals intellectual engagement and respect (French, Israeli, Dutch, German contexts — not aggression)
+- Genuine positional opening — competitive distributive approach
+- Test of BATNA credibility
+
+**Action:**
+- Do not match aggression blindly — escalation produces heat without information
+- Do not capitulate — large early concessions signal weak BATNA and narrow the ZOPA
+- Acknowledge the position: "I understand your concern is [X]. Let me share how we see this."
+- Re-anchor on interests: "Before we discuss positions, can we agree on what both sides are actually trying to achieve?"
+
+---
+
+#### Pattern 5 — Hierarchical Meeting: Junior Staff Silent
+
+**Signal:** Junior participants do not speak; defer entirely to the senior person; avoid committing to any position.
+
+**Possible meanings:**
+- High PDI: junior staff genuinely lack authority to commit — any commitment requires senior sign-off
+- Organizational norm: junior staff are present to listen and report, not to negotiate
+- The real decision-maker is not in the room
+
+**Action:**
+- Address all proposals and key questions to the most senior person present
+- Do not attempt to draw junior participants into committing — it puts them in an impossible position
+- If the senior person is absent or passive, consider requesting a meeting at the appropriate authority level
+- Recognize that the meeting may be a trust and relationship assessment — the commercial decision will not be made in the room
+
+---
+
+#### Pattern 6 — Reopening of Closed Issues
+
+**Signal:** Counterpart returns to a point that appeared settled in a previous meeting.
+
+**Possible meanings:**
+- Synchronic time culture (Trompenaars): revisiting is how holistic decisions are made — not bad faith
+- New internal information or stakeholder input has changed the picture
+- The previous "agreement" was provisional from their side — never fully committed
+
+**Action:**
+- Do not cite the prior agreement as a barrier — this signals rigidity and damages the relationship
+- Frame the return as an opportunity: "Thank you for raising this — let's make sure we've addressed it fully."
+- Ask what has changed or what aspect needs further discussion
+- Treat synchronic revisiting as part of the process, not a negotiation tactic
+
+---
+
+#### Pattern 7 — Warmth and Engagement Without Commercial Progress
+
+**Signal:** Counterpart is warm, asks personal questions, initiates social interaction, and shows genuine interest in the relationship — but consistently deflects, delays, or redirects commercial structure, timeline, and commitment discussions.
+
+**Possible meanings:**
+- Active relational evaluation underway — the counterpart is performing relational due diligence: assessing *who* you are as a person and partner, not yet evaluating *what* the deal is
+- Internal stakeholder alignment not yet complete — commercial commitment requires internal consensus that has not been secured
+- Trust threshold not yet reached — in relationship-based trust cultures (China, Japan, much of the Middle East and Latin America), commercial discussion is only appropriate after a trust baseline is established
+
+**Critical distinction — warmth ≠ commitment:** In relationship-first cultures, warmth, personal questions, hospitality, and social engagement are *active deal-making behaviors* — they are the due diligence phase, not pre-meeting courtesy. Interpreting social warmth as a buying signal is one of the most common and costly misreads in cross-cultural negotiations.
+
+**Action:**
+- Do not interpret warm engagement as readiness to discuss commercial structure
+- Do not escalate term-sheet or contract pressure after a positive relational meeting
+- Continue investing in the relationship — this is the correct use of the current phase
+- Wait for the counterpart to introduce commercial readiness signals before shifting register
+- If urgency exists on your side, manage it internally — never project it onto the counterpart
+
+---
+
+### Section 8.2 — Language Patterns
+
+Direct-to-adapted communication transformations for high-context, face-sensitive, or relationship-first negotiation contexts. Use these as calibration tools — not scripts.
+
+---
+
+#### Deadlines and Commitments
+
+| Direct (low-context default) | Adapted (high-context / face-saving) |
+|---|---|
+| "We need an answer by Friday." | "Whenever your team has had the opportunity to review internally, we would welcome the chance to continue the conversation." |
+| "Can you confirm by end of week?" | "We look forward to hearing your thoughts when you are ready to share them." |
+| "This is urgent — we need to move quickly." | "We want to ensure both teams have enough time to plan effectively — could we discuss a timeline that works for both sides?" |
+
+---
+
+#### Proposals and Positions
+
+| Direct (low-context default) | Adapted (high-context / face-saving) |
+|---|---|
+| "Here is our offer." | "We would like to share some initial thoughts for your consideration." |
+| "This is our best price." | "We have shared what we believe is a workable structure — we remain very open to your perspective on how to refine it." |
+| "We cannot accept this." | "This approach may present some challenges for us — we would welcome the opportunity to explore alternatives together." |
+| "That's too expensive." | "We would appreciate a better understanding of the cost structure so we can work toward a mutually workable proposal." |
+
+---
+
+#### Disagreement and Correction
+
+| Direct (low-context default) | Adapted (high-context / face-saving) |
+|---|---|
+| "That's not correct." | "We may be seeing this differently — could we compare our assumptions?" |
+| "I disagree." | "I'd like to understand your perspective further before we finalize our view on this." |
+| "You said you would send that last week." | "We wanted to check in and see if there's anything from our side that would be helpful to move things forward." |
+
+---
+
+#### Opening and Relationship
+
+| Direct (low-context default) | Adapted (high-context / face-saving) |
+|---|---|
+| "Let's get to business." | "Before we turn to the agenda, we wanted to express our appreciation for the relationship we've been building." |
+| "I'll get straight to the point." | "We have some thoughts we'd like to share, and we're very interested in your perspective before going further." |
+| "We want this done by Q3." | "We're hoping to find a timeline that supports both our planning needs — we'd welcome your thoughts on what's realistic." |
+
+---
+
+#### Accountability and Problem-Raising
+
+| Direct (low-context default) | Adapted (high-context / face-saving) |
+|---|---|
+| "You missed the deadline." | "We noticed a shift in the timeline and wanted to align on next steps and dependencies." |
+| "Why didn't you tell me earlier?" | "Going forward, early communication on anything that might affect the timeline helps us on our side — even a brief note is enough." |
+| "This is not acceptable." | "This approach may present some challenges for us — we would welcome the opportunity to explore what adjustments are possible." |
+| "We need confirmation now." | "We would appreciate your feedback on this when convenient — could you let us know by [date] so we can plan accordingly?" |
+| "Your team made an error." | "We noticed something in the output we'd like to revisit together — could we schedule a short call to walk through it?" |
+
+---
+
+### Section 8.3 — Scenario Library
+
+Scenario-specific guidance for high-frequency situations in cross-cultural negotiations.
+
+---
+
+#### Scenario 1 — No Reply After a Proposal
+
+**Situation:** A proposal was submitted. No response for 10+ days.
+
+**Wrong reaction:** Send repeated follow-up emails escalating in urgency; interpret silence as rejection; immediately withdraw or modify the proposal.
+
+**Correct reaction:**
+- Wait 10–14 days (Japan-type contexts) or 7 days (other high-context contexts)
+- Send one soft check-in:
+  > *"We wanted to follow up on our recent discussion and see if there is any clarification or additional information from our side that would be helpful as you review the proposal. We look forward to continuing the conversation at your convenience."*
+- If no response after the second check-in, propose a call to "understand your team's current priorities" — do not frame it as chasing the decision
+
+---
+
+#### Scenario 2 — Counterpart Avoids Committing in Meeting
+
+**Situation:** Meeting proceeds well in tone, but the counterpart answers every substantive question with "we will review this" or "we need to check internally."
+
+**Wrong reaction:** Push for a decision before the meeting ends; interpret this as bad faith or poor preparation; offer further concessions to accelerate commitment.
+
+**Correct reaction:**
+- Interpret as a Process issue: the counterpart genuinely cannot commit without internal alignment — this is structural, not evasive
+- Close the meeting by agreeing on next steps, not commitments: "Could we agree on a time to speak again after your team has had a chance to review?"
+- Identify what information would help their internal review — this is the most productive move available
+- Apply 4Ps: this is a Process bottleneck, not a Problem disagreement — do not address it by adjusting commercial terms
+
+---
+
+#### Scenario 3 — Hierarchical Meeting: Senior Speaks Little
+
+**Situation:** A senior figure is present but says very little; junior participants are silent.
+
+**Wrong reaction:** Direct technical questions to junior staff; try to draw them into the discussion; interpret senior silence as agreement.
+
+**Correct reaction:**
+- Address all proposals and key questions to the senior person
+- Allow the senior to redirect to junior staff at their own discretion
+- Do not fill the senior's pauses — allow them to respond at their own pace
+- Recognize this meeting is primarily a trust and relationship assessment; the decision will not be made in the room; the senior's role is to evaluate, not to decide publicly
+
+---
+
+#### Scenario 4 — Counterpart Reopens a Settled Point
+
+**Situation:** A point was agreed in a previous meeting. The counterpart raises it again.
+
+**Wrong reaction:** Refuse to discuss it; cite the prior agreement; express frustration with the timeline.
+
+**Correct reaction:**
+- Do not cite prior agreement as a block — treat the return as legitimate
+- Frame it as an opportunity: "Thank you for raising this again — let's make sure we've addressed everything thoroughly before moving forward."
+- Ask what new information or concern has come up since the previous meeting
+- In synchronic cultures, this is part of how holistic decisions are made; it is not renegotiation in bad faith
+
+---
+
+### Section 8.4 — Quick Diagnostic Reference
+
+**Signal-to-Framework Map** — for real-time diagnosis when a specific behavior needs immediate interpretation.
+
+| Observable Signal | Most Likely Framework / Dimension | KB Reference |
+|---|---|---|
+| Silence after proposal | Hall (Silence); Meyer, Communicating | KB §§2.2, 2.4 |
+| "We will study this internally" | Hall High-Context; Meyer, Disagreeing | KB §§2.2, 2.4 |
+| Unexpected delays | Meyer, Deciding; Hofstede PDI/UAI | KB §§1.4, 2.1, 2.4 |
+| No commitment after multiple meetings | Hofstede PDI; Meyer, Deciding | KB §§1.4, 2.4 |
+| Strong emphasis on relationship before content | Meyer, Trusting; Trompenaars Diffuse/Particularism | KB §§1.7, 2.3, 2.4 |
+| Avoids direct disagreement | Hall High-Context; Meyer, Disagreeing | KB §§2.2, 2.4 |
+| Junior staff silent / non-committing | Hofstede PDI; Meyer, Leading | KB §§1.4, 2.1, 2.4 |
+| Reopening settled issues | Trompenaars Synchronic; Meyer, Deciding | KB §§2.3, 2.4 |
+| Aggressive opening offers | Hofstede MAS; Meyer, Disagreeing | KB §§1.6, 2.1 |
+| Schedule flexibility / missed deadlines | Hall Polychronic; Trompenaars Synchronic | KB §§2.2, 2.3 |
+| Behavior inconsistent with national profile | CQ; Yin & Yang; Generational Variation | KB §§2.6, 2.8, 4.7 |
+
+**Quick 4Ps Triage** — when a negotiation is stuck, identify the correct layer before intervening:
+
+1. Is the issue the commercial content (price, terms, structure)? → **Problem** → Interests analysis, ZOPA expansion, objective criteria *(KB §§1.2, 1.5)*
+2. Is the issue how the negotiation is being conducted (sequence, authority level, format, timing)? → **Process** → Authority-level realignment, format redesign *(KB §§1.4, 1.10)*
+3. Is there tension, withdrawal, silence, or trust erosion? → **People** → Trust-building move, face-saving gesture, relationship repair *(KB §§1.7, 2.4)*
+4. Are the underlying goals misaligned (short-term vs. long-term, transactional vs. partnership)? → **Purpose** → Re-anchor on strategic objective, LTO alignment *(KB §§1.10, 2.1)*
+
+*Most cross-cultural deadlocks are Process or People failures treated as Problem failures. Fix the correct layer.*
+
+---
+
+**Confidence Calibration for Cultural Hypotheses** — rate each hypothesis before acting on it.
+
+| Confidence | Conditions | What to do |
+|---|---|---|
+| **High** | Observable signal matches a structural cultural pattern; counterpart profile is standard (no significant modifiers) | Act on the hypothesis; monitor for disconfirmation |
+| **Medium** | Pattern fits but context-dependent modifiers apply (industry culture, international exposure, generational divergence) | State the assumption explicitly; test before committing to strategy |
+| **Low** | Strong individual variation likely — bicultural, high CQ, long expatriate experience, or signal has equally plausible non-cultural causes | State uncertainty explicitly; use an open-ended follow-up question before acting |
+
+*Example:* "Japanese counterpart silent after proposal" → **High** (structural pattern, standard profile). "Japanese counterpart with 12 years in New York is silent" → **Medium/Low** (test preferred style first).
+
+*Always consider non-cultural causes before concluding cultural cause:* delays may reflect operational overload, not consensus process; silence may be a bad connection, not high-context communication; agreement may be genuine, not face-saving compliance.
+
+---
+
+### Section 8.5 — Communication Templates
+
+Ready-to-adapt templates. These are calibration models — adapt tone, specifics, and cultural register to the actual situation.
+
+---
+
+#### Template 1 — High-Context Follow-Up (post-meeting or post-proposal)
+
+Use after a meeting or proposal with a high-context, relationship-first counterpart who has not yet responded.
+
+> **Subject:** Follow-up on our recent discussion
+>
+> Dear [Name],
+>
+> Thank you for the time and insight you shared during our recent meeting. We genuinely value the opportunity to understand your perspective more fully.
+>
+> We would like to share some initial thoughts for your consideration and would very much welcome your guidance on how to align them more closely with your team's priorities.
+>
+> We understand that your team may require time for internal discussion, and we are happy to proceed at a pace that suits your process.
+>
+> We look forward to continuing the conversation at your convenience.
+>
+> Kind regards,
+> [Name]
+
+---
+
+#### Template 2 — Relationship Re-Engagement (after a cooling period)
+
+Use when communication has slowed and the relationship needs reactivating — without commercial pressure.
+
+> **Subject:** Reconnecting — [Company A] and [Company B]
+>
+> Dear [Name],
+>
+> I hope this message finds you well. We have been reflecting on our recent discussions and remain genuinely committed to finding a way forward that works for both our organizations.
+>
+> We have no immediate request — we simply wanted to reconnect and express that our interest in building a long-term partnership with your team remains strong.
+>
+> If there is a convenient time for a brief call, we would welcome it. Otherwise, we are happy to correspond in whatever format suits you best.
+>
+> With respect and appreciation,
+> [Name]
+
+---
+
+#### Template 3 — Low-Context Follow-Up (post-meeting, task-oriented counterpart)
+
+Use after a meeting with a direct, monochronic counterpart who expects clarity on next steps.
+
+> **Subject:** Action items and next steps — [meeting date]
+>
+> Hi [Name],
+>
+> Thank you for the productive discussion on [date]. A brief summary to confirm key points:
+>
+> **Agreed:**
+> - [Point 1]
+> - [Point 2]
+>
+> **Action items:**
+> - [Action] — [Owner] — by [Date]
+> - [Action] — [Owner] — by [Date]
+>
+> **Next step:** [Proposed next meeting / call — specific date and format]
+>
+> Please flag anything I've missed or misrepresented.
+>
+> Best,
+> [Name]
+
+---
+
+### Section 8.6 — Step-Based Strategy Templates
+
+These templates convert strategic advice into sequenced execution steps. Format: **Trigger** (when to activate), **Steps** (what to do in order), **Expected Outcome** (what changes). Use when a situation requires a multi-step approach rather than a single move.
+
+---
+
+#### Strategy 1 — Build Relationship Before Negotiation
+
+**Trigger:** Counterpart is from a relationship-first, high-context, or diffuse culture (Meyer, Trusting: relationship-based; Trompenaars, Diffuse); or trust has not yet been established and substantive discussion is stalling.
+
+**Steps:**
+1. First contact/meeting — relationship only. No operational pressure, no commercial proposals. Goal: mutual introduction, organizational context, shared interests.
+2. Second meeting — light business topics. Show genuine interest in the counterpart's strategic context. No formal proposals yet.
+3. Third phase onward — structured negotiation, now with a relational foundation in place. Introduce substantive content only once basic trust is established.
+
+**Expected Outcome:** Counterpart more willing to share internal constraints, accept risk, and honor commitments — because the relationship is the enforcement mechanism.
+
+---
+
+#### Strategy 2 — Obtain Honest Feedback in High-PDI Contexts
+
+**Trigger:** Counterpart is from a high power-distance culture (Hofstede PDI > 65); OR you are the client/senior figure in the relationship; OR direct questions consistently produce only agreement or silence.
+
+**Steps:**
+1. Remove yes/no questions. Replace with risk-framed prompts: "What are the top three risks you see in this approach?" — makes problem-identification a deliverable, not a challenge.
+2. Shift critique to writing. Request short written pre-meeting assessments. Document format removes the social discomfort of verbal confrontation in real time.
+3. Assign a formal devil's advocate role. One team member is explicitly tasked with identifying weaknesses — rotating the role depersonalizes critique entirely.
+4. Use one-on-one conversations. Group settings suppress candor in high-PDI cultures; private 1:1 sessions remove social audience pressure.
+5. Explicitly invite early warning. "Flagging a risk early is the right call — there's no penalty for raising a concern, only for raising it too late."
+
+**Expected Outcome:** Counterpart gains a legitimate path to surface concerns without violating hierarchy norms; requester receives more accurate information before it is too late to act on it.
+
+---
+
+#### Strategy 3 — Manage Decision Delay Without Escalating
+
+**Trigger:** No response or commitment after 10+ days; counterpart references internal review without a timeline; standard follow-up has produced no progress.
+
+**Steps:**
+1. Wait 7–14 days from last contact before following up. Send no more than one follow-up per cycle.
+2. Send one soft check-in (Template 1, §8.5). One open question, no deadline, no urgency language.
+3. If no response: request a process call. "We'd welcome a brief call to understand where your team is in the review and whether anything from our side would be helpful."
+4. Assess authority level. Sustained delay may mean the visible counterpart lacks mandate — consider whether to engage a more senior level, framed as a partnership escalation, not a complaint.
+5. Manage the deadline internally first. Reframe the internal deadline before exposing it externally. Direct deadline pressure on a high-UAI counterpart accelerates stalling, not closure.
+
+**Expected Outcome:** Forward motion without relationship damage; identification of whether the delay is process-related (normal) or authority-related (requires escalation).
+
+---
+
+#### Strategy 4 — Recover from a Face-Threatening Move
+
+**Trigger:** A public challenge, direct criticism, or pressure tactic has damaged rapport with a face-sensitive counterpart. Tone has shifted, responses have become shorter, or communication has slowed.
+
+**Steps:**
+1. Do not escalate or double down. Acknowledge the shift in tone, even indirectly.
+2. Send a relationship-first message with no commercial content (Template 2, §8.5). Signal continued interest and respect before any further commercial engagement.
+3. If a meeting follows: open with genuine appreciation before any substantive agenda item. Allow the other side to restore dignity through small wins or acknowledgments.
+4. Reframe any prior direct criticism as a shared problem-solving question: "We want to revisit [X] together — we may not have framed it in the most useful way."
+5. Offer a face-saving path forward on the contested issue — not a concession, but a reframe that allows the counterpart to adjust without publicly reversing.
+
+**Expected Outcome:** Relationship stabilized; commercial discussion can resume from a restored foundation.
