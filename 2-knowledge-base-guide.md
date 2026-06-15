@@ -571,36 +571,6 @@ Six rules for applying Hofstede's dimensions in live negotiations:
 
 ---
 
-### In Case Responses — Framework Application Note Format
-
-When applying Hofstede's dimensions in a case response, do **not** reproduce this section. Cite only the 2–4 dimensions that are active in the specific case, each with its case-specific implication. The format:
-
-**Dimension (score comparison):** one sentence explaining how this dimension manifests in *this* negotiation — not a general description.
-
-**Quality check:** If the sentence could apply to any other case without modification, it is too generic — rewrite with case-specific content.
-
-**Example — China-Italy investment case:**
-
-```
-### Hofstede Application Note
-
-- LTO (China 87 / Italy 61): Chinese side evaluating a 10-year partnership, not a
-  single deal — their due diligence is relational, not primarily financial
-- IDV/Collectivism (China 20): relationship legitimacy required before contract
-  formalization; a contract introduced too early signals transaction over partnership
-- PDI (China 80): internal senior alignment required before visible commercial commitment;
-  the visible counterparts may not yet have mandate to proceed
-- UAI (Italy 75 / China 30): Italian founders seek contracts as uncertainty reduction;
-  Chinese side reduces uncertainty through trust — both rational, instrumentally incompatible
-  in this sequence
-
-Practical implication: do not use this to predict that Chinese investors "always move slowly."
-Use it to explain why commercial discussion must follow trust formation and internal alignment.
-```
-
-*This application principle applies to all frameworks in this KB. When referencing Hall, Meyer, Trompenaars, or Schwartz in a case response, cite the specific dimension and its case-specific manifestation — do not reproduce the framework description.*
-
----
 
 **Sources:** Hofstede, Hofstede & Minkov (2010), *Cultures and Organizations: Software of the Mind* (3rd ed.); Hofstede Insights Database; House et al. (2004), GLOBE Study
 
@@ -702,6 +672,15 @@ Fons Trompenaars and Charles Hampden-Turner developed one of the most influentia
 **Affective/Emotional** (Italy, Spain, Brazil, Mexico): Expressive communication, enthusiasm, emotional engagement signal commitment and openness.
 
 *Negotiation impact:* A Finnish negotiator's silence is not hostility. An Italian's raised voice is not aggression. A Finnish-Italian negotiation without cultural awareness will misread both as threats. The risk is not the emotion itself but the *interpretation* of emotional behavior.
+
+**Written communication and the Neutral/Affective scale:**
+In strongly neutral cultures (Japan, Germany, Finland), written communication carries particular weight precisely because it strips away all moderating factors — tone, relationship context, nonverbal signals, and the ability to soften in real time. A direct criticism or ultimatum delivered in writing creates a permanent, public record of negative emotional judgment in a culture that treats emotional restraint in professional settings as a core professional value.
+
+This is why written ultimatums are structurally more damaging in neutral cultures than the same message delivered verbally in a relationship context. Verbal delivery allows the relationship to absorb and contextualise the content. A written threat (especially one with a deadline) cannot be absorbed — it becomes the permanent version of events.
+
+*In practice: a written ultimatum sent to a high-context, neutral-culture counterpart cannot be absorbed or moderated the way a verbal message in a relationship context can — it becomes the permanent record of a values violation. For an annotated case example: PRD §8.*
+
+*Strategic Link — Section 2.4 (Meyer, Communicating and Disagreeing scales); Section 2.2 (Hall, High-Context): written ultimatums in high-context, neutral cultures combine the worst of both dimensions simultaneously.*
 
 ---
 
@@ -1428,7 +1407,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 | Assumptions based only on nationality | Stereotyping risk; individual, organizational, generational variation may dominate | Part IV entirely; Section 4.11 |
 | Counterpart behavior inconsistent with national profile | Bicultural, expatriate, high-CQ, or generationally divergent individual | Sections 4.2, 4.3, 4.7, 2.6 |
 
-*Strategic Links — Section 1.10 (4Ps Diagnostic); Section 4.11 (Stereotyping, Cultural Bias, Ethnocentrism); Part II (Framework Selection).*
+*Strategic Links — Section 1.10 (4Ps Diagnostic); Section 4.11 (Stereotyping, Cultural Bias, Ethnocentrism); Part II (Framework Selection); Section 6.4 (Signal-to-Framework Map — real-time lookup version of these red flags with confidence calibration).*
 
 ---
 
@@ -2077,105 +2056,7 @@ These templates convert strategic advice into sequenced execution steps. Format:
 
 ## Section 6.7 — Output Enhancement Blocks
 
-These three block formats make a strong analysis operationally retrievable. Use them in responses where the complexity, signal density, or stakeholder stakes justify structured extraction. They are optional but strongly recommended for process-design cases, feedback channel redesign cases, and any multi-mechanism recommendation.
-
----
-
-### Block A — Quick Summary
-
-Place at the opening or close of the response. Enables fast retrieval and orients the reader before the full analysis.
-
-```
-### Quick Summary
-
-Problem:
-- [One-line statement of the core failure or friction]
-
-Risk:
-- [What happens if the problem is not addressed]
-
-Core Fix:
-- [The single most important structural intervention]
-```
-
-**When to use:** Cases with three or more simultaneous mechanisms in play; cases where the user needs a rapid reorientation before reading the full analysis; any process-layer failure (4Ps Process or People diagnosis).
-
----
-
-### Block B — Signal → Meaning → Action
-
-Embed inline within the diagnosis section of the response when a specific observable signal is present. Converts signal analysis into an operational mini-decision tree.
-
-```
-### Signal → Meaning → Action
-
-Signal:
-- [The observable behavior — what was seen or heard]
-
-Possible Meanings:
-- [Most culturally likely explanation, with confidence level]
-- [Alternative non-cultural explanation — always include at least one]
-
-Action:
-- [What to do in response to this specific signal]
-- [What NOT to do — the wrong reaction for this signal type]
-```
-
-**When to use:** Any time a specific behavioral signal (silence, fast agreement, indirect refusal, decision delay, etc.) is described. The block makes the diagnosis transparent and reusable across future cases with the same signal.
-
-*Signal-to-framework mapping: Section 6.4 (Quick Diagnostic Reference, Signal-to-Framework Map)*
-
----
-
-### Block C — Decision Rules
-
-Place at the close of the Recommended Moves section. Converts the full strategic analysis into a compact, reusable rule set for consistent decision-making.
-
-```
-### Decision Rules
-
-- [Rule 1 — specific to the case signal or dynamic]
-- [Rule 2]
-- [Rule 3]
-- [Rule 4]
-- [Rule 5 — maximum five rules per block]
-```
-
-**When to use:** Cases where the strategy involves multiple recurring choices (e.g., how to validate feedback, when to treat fast agreement as provisional, how to route technical concerns). Rules must be prescriptive and context-specific — not generic cultural advice.
-
-**Examples from the French-Indian IT case (KB Appendix D):**
-- Never validate through yes/no questions in high-PDI contexts
-- Always ask for risks, blockers, and alternatives — make it a task, not a question
-- Treat fast agreement as provisional until dependencies are confirmed
-- Use private channels (1:1, written) for sensitive technical pushback
-- Normalize early warning explicitly — reward it, do not penalize it
-
-*Strategic Links — Section 6.1 (Action Patterns); Section 6.4 (Confidence Calibration); Section 6.6 (Step-Based Strategies)*
-
----
-
-### Block D — What Not to Do
-
-Place at the close of the Recommended Moves section in cases where common misreads are high-risk: relationship-first cultures, face-sensitive contexts, high-LTO investment negotiations, and any case where the observable signal (warmth, silence, politeness) is structurally likely to be misinterpreted by the user's cultural default.
-
-```
-### What Not to Do
-- [Rule 1 — specific misread or wrong action to avoid in this case]
-- [Rule 2]
-- [Rule 3]
-- [Rule 4 — maximum five rules]
-```
-
-**When to use:** Cases where the wrong move is as important to name as the right one — particularly: warmth-as-commitment misreads (high-LTO, Guanxi cultures); silence-as-rejection misreads (high-context cultures); urgency-projection misreads (startup/deadline-pressure situations in relationship-first cultures); junior intermediary substitution for senior relationship-building.
-
-**Examples from the Chinese-Italian investment case (KB Appendix E):**
-- Do not send term sheets immediately after a positive relational meeting
-- Do not interpret warmth, personal interest, or hospitality as deal commitment
-- Do not project internal cash runway urgency onto the negotiation pace
-- Do not bypass senior relationship-building through junior or associate intermediaries
-- Do not treat commercial silence as disengagement — respond with relationship investment, not commercial pressure
-
-*Strategic Links — Section 6.1 Pattern 7 (Warmth ≠ Commitment); Section 6.4 (Confidence Calibration); Section 3.6 (China, Guanxi)*
+Template formats, trigger conditions, and placement rules: System Instructions §6 Output Format. For annotated case examples: PRD §8.
 
 ---
 

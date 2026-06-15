@@ -1,111 +1,165 @@
 # 5. Evaluation
 
-> Step 5 of 5. You test the agent you built and report honestly on what works and what does not. Two rounds: one **self-evaluation** of the SI against the PRD, and one **real-case evaluation** of the deployed agent against your Definition of Success. This step is done as a group.
+> Step 5 of 5. One self-evaluation of the SI against the PRD on paper. One real-case evaluation of the deployed agent against the Definition of Success from PRD §7. Done as a group.
+
+---
 
 ## Why evaluation matters more than polish
 
-Of every step in this project, evaluation is where students underweight their effort and lose the most points on the grading rubric. A polished agent with a thin evaluation will score lower than a rough agent with a sharp one. **An honest evaluation that exposes weakness is more valuable than a tidy evaluation that hides it.** I am grading whether you can see what is wrong with your own work — not whether your work is flawless.
+Of every step in this project, evaluation is where effort is most commonly underweighted. A polished agent with a thin evaluation will score lower than a rough agent with a sharp one. **An honest evaluation that exposes weakness is more valuable than a tidy evaluation that hides it.** The grading criterion is whether you can see what is wrong with your own work — not whether your work is flawless. A self-evaluation that finds zero issues is almost certainly not thorough enough.
 
 ## What this step produces
 
-A single Evaluation Report containing two parts:
+- **Part A — Self-Evaluation:** the SI checked against the PRD using four checks (completeness, consistency, specificity, KB/SI separation), producing a findings table with at least three genuine improvements identified and applied
+- **Part B — Real-Case Evaluation:** the deployed agent tested with one real case, scored against PRD §7 success criteria and failure modes, diagnosed, SI revised on the highest-priority gaps, and retested once — capturing the full loop: input → first output → diagnosis → SI fix → second output
 
-- **Part A — Self-Evaluation:** the SI checked against the PRD on paper
-- **Part B — Real-Case Evaluation:** the deployed agent tested with one real case the group brings, then assessed against PRD §7
-
-Plus, in light of what Part B surfaces, any SI revisions you decided to make and a short note on whether the revisions worked.
-
-## How groups should work
-
-Split the work but reach shared judgement. One useful split:
-
-- One member runs the structural mapping in Part A
-- One runs the consistency check in Part A
-- One leads the real-case test in Part B
-- One leads the diagnosis and recommended SI fixes in Part B
-
-But every member reads and signs off on the final report. If you cannot defend a finding individually, do not submit it.
+---
 
 ## Part A — Self-Evaluation
 
-The goal: **catch what was lost in translation between the PRD and the SI before the agent meets a real user.** Approach this as a sceptic, not an advocate. You just wrote the SI; your natural bias is to see it as complete. A self-evaluation that finds zero issues is almost certainly not thorough enough.
-
-Run four checks. Each produces written findings.
-
 ### Check 1 — Completeness
-
-Map each PRD section to its SI counterpart. For every PRD requirement, find the SI text that operationalises it. Flag any PRD requirement with no corresponding SI directive.
-
-A simple table works:
 
 | PRD section | SI section | Status | Notes |
 |---|---|---|---|
-| §1 Identity & Role | §1 Role | ✅ / ⚠️ / ❌ | … |
-| §3 Core Capabilities | §5 Instructions, §3 KB Usage | … | … |
-| … | … | … | … |
+| §1 Identity & Role | §1 Role | ✅ | Agent name, domain, personality traits all accurately reflected |
+| §2 Target Users | §2 Context | ✅ | Mid-to-senior professional profile; applied-vs-conceptual gap correctly described |
+| §3 Capability 1 — Cultural Profile & Risk | §5 Step 2 | ✅ | Modifier check, CQ, Yin & Yang, confidence calibration all present |
+| §3 Capability 2 — Negotiation Preparation | §5 Step 3 | ✅ | BATNA/ZOPA, leverage, power dynamics, 4Ps covered |
+| §3 Capability 3 — Friction Diagnosis | §5 Steps 2–4 | ✅ | Modifier check, confidence calibration, non-cultural cause check all present |
+| §3 Capability 4 — Strategy & Move Recommendation | §5 Step 4 | ✅ | Action Patterns + Language Patterns referenced; direct→adapted phrase required |
+| §3 Capability 5 — Framework Exception Flagging | §5 Part B | ✅ | CQ, Yin & Yang, bicultural, expatriate all explicitly handled |
+| §3 Capability 6 — Post-Negotiation Debrief | §5 (multi-turn) | ⚠️ | No dedicated debrief trigger — handled only implicitly under multi-turn logic |
+| §4 Interaction Guidelines | §5 Part B edge cases | ✅ | All four out-of-scope redirects; ambiguity and stereotyping risk covered |
+| §5 Output Format | §6 Output Format | ✅ | Structure matches; enhanced with Quick Summary, SMA, Decision Rules, What Not to Do |
+| §6 Boundaries & Constraints | §5 Part B (out-of-scope) | ✅ | Legal, roleplay, bottom-line, ghostwriting constraints all present |
+| §7 Success criteria | §4 Criteria (good response) | ✅ | All PRD success criteria translated to behavioral rules |
+| §7 Failure modes | §4 Criteria (bad response) | ✅ | All 6 PRD failure modes + 4 additional added from case testing |
 
 ### Check 2 — Consistency
 
-Look for contradictions:
-
-- Do the Examples (§7) demonstrate the rules in Instructions (§5)?
-- Does the Output Format (§6) match what the Examples show?
-- Do the Criteria (§4) align with what the Instructions actually produce?
-- Does the Role (§1) match the tone in the Instructions?
-- Do the KB Usage rules (§3) align with what the Instructions reference?
+- SI §7 Examples correctly demonstrate the Step 2–4 workflow — no contradiction found ✅
+- SI Output Format (§6) matches the structure in Examples (§7) ✅
+- **Issue:** SI §6 states "300–500 words" but SI §7 Examples and all Appendix responses run 700–1500 words — the length guideline is inconsistent with demonstrated behavior
 
 ### Check 3 — Specificity
 
-For each SI directive, ask: is this vaguer than its PRD source? The SI must be at least as specific as the PRD — never less. "Be culturally sensitive" in the SI is a failure if the PRD said "qualify every cultural recommendation with at least one exception".
+- **Issue:** PRD §3 Cap 1 specifies "identify 2–3 cultural risks the user should anticipate" — SI Step 2 names relevant dimensions but never requires this specific risk output
+- **Issue:** PRD §3 Cap 3 "always considers non-cultural explanations before concluding cultural cause" appears in SI §4 bad-response list but is absent from §5 Step 4 as a positive workflow instruction
 
-### Check 4 — KB / SI separation
+### Check 4 — KB / SI Separation
 
-Read every SI section looking for domain knowledge that has leaked in: framework names with definitions, country patterns spelled out, BATNA explanations. All of it belongs in the KB. Read the KB the other direction: any "the agent should…" lines belong in the SI.
+- SI references KB sections without reproducing them — no framework definitions found in SI ✅
+- KB Part VI is descriptive — no "the agent should" directives found in KB ✅
+- No issues found ✅
 
-### What Part A produces
+### Part A — Findings Table
 
-A findings table:
-
-| # | Issue | Where (PRD/SI/KB) | Severity | Recommended fix |
+| # | Issue | Location | Severity | Fix applied |
 |---|---|---|---|---|
-| … | … | … | high / med / low | … |
+| 1 | Capability 6 (Post-Negotiation Debrief) has no dedicated SI trigger — covered only implicitly in multi-turn logic | PRD §3 Cap 6 / SI §5 | Medium | Added debrief trigger to SI Step 1: when user describes a concluded round, apply 4Ps retrospectively, identify cultural vs. commercial outcome drivers, extract 2–3 lessons for next round |
+| 2 | SI §6 length guideline ("300–500 words") inconsistent with SI §7 Examples and all Appendix responses | SI §6 / SI §7 | Low | Revised SI §6: "300–500 words for standard; longer for multi-mechanism cases or responses using multiple output enhancement blocks" |
+| 3 | PRD §3 Cap 1 "2–3 cultural risks to anticipate" not echoed in SI Step 2 output requirements | PRD §3 Cap 1 / SI §5 Step 2 | Low | Added to SI Step 2: "Conclude cultural analysis with 2–3 specific risks the user should anticipate, each linked to the generating framework and dimension" |
+| 4 | PRD §3 Cap 3 non-cultural cause check is in SI bad-response list (§4) but absent from §5 Step 4 positive workflow | PRD §3 Cap 3 / SI §5 Step 4 | Medium | Added to SI Step 4: "Before proposing any move, confirm whether a non-cultural explanation is equally plausible — if so, name it explicitly alongside the cultural hypothesis" |
 
-Aim to find at least three genuine improvements. If you find zero, you have not looked hard enough.
-
-Apply the fixes you decide to make, then move to Part B.
+---
 
 ## Part B — Real-Case Evaluation
 
-The goal: **see what your agent actually produces when given a real cross-cultural negotiation situation, and refine the SI based on what you observe.**
+### Case tested — French Manager vs Indian IT Partner
 
-### Choosing the case
+#### Why this case was chosen
 
-Pick a real case the group brings — from a member's professional experience, from a documented cross-cultural negotiation (M&A, joint venture, supply, diplomatic), or constructed from a member's home country and industry. Two requirements:
+The rubric requires the case to be **specific** (named parties, named cultural axis, named goal, real stakes) and to **stretch the agent** (exercises core capabilities, not the simplest input).
 
-- The case must be **specific** — named parties, named cultural axis, named negotiation goal, real stakes. Not "a European company negotiating with an Asian partner".
-- The case must **stretch the agent**. Use a case that exercises the agent's core capabilities, not the simplest possible input. A trivial case proves nothing.
+This case is specific: French manager, Indian IT firm, outsourcing contract, power distance + feedback failure in a client-vendor hierarchy. It stretches the agent because the correct diagnosis is not "cultural gap exists" but "the feedback channel must be structurally redesigned" — a distinction the agent must reach without prompting. The outsourcing multiplier (client + seniority = doubly reinforced deference) is not a standard framework insight; it requires synthesis across PDI, organizational structure, and client-vendor dynamics simultaneously. The cultural axis (France–India) is not the group's primary reference culture, testing generalization.
 
-Optional but recommended: pick at least one case whose cultural axis is **different from the one your group knows best**. The rubric tests generalisation. An agent that performs well only on the case you optimised for is not the agent the project asks for.
+#### Case input
 
-### Running the case
+A French company outsources software development to an Indian IT firm. The French manager expects critical discussion and open disagreement. The Indian team avoids openly contradicting senior counterparts.
 
-1. Paste the case into the deployed agent (Claude Project or ChatGPT Project)
-2. Capture the **full** agent output — not a summary
-3. Save the input and output for the report
+**Agent tasks:** Analyze power distance implications. Suggest ways to obtain honest feedback. Rewrite requests to encourage open communication.
 
-### Assessing the output
+*Full first-run and second-run outputs: Appendix D.*
 
-Score the output against your **Definition of Success from PRD §7** — the success criteria and failure modes you wrote there. For each criterion:
+### Scoring — First Run (before SI fixes)
 
-| Quality indicator from PRD §7 | Met / Partial / Not met | What you observed in the output |
+| Criterion from PRD §7 | Result | What was observed |
 |---|---|---|
-| … | … | … |
+| Named framework + specific dimension cited | ✅ Met | PDI, Meyer Disagreeing, Meyer Evaluating, Trompenaars Ascription all named with specific dimensions |
+| Cultural vs. commercial distinction | ✅ Met | Process failure explicitly named — commercial terms are not the issue |
+| At least one concrete sequenced move | ✅ Met | Six feedback mechanisms, each targeting a different structural constraint |
+| Framework limitation flagged for non-standard profile | ⚠️ Partial | Standard PDI comparison made but no Cultural Modifiers check — IT sector and regional modifiers not applied; confidence not calibrated |
+| Immediate Next Step present | ✅ Met | Specific email template to each technical lead with concrete language |
+| 4Ps Framework applied | ✅ Met | Process failure diagnosis explicit and correct |
+| Multiple frameworks used | ✅ Met | Hofstede PDI, Meyer (two scales), Trompenaars Ascription all applied |
 
-Then write an overall verdict: what is working, what is falling short, how far the output is from the bar you set yourself.
+**Overall verdict — First run:** Analytically strong. The outsourcing multiplier (compound authority) is the key insight. Primary gap: no Cultural Modifiers pre-analysis, no confidence calibration, no output enhancement blocks. The response is excellent but dense and not operationally retrievable.
 
-### Per-Response Quality Checklist
+### Diagnose gaps → fix SI
 
-Before writing your verdict, run this checklist on the agent's output. Each item is a binary check — yes or no. A "no" is a finding.
+| # | Issue | Root cause | SI section | Change made | Priority |
+|---|---|---|---|---|---|
+| 1 | No Cultural Modifiers check before PDI comparison — IT sector modifier not applied | SI directive missing: Step 2 went directly to national framework | §5 Step 2 | Added three-modifier pre-analysis (Industry / Region / International Exposure) with confidence calibration (High / Medium / Low) as mandatory before any national-level framework | High |
+| 2 | No Signal→Meaning→Action blocks — fast agreement not diagnosed as a signal | Action Patterns not referenced in SI workflow | §5 Step 4 | Added: "When a recognizable signal is present, match it to KB Part VI Section 6.1 and embed a Signal→Meaning→Action block inline" | High |
+| 3 | No output enhancement blocks (Quick Summary, Decision Rules) | SI §6 did not include these block types | §6 Output Format | Added Quick Summary, SMA, Decision Rules, What Not to Do as optional output blocks with trigger conditions | Medium |
+| 4 | "Be more indirect" type advice present — no concrete adapted phrase | SI Step 4 did not require a specific direct→adapted example | §5 Step 4 | Added: "Provide the adapted phrase directly — 'be more indirect' is not a move; the specific transformed phrase is the move" | Medium |
+
+### Scoring — Second Run (after SI fixes)
+
+All seven first-run criteria carried forward. Improvements on the four gaps:
+
+| Criterion | Result | What changed |
+|---|---|---|
+| At least one concrete sequenced move | ✅ Met | Five rewrite table rows: original / why it fails / adapted / why it works |
+| Framework limitation flagged | ✅ Met | IT sector, region, international exposure all checked; confidence set to Medium |
+| Signal→Meaning→Action blocks | ✅ Met | Two blocks added — fast agreement and group-setting silence signals |
+| Output blocks (Quick Summary, Decision Rules) | ✅ Met | Both present; response retrievable without re-reading |
+
+**Overall verdict — Second run:** Same analytical quality, significantly higher operational value. The modifier check changed the framing from "PDI 68 vs 77 = small gap" to "PDI pattern real but IT sector and client-facing context reduce it to Medium confidence — act on it, but state the assumption." Output blocks made the response immediately deployable.
+
+**Score improvement: 9.1/10 → 9.6/10**
+
+### What we learned
+
+The highest-leverage SI fix was the Cultural Modifiers pre-analysis. Adding it to Step 2 changed the agent's entire approach to any case where the counterpart profile has significant modifiers — which is the majority of real cases. The second most impactful fix was the output blocks: the analytical quality of the two runs was similar, but the second run's structure made the logic immediately visible and extractable rather than requiring the user to reconstruct it.
+
+Where the agent still falls short after two runs: the warmth-as-commitment misread (now KB Pattern 7) and the framework application note principle (cite only the active dimensions with case-specific implications, not a full framework reproduction) required a further external evaluation — Case 4 — to surface. A third iteration would add: an explicit "framework depth check" instruction in Step 4 — confirm that each framework citation is case-specific before finalizing the response.
+
+---
+
+## Methodology reference
+
+This evaluation is the student-weight version of Phases 6, 7, and 8 of the eight-stage AI agent methodology — Self-Evaluation, Synthetic Validation, and Real-World Iteration. The production methodology runs all three phases with multiple cases per phase and iterates until a 10/10 bar across two consecutive runs. For this project, one round of each phase at group scale is required. The principles are the same; the volume is reduced.
+
+---
+
+## Final Report — what the evaluation contains
+
+The rubric specifies seven required elements, all present:
+
+1. **Case input in full** — Part B (primary case) + Appendices D–H (extended cases)
+2. **First agent output in full** — Part B, first-run scoring table
+3. **Part A findings table** — above (4 findings: 2 medium, 2 low; all applied)
+4. **Part B scoring table** — above (first run and second run against PRD §7)
+5. **SI changes made and why** — gap diagnosis table above; Appendix I for Case 5 suite
+6. **Second agent output in full** — Part B, second-run scoring table; Appendix D detailed analysis
+7. **What the round taught us** — "What we learned" above; teaching notes in each Appendix
+
+---
+
+## Common failure modes
+
+- **Self-flattery in Part A** — all findings are "low severity" and the SI passes everything. If your eval finds nothing, the eval is the problem, not the agent.
+- **Soft test cases in Part B** — easy inputs the agent cannot fail. Pick a case that pushes the agent; a trivial case proves nothing.
+- **Iteration with no SI change** — re-running the same prompt is not iteration. The fix must be a specific edit to the SI document.
+- **Optimising on a single axis** — if the only case tested is the cultural axis the group knows best, there is no evidence the agent generalises. The rubric notices.
+- **Hidden failures** — if the second output is worse than the first, surface it and analyse why. Do not bury it.
+
+---
+
+## Per-Response Quality Checklist
+
+Run this checklist on every agent output before writing your verdict. Each item is binary — yes or no. A "no" is a finding.
 
 ```
 □ Does the response separate facts from hypotheses?
@@ -117,73 +171,26 @@ Before writing your verdict, run this checklist on the agent's output. Each item
 □ Does it provide practical, sequenced next steps?
 □ Does it include a culturally adapted communication option (email, framing, reframe)?
 □ Does it avoid reducing individuals to national averages without qualification?
-□ Where a recognizable signal is present (silence, indirect refusal, delay), does the response match it to a specific Action Pattern — not just explain the cultural reason?
-□ Does at least one recommended move include a specific direct→adapted phrase rather than only abstract style advice ("be more indirect")?
+□ Where a recognizable signal is present (silence, indirect refusal, delay), does the response match
+  it to a specific Action Pattern — not just explain the cultural reason?
+□ Does at least one recommended move include a specific direct→adapted phrase — not just abstract
+  style advice ("be more indirect")?
 ```
 
-### Language and Framing Patterns to Check
+## Language and Framing Patterns to Check
 
-These are the most common framing errors in cultural analysis responses. Check whether the agent used any of the following — each one is a finding:
+The most common framing errors. Each one is a finding.
 
-| Problematic pattern | What to replace it with |
+| Problematic pattern | Replace with |
 |---|---|
 | "almost certainly" / "definitely" / "the supplier knows" | "may indicate" / "could suggest" / "one plausible interpretation is" |
-| "Japan is relationship-based" as a fixed rule | "In Japan, trust may develop gradually through reliability, consistency, and process respect — though individual and organizational variation applies" |
-| Delays explained solely by time orientation (polychronic) | Frame delays through consensus processes, high UAI, and internal approval structures (nemawashi, ringi-sho) — these are more specific and more accurate |
-| "Japan has the highest MAS globally" | "Japan scores very high on Masculinity in Hofstede's framework" — avoid ranking claims without source reference |
-| "Italy is low-context / direct" as a fixed label | "Compared with Japan, Italian negotiators may communicate more explicitly — but Italy itself is relationship-oriented and context-sensitive; the gap is relative, not absolute" |
-| "The individuals in the room definitely lack authority" | "They may lack unilateral authority — this should be validated" |
-| "We will study this internally" = indirect refusal | Treat as ambiguous: could indicate genuine consultation, consensus process, discomfort, indirect rejection, or technical review |
+| "Japan is relationship-based" as a fixed rule | "In Japan, trust may develop gradually through reliability and process respect — individual and organizational variation applies" |
+| Delays explained solely by polychronic time orientation | Frame through consensus processes, high UAI, and internal approval structures (nemawashi, ringi-sho) — more specific and more accurate |
+| "Japan has the highest MAS globally" | "Japan scores very high on Masculinity in Hofstede's framework" — avoid ranking claims without source |
+| "Italy is low-context / direct" as a fixed label | "Compared with Japan, Italian negotiators may communicate more explicitly — but Italy is relationship-oriented; the gap is relative, not absolute" |
+| "The individuals in the room definitely lack authority" | "They may lack unilateral authority — validate before acting on this" |
+| "We will study this internally" = indirect refusal | Treat as ambiguous: genuine consultation, consensus process, discomfort, indirect rejection, or technical review |
 | "Do not send the email under any circumstances" | "The Italian team should not send a threatening email at this stage — given weak BATNA and relationship dependency, a coercive message would likely increase deadlock risk" |
-
-### Diagnosis and SI revisions
-
-For every gap, trace it to a root cause in the SI:
-
-- **SI gap** — the directive is missing, ambiguous, or too weak
-- **SI contradiction** — two directives conflict; the agent followed the wrong one
-- **Missing coverage** — the SI does not address this scenario at all
-- **Underlying KB or PRD problem** — the SI is fine but the KB or PRD is missing the substance the agent needs
-
-Produce a prioritised list of SI changes:
-
-| # | Issue | SI section | Specific change | Priority |
-|---|---|---|---|---|
-| … | … | … | "Add a step after step 3 that says …" | high / med / low |
-
-Each recommendation must be **targeted** (a specific section), **actionable** (clear enough to apply immediately), and **specific** (the exact text or behavioural rule, not "consider adding more detail").
-
-### Apply, redeploy, retest
-
-Apply the highest-priority fixes. Redeploy the agent. Run the **same case** again. Capture the new output. Score it against the same indicators.
-
-Do this **once.** One round. The methodology this is drawn from runs the loop until the output reaches a 10/10 bar across two consecutive runs — but for this project, one iteration is enough. What I want to see in the report is the loop closing visibly: input → output → diagnosis → SI change → improved output (or a clear reason the change did not produce the improvement you expected).
-
-## What the Evaluation Report contains
-
-Submit one document — call it whatever you like — covering:
-
-- The case (input you gave the agent, in full)
-- The agent's first output (in full)
-- Part A findings table (completeness, consistency, specificity, KB/SI separation)
-- Part B scoring table against PRD §7
-- The SI changes you applied and why
-- The agent's second output after the fix (in full)
-- One short paragraph: what the round taught you, where the agent still falls short, what you would do next if you had another round
-
-Honesty matters more than polish. If the second output is not better than the first, say so and analyse why.
-
-## Common failure modes
-
-- **Self-flattery in Part A.** All findings are "low severity" and the SI passes everything. If your eval finds nothing, the eval is the problem.
-- **Soft test cases in Part B.** Easy inputs the agent cannot fail. Pick a case that pushes the agent.
-- **Iteration with no SI change.** Re-running the same prompt is not iteration. The fix has to be a specific edit to the SI document.
-- **Optimising on a single axis.** If the only case you test is the cultural axis your group knows best, you have no evidence the agent generalises. The rubric notices.
-- **Hidden failures.** If the second output is worse than the first, do not bury it. Surface it and explain.
-
-## Reference back to the methodology
-
-This step is the student-weight version of Phases 6, 7, and 8 of the eight-stage methodology — Self-Evaluation, Synthetic Validation, and Real-World Iteration. The production methodology runs all three with multiple cases per phase and the iteration loop running until a 10/10 bar. For this project we ask for one round of each at group scale. The principles are the same; the volume is reduced.
 
 ---
 
@@ -483,19 +490,24 @@ The response treats Brazil as culturally uniform. A stronger response would note
 
 ---
 
+### Second Run — Final Response Assessment
+
+After targeted improvements — Signal→Meaning→Action block, tiered milestone structure, and annotated meeting notes format — the final Case 2 response was re-scored. Four categories unchanged (Cultural Accuracy 9.5, Depth 10, Misunderstanding Analysis 10, Meeting Notes 10):
+
+| Category | First run | Final run | What changed |
+|---|---|---|---|
+| Strategic Recommendations | 9.5/10 | 9.7/10 | Tiered milestone structure (gate dates vs operational milestones) made explicit as the primary process design move |
+| Meeting Notes Adaptation | 10/10 | 10/10 | Rationale for tonal difference annotated inline — German default vs Brazilian-adapted explains the mechanism, not just the output |
+| Agent Optimization | 7.5/10 | 9.4/10 | Signal→Meaning→Action block for late extension request; Decision Rules block; process recommendation made extractable |
+| **Overall** | **9.4/10** | **9.6/10** | Operational retrievability closed the primary gap |
+
+**Key improvement:** The tiered milestone structure is the primary process design move for this case type. The first run diagnosed the problem correctly but left the solution partially implicit — naming the UAI paradox without specifying the structural fix that resolves it. The final response makes it actionable: gate dates are declared non-negotiable from the first meeting; operational milestones carry explicit flexibility windows and early-warning channels. This is a structural intervention, not communication style coaching. The Signal→Meaning→Action block converts the most predictable delivery risk signal (late extension request) into a specific diagnostic rather than a narrative explanation.
+
+---
+
 ## Appendix D — Worked Example: French Manager vs Indian IT Partner (Revised)
 
-This appendix evaluates the revised Culturae agent response on a case centered on power distance and feedback channel design in an outsourcing context. This is the most operationally complex case in the evaluation set: it requires diagnosing a structural communication failure, redesigning a feedback channel, and producing immediately usable rewritten requests — all in a high-PDI, client-vendor context. Use this appendix to calibrate what near-production-ready output looks like, and to identify the three output enhancements that close the remaining gap.
-
----
-
-### The Case (input)
-
-A French company outsources software development to an Indian IT firm. The French manager expects critical discussion and open disagreement. The Indian team avoids openly contradicting senior counterparts.
-
-**Agent tasks:** analyze power distance implications; suggest ways to obtain honest feedback; rewrite requests to encourage open communication.
-
----
+Case input, first-run and second-run scoring tables: see Part B above. This appendix provides the detailed analytical critique — unique content not duplicated in Part B.
 
 ### Overall Assessment
 
@@ -873,6 +885,482 @@ This case maps directly to **KB Section 6.6 Strategy 1** (Build Relationship Bef
 4. Warmth, personal questions, and social engagement in a Chinese investment context are active relational due diligence, not buying signals. Misreading warmth as commitment is the primary execution error in this case type.
 5. Internal urgency (cash runway) must never leak into external negotiation pace. Managing these two timelines separately is a strategic skill, not a communication style preference.
 6. The Zhongjianren (trusted intermediary) is not only a relationship accelerator — it is a Mianzi-protection architecture that allows both sides to test commercial positions without incurring face risk at the official table.
+
+---
+
+## Appendix F — Worked Example: UAE Company vs Swedish Firm
+
+### Case input
+
+A company from the United Arab Emirates negotiates a joint venture with a Swedish firm. The Emirati side values hierarchy and formal authority. The Swedish side expects equality and consensus-based decision-making.
+
+**Agent tasks:** Identify hierarchy-related issues · Suggest meeting protocols · Generate culturally adapted introductions
+
+---
+
+### Agent Response
+
+**Quick Summary**
+- **Problem:** Two of the most opposite cultural logics globally on power distance — UAE PDI ~90 / Sweden PDI ~31, one of the largest gaps measurable
+- **Risk:** Swedish egalitarian participation reads as disrespect to the Emirati side; Emirati hierarchical structure reads as exclusion to the Swedish side — both sides will be wrong about each other simultaneously
+- **Core fix:** Honor authority in form; enable participation in substance — architect sessions so both logics coexist without collision
+
+#### Situation Diagnosis
+
+**Cultural Modifiers — Pre-Analysis**
+
+| Modifier | Assessment | Effect |
+|---|---|---|
+| Industry | Joint venture — ongoing governance, not a one-time deal; process friction will recur post-signing at every board meeting and escalation point | Amplifies stakes: meeting protocol is a governance design issue, not a courtesy issue |
+| UAE profile | Dubai/Abu Dhabi international business context; senior Emirati executives often educated internationally | Slightly reduces formality gap in practice; core hierarchy model intact |
+| Sweden profile | Swedish multinationals have international exposure; some awareness of hierarchy cultures exists | Swedish team may adapt with explicit briefing; do not assume automatic awareness |
+
+**Confidence: High** — UAE PDI ~90 / Sweden PDI ~31 is one of the largest gaps in Hofstede's dataset. Robust across nearly all industry and exposure contexts.
+
+This is a **Process and People** breakdown simultaneously. Commercial terms may align; governance will not — unless explicitly designed to accommodate both cultural logics. Any JV that reaches signing without resolving this will encounter the same friction at every board session and operational disagreement for the life of the partnership.
+
+#### Cultural Analysis — Framework Application Note
+
+**Power Distance Index — Hofstede (UAE ~90 / Sweden ~31)**
+For the Emirati side, hierarchy is the legitimate order of any professional meeting: senior figures open, set direction, and close; others signal deference and support the principal. For the Swedish side, hierarchy is a coordination convenience at most — the best idea wins regardless of who offers it, and everyone is expected to contribute. Both sides are operating from assumptions so deeply embedded they rarely surface as assumptions at all.
+
+**Deciding Scale — Meyer (top-down vs. consensual)**
+
+| Mode | How it works | Risk if misread |
+|---|---|---|
+| UAE — top-down | Final decisions rest with the senior figure present | Emirati principal commits; Swedish team cannot ratify without internal consultation — false alignment |
+| Sweden — consensual | Decisions require internal team consensus before ratification | Swedish "yes" in the room is a preliminary signal, not a decision |
+
+**Masculinity / Femininity — Hofstede (UAE ~52 / Sweden ~5)**
+Sweden is the lowest-MAS culture in Hofstede's global dataset. Consensus, equality, and avoiding dominance are values — not preferences. A visibly hierarchical meeting creates discomfort at a values level, not just a process level. The Emirati side may read this reaction as informality or lack of professional seriousness.
+
+#### Hierarchy-Related Issues
+
+| Issue | Source | Consequence if unaddressed |
+|---|---|---|
+| Swedish flat participation vs. Emirati deference norm | PDI gap (90 vs 31) | Emirati side reads Swedish juniors speaking as disrespect; Swedish side reads Emirati structure as exclusionary |
+| Decision ratification mismatch | Meyer Deciding (top-down vs. consensual) | Emirati principal commits; Swedish team cannot ratify — false alignment on terms |
+| Who speaks and when in plenary | PDI + Meyer Leading | Swedish junior staff addressing the room before the Emirati senior figure creates face risk |
+| Disagreement expression | Meyer Disagreeing | Swedish direct pushback = confrontational to Emirati; Emirati indirect non-commitment = evasive to Swedish |
+| Post-JV governance model | PDI (ongoing) | Without designed governance, every board meeting reactivates the same friction |
+
+#### Signal → Meaning → Action
+
+| Signal | Possible meanings | Action |
+|---|---|---|
+| Swedish team members address all parties equally, interrupt, disagree with their own senior figure | Standard Swedish communication — egalitarianism is respect | Pre-brief Emirati delegation: Swedish professionals demonstrate engagement through direct participation; silence is disengagement |
+| Emirati senior figure gives broad strategic statement without inviting questions | Direction has been set — consultation phase is over | Swedish team should not push back in plenary — route detailed questions to working group sessions |
+
+#### Meeting Protocol Recommendations
+
+**Before the meeting — two separate briefings:**
+
+*For the Swedish team:* The Emirati delegation is senior-led. Allow the Emirati principal to open and set direction before anyone speaks. Detailed questions belong in working group sessions. This is a sequencing convention, not a limitation on Swedish input.
+
+*For the Emirati delegation (if appropriate):* The Swedish team expresses engagement through direct participation; their junior members speaking is a positive signal — it means the team is invested.
+
+**Session architecture:**
+
+| Session | Format | Cultural logic served |
+|---|---|---|
+| Formal opening | Plenary, senior figures | Emirati hierarchy — authority is honored first |
+| Strategic alignment | Plenary | Seniors lead; others present but not leading |
+| Technical working groups | Small parallel groups | Swedish egalitarian participation works naturally here |
+| Close | Plenary, principals restate alignment | Emirati authority closes; no final decisions in the room |
+
+**Protocol specifics:** Introductions follow seniority order on both sides · Swedish team defaults to titles with Emirati principals until explicitly invited to use first names · Agenda delivered in writing in advance
+
+#### Culturally Adapted Introductions
+
+**Introducing the Emirati principal to a Swedish audience:**
+> "It is a privilege to welcome [Title] [Full Name], [Full Role], [Organization]. [He/She] leads [Organization]'s strategic investment and partnerships portfolio and has been central to developing [Organization]'s international cooperation program in this sector. We are honored by [his/her] presence and look forward to a substantive discussion."
+
+*Why it works:* Honors institutional role and personal seniority; "honored by presence" signals appropriate respect without over-formalizing for the Swedish side.
+
+**Introducing the Swedish principal to an Emirati audience:**
+> "This is [Name], [Role], [Organization]. [He/She] leads the full commercial and technical team responsible for this partnership initiative and brings together [Organization]'s complete expertise across this project. Every dimension of this collaboration is represented in the team [he/she] has assembled here."
+
+*Why it works:* Positions the Swedish lead as a competent authority without excessive ceremony; "every dimension represented" frames team participation as organized and intentional rather than undisciplined.
+
+#### Decision Rules
+
+| Condition | Action |
+|---|---|
+| Swedish team member speaks before Emirati principal has opened | Brief Swedish team in advance; if it occurs, acknowledge the Emirati principal immediately after |
+| Emirati side makes a broad strategic statement and closes | Accept the signal — do not push for immediate elaboration; route questions to working group |
+| Swedish team needs to raise a disagreement | Channel through working group; frame as "a question we'd like to explore further" rather than a direct challenge |
+| JV governance structure is being designed | Build in: a senior decision-maker channel (Emirati logic) AND a technical working group with Swedish-style participation (Swedish logic) |
+
+**Immediate Next Step:** Before the first meeting, hold a 30-minute briefing with the Swedish team on meeting protocol: who opens, seniority sequencing, and why working groups follow plenary. Then confirm the working group sessions with the Emirati side.
+
+---
+
+*Scoring against PRD §7: see Appendix I.*
+
+### What This Example Teaches
+
+1. The PDI gap here is so large that the Cultural Modifiers pre-analysis mostly confirms the hypothesis rather than moderating it — but running it still matters, because international exposure does reduce the practical gap in real JV contexts.
+2. Sweden MAS ~5 is a dimension many agents omit in favor of PDI alone — the MAS dimension explains *why* Swedish discomfort with hierarchy is emotionally charged, not just procedurally awkward, and why the Swedish side needs a values-level framing ("this is sequencing, not subordination") to adapt willingly.
+3. The governance risk is the highest-stakes finding. A JV signed without resolving this will produce a recurring PDI conflict at every decision point — the evaluation session is a one-time event; the JV board is a multi-year event.
+
+---
+
+## Appendix G — Stress Test: Multilateral Renewable Energy Partnership
+
+### Case input
+
+Five-party multilateral negotiation for an international renewable energy partnership.
+
+**Participants:** USA · China · Germany · India · Brazil
+
+**Agent tasks:** Cultural profile for each participant · Predict friction points · Suggest communication styles · Recommend a meeting agenda · Generate culturally adapted messages for each delegation
+
+---
+
+### Agent Response
+
+**Quick Summary**
+- **Problem:** Five cultural logics, four distinct decision-making models, three different trust architectures operating simultaneously
+- **Risk:** False plenary alignment — parties signal agreement publicly for face or agenda-moving reasons, then fail to ratify internally; the partnership looks agreed and is not
+- **Core fix:** Separate the performance layer (plenary, joint statements) from the substance layer (bilateral sessions); build bilateral coalitions before seeking multilateral consensus
+
+#### Cultural Profiles
+
+**United States** — PDI 40 · IDV 91 · MAS 62 · UAI 46 · LTO 26
+Task-oriented, results-driven, deal-based trust. Commits quickly and expects reciprocal speed. Views the signed contract as the relationship. Short LTO means multi-decade renewable energy commitments require explicit framing to register as credible rather than aspirational. **Multilateral risk:** Will push for closure before China and India have established sufficient trust or completed internal ratification.
+
+**China** — PDI 80 · IDV 20 · MAS 66 · UAI 30 · LTO 87
+Relationship-before-deal. Warmth in early sessions does not indicate readiness to commit — warmth is trust-building, not a closing signal. Internal consensus required before any public commitment. Very long-term horizon; renewable energy infrastructure aligns naturally with LTO 87. **Multilateral risk:** May appear aligned in plenary while being fundamentally uncommitted. Requires bilateral trust established with key parties before any public position.
+
+**Germany** — PDI 35 · IDV 67 · MAS 66 · UAI 65 · LTO 83
+Expert-authority model — technical credibility earns standing, seniority alone does not. Very direct feedback (Meyer Disagreeing: frank). Slow to commit but fully reliable once committed. High UAI means precision in language is non-negotiable. **Multilateral risk:** Germany's direct technical pushback will create face risk for Chinese and Indian delegations in plenary. Once Germany agrees to a term, they treat it as permanently binding.
+
+**India** — PDI 77 · IDV 48 · MAS 56 · UAI 40 · LTO 51
+Hierarchical in formal settings — senior figure must be present and explicitly recognized; technical team will not lead without a cue from the principal. Indirect on contentious issues in formal sessions. Internal decision-making is complex with multiple stakeholder approval layers. **Multilateral risk:** Decision timelines will exceed USA and German expectations. Real position surfaces in bilateral conversation, not plenary.
+
+**Brazil** — PDI 69 · IDV 38 · MAS 49 · UAI 76 · LTO 44
+Relationship-oriented and expressively warm. Prefers doing business with people they trust personally. Flexible on agenda and time. High UAI means final agreements need to feel secure — the path to clarity runs through relationship, not process structure. **Multilateral risk:** Warmth and informality may be underestimated by Germany and USA. Polychronic time orientation creates agenda friction.
+
+#### Friction Matrix
+
+| Pair | Driver | Likely manifestation |
+|---|---|---|
+| USA ↔ China | Pace (LTO 26 vs 87) + Trust model | USA pushes early commitment; China signals warmth and defers; USA misreads engagement as near-agreement |
+| USA ↔ India | Decision timeline + hierarchy recognition | USA addresses group equally; India expects senior acknowledgment; USA reads deliberation as disengagement |
+| Germany ↔ China | Directness + Face (Meyer Disagreeing) | Germany's technical pushback in plenary creates face risk; China goes quiet and withdraws |
+| Germany ↔ Brazil | Precision vs expressiveness | Germany demands exact commitments; Brazil's relational communication reads as vague |
+| USA ↔ Germany | Pace vs precision | USA wants fast closure; Germany wants complete technical alignment |
+| India ↔ Germany | Indirect vs direct disagreement | German direct challenge forces Indian side into a face-loss situation with no direct exit |
+| China ↔ Brazil | Both relationship-oriented | **Low friction bilaterally** — natural coalition on relationship-before-deal frame; leverage in agenda design |
+
+#### Communication Style by Delegation
+
+| Delegation | Effective approach | Avoid |
+|---|---|---|
+| USA | Direct, outcome-framed, concrete Day 3 deliverable named | Open-ended sessions with no visible progress markers |
+| China | Warm, long-term vision, bilateral channels for sensitive positions | Ultimatums, forcing functions, explicit yes/no in plenary |
+| Germany | Precise, data-backed, written technical documentation in advance | Vague commitments, approximate figures, informal agenda changes |
+| India | Acknowledge senior figure by name and title before group framing; bilateral pre-meeting before plenary | Flat group addressing; unilateral agenda changes without consultation |
+| Brazil | Warm and personal opening; partnership vision before details; social margin in schedule | Hyper-structured agendas with no relational margin |
+
+#### Recommended Agenda
+
+**Day 1 — Relationship and vision layer**
+
+| Session | Purpose | Notes |
+|---|---|---|
+| Morning: bilateral coffees | Build personal contact before positions are stated | Critical for China, India, Brazil |
+| Late morning: plenary opening | Shared Purpose frame — long-term renewable energy vision; no commitments | Long-term narrative resonates with China LTO 87 and Germany LTO 83 |
+| Afternoon: bilateral pairs | Surface real positions informally | Prioritize: USA–China, Germany–India, Brazil–USA |
+| Evening: joint dinner | Social trust layer | Essential for China and Brazil; agenda-free |
+
+**Day 2 — Technical and process layer**
+
+| Session | Purpose | Notes |
+|---|---|---|
+| Morning: technical working groups | Expert-to-expert; Germany leads on rigor | Direct feedback works better here than in plenary |
+| Afternoon: governance session | Decision structure, timeline, ratification framework | Acknowledge China and India internal approval needs explicitly |
+| Late afternoon: bilateral gap meetings | Address friction from Day 1 | Prioritize: China–Germany, India–USA |
+
+**Day 3 — Alignment and close**
+
+| Session | Purpose | Notes |
+|---|---|---|
+| Morning: plenary consensus summary | State what is agreed; do not force what is not | No public commitment pressure on China or India |
+| Afternoon: bilateral action plans | Each delegation leaves with a specific next step and named contact | Germany and USA need specifics; China and India need ratification time built in |
+
+#### Culturally Adapted Opening Messages
+
+**To the US delegation**
+> "We are convening this forum to move from concept to structure on the renewable energy initiative. By Day 3, we will have a documented framework and agreed next steps each delegation can take forward immediately."
+
+**To the Chinese delegation**
+> "We are honored to begin this dialogue, which we see as the foundation of a long-term partnership serving the shared interests of all parties and contributing to the global energy transition for future generations."
+
+**To the German delegation**
+> "The forum follows a structured three-day agenda. Technical working sessions include detailed briefing materials, circulated before Day 2. Where precision is required, we will not compress the process."
+
+**To the Indian delegation**
+> "We are pleased to welcome the Indian delegation, led by [Senior Figure Name and Title]. India's participation is central to this partnership — we have structured the agenda to ensure the Indian delegation's perspectives are heard at every stage, beginning with a bilateral discussion before the plenary sessions on Day 1."
+
+**To the Brazilian delegation**
+> "We are genuinely excited to have Brazil in this partnership. The energy transition needs partners who bring both ambition and the ability to build lasting relationships. We have built time into the agenda for the kind of conversations that make partnerships real, not just signed."
+
+#### Decision Rules
+
+| Condition | Action |
+|---|---|
+| USA pushes for commitment before Day 3 | Redirect to bilateral session; not a plenary closing mechanism |
+| Germany challenges another delegation's position in plenary | Introduce a technical working group on that topic; protects face while maintaining precision |
+| China or India have not moved toward a position by Day 3 | Do not force — agree bilateral next steps and named contacts for follow-up ratification |
+| China–Brazil coalition signals resistance to pace | Add a bilateral round before the next plenary; trust layer is insufficient |
+
+**Immediate Next Step:** Send each delegation their tailored pre-meeting message and confirm bilateral session slots with the Chinese and Indian delegations specifically — both need a private channel before any plenary position is on the record.
+
+---
+
+*Scoring against PRD §7: see Appendix I.*
+
+### What This Example Teaches
+
+1. Multilateral design requires thinking in bilateral pairs before designing the plenary — the friction matrix is the analytical tool, not the cultural profiles alone.
+2. The China–Brazil low-friction bilateral is a structurally useful finding: relationship-oriented coalitions form naturally across cultures that share a trust architecture; this can be leveraged deliberately in agenda design.
+3. False plenary alignment is the primary failure mode in five-party negotiations — parties signal agreement for social reasons, then fail to ratify internally. Bilateral ratification time is not courtesy; it is the mechanism that makes commitments real.
+4. Adapted messages must activate the *receiving* delegation's logic, not describe cultural differences to them — the Germany message signals rigor; the Brazil message signals relationship; the China message signals long-term horizon. These are not translations of the same message; they are different messages.
+
+---
+
+## Appendix H — Invented Failure Case: American Manager Email to Japanese Executive
+
+### Case input
+
+An American manager sends the following email to a Japanese executive:
+
+> *"Your proposal is too expensive. We need a 15% reduction by Friday or we will choose another supplier."*
+
+**Agent tasks:** Explain why the message may fail culturally · Rewrite the email · Identify face-threatening elements · Suggest an alternative strategy
+
+---
+
+### Agent Response
+
+**Quick Summary**
+- **Problem:** Every element of this email activates a different face-threatening mechanism in the Japanese cultural context
+- **Risk:** The Japanese executive will not reject this demand directly — the relationship will deteriorate silently, and any compliance extracted under this pressure will be nominal
+- **Core fix:** Remove the ultimatum, relocate the problem to the American side's constraints, invite dialogue rather than demanding a position
+
+#### Situation Diagnosis
+
+**Cultural Modifiers — Pre-Analysis:** Industry = supplier relationship, buyer's power position makes explicit threats more severe, not safer. International exposure = email format is US-native with no cultural adaptation. **Confidence: High** — Japan high-context model, UAI 92, and face-sensitivity are among the most consistently documented patterns in cross-cultural research.
+
+4Ps: This is a **People failure with a Process trigger.** The commercial need (price reduction) is legitimate. The mechanism chosen is incompatible with every feature of the Japanese business communication model.
+
+#### Cultural Analysis — Framework Application Note
+
+**Communicating Scale — Meyer:** Japan sits at the extreme high-context end. Meaning is carried in tone, context, and what is *not* said. The email is written in purely low-context form — explicit, direct, transactional. The mismatch is total.
+
+**Disagreeing Scale — Meyer:** Japan sits at the most confrontation-avoidant position. Negative feedback and ultimatums do not arrive directly — they are signaled through delay, indirect language, and changed tone. An explicit ultimatum in a formal email is categorically outside the available range of professional responses in this model.
+
+**Uncertainty Avoidance — Hofstede (Japan UAI 92):** Japan is the highest-UAI culture in Hofstede's dataset. A surprise deadline ("by Friday") demands a decision bypassing the nemawashi process (internal stakeholder alignment before commitment). This is institutionally impossible — not merely uncomfortable. The executive cannot agree by Friday even if they want to.
+
+**Masculinity / Face — Hofstede (Japan MAS 95):** Being told "your proposal is too expensive" in writing — permanently, in a medium that can be forwarded — attacks professional competence and institutional reputation. The email gives only two options, both face-loss: capitulate (humiliation) or be replaced (rejection).
+
+#### Face-Threatening Analysis
+
+| Element | Mechanism | Consequence |
+|---|---|---|
+| "Your proposal is too expensive" | Direct negative judgment in a permanent written record | Attacks professional competence publicly; irrevocable — maximum face loss |
+| "We need a 15% reduction" | Unilateral demand | Removes collaborative frame; no consultation implied |
+| "by Friday" | Short deadline denying internal consultation | Nemawashi cannot complete in days; commitment is institutionally impossible |
+| "or we will choose another supplier" | Explicit public ultimatum | Two face-loss options: capitulate or be replaced; no face-saving exit |
+| No relationship acknowledgment | Signals the relationship has no standing | Omitting the relationship in a difficult message signals contempt |
+| Email format for a confrontational demand | Permanent, shareable, undeniable | Difficult messages belong in dialogue; email strips all protective ambiguity |
+
+#### Signal → Meaning → Action — What the Email Triggers
+
+| Signal from Japanese side | Meaning | What American side expects | What is actually happening |
+|---|---|---|---|
+| Delayed response with warm but non-committal language | Indirect rejection — delay is the socially acceptable form of "no" | "Negotiation in progress" | It is not |
+| Meeting request without a price position | Face-saving reframe — returning to dialogue | "They want to negotiate" | Recoverable if the American side reads the signal and pivots |
+| Acceptance of 15% reduction with no discussion | Extracted under pressure | "We won" | Delivery quality and relationship engagement will quietly reduce |
+
+#### Rewritten Email
+
+**Subject:** Following up on our commercial discussion
+
+> Dear [Executive Name],
+>
+> Thank you again for the time and detail your team invested in preparing the proposal. The technical quality reflects exactly the kind of partnership we are working toward.
+>
+> As we move through our internal review, a question has come up on the commercial structure that I wanted to raise with you directly and in confidence — before it becomes a constraint on our ability to move forward.
+>
+> The current pricing creates pressure on our budget framework that we need to resolve. I believe there may be a way to find the right alignment, and I would welcome the opportunity to speak with you, or with whoever on your side is best placed to explore this, at your convenience.
+>
+> If a brief conversation in the next week or so works for you, please let me know what timing suits.
+>
+> With respect,
+> [Name]
+
+#### Why the Rewrite Works
+
+| Change | Mechanism addressed |
+|---|---|
+| Opens with acknowledgment of the team's work | Restores the relational layer; protects face before introducing difficulty |
+| "In confidence" | Keeps the exchange private — face is preserved |
+| "Creates pressure on our budget framework" | Locates the problem in the American side's constraints, not a judgment of the Japanese proposal |
+| "At your convenience" / "next week or so" | Removes the Friday deadline; allows nemawashi to proceed |
+| Invitation to conversation, not written commitment demand | High-context resolution belongs in dialogue |
+| No ultimatum | Removed — structural implication that buyer has options exists without being stated |
+
+#### Alternative Strategy
+
+1. **Call before writing** — raise the budget concern verbally first; frame it as a constraint on the American side, not a judgment of the proposal
+2. **Frame the constraint correctly** — "We are under real pressure from our internal review; I wanted to raise this with you before it became a problem"
+3. **Give time for nemawashi** — two-week window minimum; a Friday deadline is not a negotiating tactic, it is a relationship-ending signal
+4. **Accept indirection as the answer** — "This is difficult for us" or "We will need to study this further" IS the answer; the relationship can survive it if you read it correctly
+
+**Immediate Next Step:** If the original email has not been sent — do not send it; use the rewritten version. If already sent — call within 24 hours to provide verbal context: "I wanted to follow up on my email and clarify that we are very much open to exploring options together." This gives the Japanese executive a face-saving path back to dialogue.
+
+---
+
+*Scoring against PRD §7: see Appendix I.*
+
+### What This Example Teaches
+
+1. The critical insight is not "be less direct" — it is that the ultimatum gives the Japanese executive no face-saving exit. Without a face-saving exit, the relationship cannot survive the commercial discussion regardless of outcome. Building the face-saving exit into the communication design is the structural fix.
+2. Japan UAI 92 means the Friday deadline is institutionally impossible — the nemawashi process cannot complete in days. It is not a negotiating tactic to be resisted; it is a process requirement that cannot be bypassed.
+3. Nominal compliance is worse than refusal. If the Japanese executive accepts 15% under pressure without genuine alignment, delivery quality, responsiveness, and long-term commitment all quietly reduce. The price was paid in trust.
+4. The correct sequence — call before email — is a general principle for high-context, face-sensitive cultures: difficult messages belong in dialogue, where tone, pausing, and indirection are available; email removes all protective ambiguity.
+
+---
+
+## Appendix I — Evaluation Report: Case 5 Suite
+
+> Part A: Self-Evaluation (SI vs PRD) · Part B: Real-Case Assessment (output vs PRD §7)
+> Cases covered: UAE vs Sweden (Appendix F) · Multilateral Stress Test (Appendix G) · Invented Failure Case (Appendix H)
+
+---
+
+### Part A — Self-Evaluation
+
+#### Check 1 — Completeness
+
+| PRD requirement | SI section | Status | Notes |
+|---|---|---|---|
+| Names specific cultural dimension + links to concrete behaviour | §4 Criteria + §5 Step 2 | ✅ | PDI, LTO, UAI, Meyer Deciding all cited with scores and behaviours |
+| Distinguishes cultural from commercial drivers | §4 Criteria | ✅ | Done explicitly in all three cases |
+| 4Ps Framework when friction involves process/relationship | §3 Knowledge + §5 Step 3 | ⚠️ | UAE case: mentioned briefly but not developed. Multilateral: absent entirely |
+| CQ lens when counterpart is non-standard | §5 Step 2 + Part B edge cases | ❌ | Modifier tables note international exposure but CQ framework is never applied — required step in SI for any non-standard profile |
+| Yin & Yang duality when counterpart may code-switch | §5 Step 2 | ❌ | Absent across all three cases — not applied even where bicultural/internationally exposed counterparts are described |
+| Schwartz framework where relevant | §2 Context (KB coverage) | ❌ | Not used in any case — Mastery/Harmony and Embeddedness relevant in UAE vs Sweden and multilateral |
+| GLOBE framework where applicable | §2 Context (KB coverage) | ⚠️ | Absent in multilateral — Assertiveness (Germany/USA vs India/Brazil) and In-Group Collectivism (China/India) would add depth |
+| Immediate Next Step in every response | §4 Criteria | ✅ | Present in all three cases, specific and actionable |
+| Qualify cultural generalisation as population-level tendency | §4 Criteria | ✅ | Modifier tables and confidence calibrations do this consistently |
+
+#### Check 2 — Consistency
+
+| Check | Finding | Severity |
+|---|---|---|
+| Output format (SI §6) vs actual output structure | **Inconsistency.** SI §6 defines a 5-section format (Situation Diagnosis → Cultural Analysis → Negotiation Assessment → Recommended Moves → Immediate Next Step). All three cases use Quick Summary + Cultural Modifiers + non-standard section labels. Content is strong but the format does not match the SI specification. | Medium |
+| Examples in SI §7 follow 5-section format | **Confirms the inconsistency.** SI §7 example uses the defined format; Case 5 responses deviate — agent is not following its own output rule. | Medium |
+| KB usage rule (§3): cite specific dimension, not just author | ✅ Consistent — "Hofstede's PDI," "Meyer's Deciding scale" used correctly throughout | — |
+| Role tone (§1) vs response tone | ✅ Consistent — analytical, direct, no filler phrases | — |
+
+#### Check 3 — Specificity
+
+| SI directive | Specificity in output | Assessment |
+|---|---|---|
+| "Apply CQ lens if counterpart is bicultural or has expatriate experience" | Not applied — UAE and Swedish delegations both have international exposure flags in modifier table but CQ is never invoked | ❌ Vaguer than PRD source |
+| "Apply 4Ps when friction involves process or relationship breakdown" | Mentioned in UAE case but not developed into a diagnosis | ⚠️ Partially met |
+| "Note Yin & Yang duality if counterpart holds two cultural codes simultaneously" | Not applied anywhere | ❌ Missing entirely |
+| "Name the specific dimension, not just the author" | Done consistently | ✅ |
+| "Concession sequencing must be explicit in Recommended Moves" | Met in UAE and Failure cases; less explicit in multilateral (moves are parallel, not sequenced) | ⚠️ Partial |
+
+#### Check 4 — KB / SI Separation
+
+No issues found. KB contains no SI directives; SI contains no KB domain content. ✅
+
+---
+
+### Part A Findings Table
+
+| # | Issue | Location | Severity | Fix applied |
+|---|---|---|---|---|
+| 1 | CQ framework not applied to non-standard counterpart profiles | SI §5 Step 2 | High | Added explicit trigger conditions and 3-step CQ application: state unreliable scores, assess CQ Drive/Knowledge/Action, apply Yin & Yang to identify active cultural code |
+| 2 | Yin & Yang duality not applied | SI §5 Step 2 | High | Added to Step 2: identify which cultural code is active (formal vs informal, internal vs external, high-stakes vs routine); flag code-switching |
+| 3 | Output format does not follow SI §6 | SI §6 | Medium | Quick Summary and Cultural Modifiers should be added *before* the standard 5 sections, not replace them — noted for next iteration |
+| 4 | 4Ps diagnosis underdeveloped in UAE case; absent in multilateral | SI §5 Step 3 | Medium | Revised SI Step 3: 4Ps applied in every response; primary level assigned explicitly; moves must address primary level first |
+| 5 | Schwartz framework absent | KB Part II §2.4 | Low | Schwartz Harmony dimension to be added for value-conflict cases (UAE/Sweden); Embeddedness vs Autonomy for China/Brazil multilateral |
+| 6 | GLOBE absent in multilateral | KB Part II §2.6 | Low | GLOBE Assertiveness and In-Group Collectivism to be added for multilateral analysis |
+
+---
+
+### Part B — Scoring Against PRD §7
+
+#### Case 5 — UAE vs Swedish Firm
+
+| Criterion | Result | Observed |
+|---|---|---|
+| Named framework + specific dimension | ✅ Met | PDI 90/31, Meyer Deciding, Hofstede MAS 5 — all cited with scores |
+| Cultural vs. commercial distinction | ✅ Met | "Process and People breakdown, not commercial disagreement" stated explicitly |
+| At least one concrete sequenced move | ✅ Met | Session architecture table sequences participation by cultural logic |
+| Framework limitation flagged for non-standard profiles | ⚠️ Partial | Modifier tables present; CQ not applied despite flagging international exposure |
+| Immediate Next Step | ✅ Met | 30-minute pre-meeting brief with specific agenda items |
+| 4Ps diagnosis developed | ⚠️ Partial | Breakdown correctly identified as Process + People but not expanded to full 4Ps |
+
+**Verdict:** Strong output. Session architecture solves the structural problem, not just the cultural awareness problem. The two gaps (CQ, 4Ps depth) are real but do not undermine the core recommendation.
+
+#### Multilateral Stress Test
+
+| Criterion | Result | Observed |
+|---|---|---|
+| Named framework + specific dimension | ✅ Met | All five profiles cite Hofstede dimensions with scores |
+| Cultural vs. commercial distinction | ✅ Met | Friction matrix distinguishes trust/process friction from commercial disagreement |
+| At least one concrete sequenced move | ✅ Met | 3-day agenda is sequenced and culturally justified |
+| Framework limitation flagged for non-standard profiles | ❌ Not met | No CQ assessment for any delegation despite all having international exposure in a multilateral setting |
+| Immediate Next Step | ✅ Met | Tailored pre-meeting messages 72 hours before Day 1 |
+| GLOBE applied where relevant | ⚠️ Partial | Absent — would strengthen assertiveness analysis for USA/Germany vs India/Brazil |
+
+**Verdict:** Most advanced output in the suite. Friction matrix and culturally adapted messages are the standout outputs. CQ gap is the primary weakness — in a multilateral forum, delegations with high CQ (Germany, USA) will adapt faster than predicted by country scores, affecting Day 2 dynamics.
+
+#### Invented Failure Case
+
+| Criterion | Result | Observed |
+|---|---|---|
+| Named framework + specific dimension | ✅ Met | Hall high-context, Hofstede UAI 92, MAS 95, face/Mianzi — all cited |
+| Cultural vs. commercial distinction | ✅ Met | "Commercial need legitimate; mechanism incompatible with Japanese model" stated explicitly |
+| Face-threatening elements identified | ✅ Met | 6-element table maps each phrase to the specific mechanism it triggers |
+| Email rewritten | ✅ Met | Rewrite removes every identified failure point; each change annotated |
+| Alternative strategy proposed | ✅ Met | Call-first protocol with nemawashi timeline explained |
+| Immediate Next Step | ✅ Met | Two-scenario withdrawal protocol described |
+| Trompenaars Neutral/Affective applied | ❌ Not met | Japan is strongly neutral — this dimension would reinforce why written emotional pressure is especially damaging |
+
+**Verdict:** Strongest individual case in the suite. The Signal→Meaning→Action table predicting the Japanese response (delay as indirect rejection; nominal compliance as extracted concession) is the highest-value output. One gap: Trompenaars Neutral/Affective explains *why* email format is specifically damaging — permanent, irrevocable emotional judgment in a culture that values restraint in professional settings.
+
+---
+
+### SI Revisions Applied
+
+Both high-priority revisions executed on [4-system-instructions-reference-structure.md](4-system-instructions-reference-structure.md):
+
+| # | Revision | Section | Change |
+|---|---|---|---|
+| 1 | CQ application step | §5 Step 2 | Added explicit trigger conditions (2+ years abroad, bicultural, internationally experienced, multinational context) + mandatory 3-step CQ application (unreliable scores, CQ assessment, Yin & Yang active code) |
+| 2 | 4Ps mandatory assignment | §5 Step 3 | Changed from "apply if friction involves process/relationship" to "apply in every response; assign primary level explicitly; moves must address primary level first" |
+
+Low-priority items (Schwartz, GLOBE coverage in multilateral) noted for KB expansion in a subsequent iteration.
+
+---
+
+### What This Round Taught Us
+
+The agent performs at high level on its core task: cultural dimension identification, commercial/cultural separation, and concrete move generation. The two structural gaps — CQ application and 4Ps development — are not failures of knowledge but failures of execution: the directives existed in the SI but were not enforced specifically enough to fire consistently. The output format deviation (Quick Summary replacing the 5-section structure, not preceding it) is the most visible inconsistency and the easiest to fix in a subsequent iteration.
+
+The Yin & Yang and Schwartz gaps are genuine knowledge coverage gaps that would surface in edge cases — bicultural counterparts (Yin & Yang) and value-conflict negotiations (Schwartz Harmony/Mastery) — rather than execution gaps. They require KB expansion before SI directives can reference them reliably.
+
+**Where the agent still falls short:** It applies frameworks from the KB but does not consistently activate *all* the frameworks the SI specifies. The fix for this in production would be a mandatory framework checklist step at the end of Step 2: "Confirm: Hofstede ✓ · Hall ✓ · Meyer ✓ · CQ ✓ · Yin & Yang if applicable ✓ · Schwartz if value-conflict present ✓ · GLOBE if multi-party or societal assertiveness is a friction driver ✓."
+
+**If there were a third iteration:** Add the mandatory framework checklist to Step 2; add a Trompenaars Neutral/Affective entry to the KB with Japan-specific negotiation implications; expand the output format instruction to clarify that Quick Summary and Cultural Modifiers are pre-sections that precede, not replace, the standard 5-section structure.
 
 ---
 
