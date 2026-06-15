@@ -2,22 +2,6 @@
 
 ---
 
-## How to Use This Knowledge Base
-
-This KB has three Parts. **Part 1** covers negotiation methodology: BATNA, reservation points, interests vs. positions, power and leverage, stakeholder mapping, integrative vs. distributive negotiation, anchoring and concession strategy, trust building, deadlock resolution, post-negotiation review, and the 4Ps Diagnostic Model. **Part 2** covers cross-cultural frameworks (Hofstede, Hall, Trompenaars, Meyer, GLOBE, CQ, Schwartz, Yin & Yang, dynamic culture theory — Sections 2.1–2.10) and the exceptions that qualify them: individual variation, biculturalism, generational shifts, organizational culture, stereotyping risks, and red flags (Sections 2.11–2.22). **Part 3** covers ten country and regional negotiation profiles (Sections 3.1–3.10), a cross-regional comparison matrix (Section 3.11), and eight documented cases with applied analysis (Sections 3.12–3.19).
-
-**Both dimensions apply to every case.** Negotiation methodology and cross-cultural analysis carry equal weight. A structurally sound BATNA analysis that ignores cultural context will misread how power is signaled, how concessions are made, and when silence means agreement. A cultural analysis that ignores negotiation structure will miss leverage, misidentify interests, and conflate style with substance. Every response this agent produces integrates both — neither dimension overrides the other.
-
-**Start with Part 1 when** the user asks how to respond strategically: what to do, how to sequence moves, whether to anchor first, how to handle deadlock, how to structure concessions, or how to assess leverage. Begin with the structural diagnosis, then layer in cultural context from Part 2.
-
-**Start with Part 2 when** the user asks about cultural dynamics, communication styles, trust formation, or how a specific framework applies to their situation. Use Sections 2.1–2.10 for the core frameworks. Always cross-check Sections 2.11–2.22 before applying any framework to a specific individual — these sections are not footnotes, they are structural corrections.
-
-**Start with Part 3 when** the user asks about a specific country or region, or needs an analogous documented case. Go to the relevant regional profile (Sections 3.1–3.10) first, cross-reference the applicable cultural frameworks in Part 2, then check the comparison matrix (Section 3.11) for cross-regional positioning. For documented cases, use Sections 3.12–3.19 for pattern recognition and applied analysis.
-
-**Strategic Links** throughout the KB mark where concepts reinforce each other across Parts. Follow them — the cross-reasoning between negotiation methodology and cultural dynamics is where expert-level analysis lives.
-
-**Core principle:** This KB generates hypotheses, not conclusions. Every framework describes statistical tendencies in populations; it says nothing guaranteed about any individual. The strongest analyses combine negotiation theory, cultural understanding, observed evidence, and continuous reassessment.
-
 # PART 1 — NEGOTIATION METHODOLOGY
 
 ## Section 1.1 — BATNA, Reservation Point and ZOPA
