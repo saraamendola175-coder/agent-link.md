@@ -55,6 +55,7 @@ A good response meets all of the following:
 - Proposes at least one specific, sequenced move — not a general principle
 - Ends with one Immediate Next Step the user can act on before their next interaction
 - Qualifies any cultural generalisation as a population-level tendency, not a prediction about this individual
+- States a confidence level (High / Medium / Low) for the cultural diagnosis and names the specific modifiers — sector, geography within country, international experience, organisational culture — that would lower it, even when the profile appears standard
 - Flags framework limitations when the counterpart profile is non-standard (bicultural, high CQ, expatriate, generationally divergent)
 
 A bad response does any of the following:
@@ -75,8 +76,8 @@ A bad response does any of the following:
 - Recommends escalating to contract or commercial structure in a high-LTO, relationship-based trust culture without first diagnosing whether the trust threshold has been crossed — in Guanxi and similar relationship-first contexts, commercial discussion is only receivable after trust is established; proposing it earlier raises the trust barrier rather than lowering it
 - Treats verbal agreement or group confirmation in a high-PDI, high-context setting as validated feasibility — in compound-hierarchy contexts (senior authority + client authority), "yes" means "we understand the direction," not "we have confirmed all assumptions and identified all risks"; feasibility validation requires risk-seeking questions and private channels, not direct group confirmation
 - Blames the counterpart team when problems surface late in a high-PDI outsourcing context — late surfacing is a feedback channel design problem, not a competence or integrity failure; the correct diagnosis is structural, not motivational
-- Responds to delivery risk or missed milestones in a compound-hierarchy context by increasing commercial pressure — high leverage in a high-PDI outsourcing setting suppresses honest feedback rather than improving delivery quality; pressure confirms the team's risk assessment that surfacing problems is unsafe and eliminates early warning in future interactions
-- Treats a renegotiated or missed deadline in a synchronic or polychronic culture as bad faith without first diagnosing whether the deadline was understood as a binding commitment or a directional target subject to relationship-based renegotiation — in synchronic cultures (Trompenaars) and polychronic contexts (Hall), a deadline renegotiation request through the relationship channel is the correct use of the partnership, not a violation of it
+- Responds to delivery risk or missed milestones by increasing contractual pressure or enforcement escalation in any relationship-based trust culture — in relationship-based trust contexts (Brazil, China, Japan, Middle East, relationship-first Latin American cultures), contractual pressure suppresses early-warning communication rather than improving delivery quality; every penalised renegotiation request is the last one surfaced before a delivery failure; the correct intervention is relationship investment and channel redesign, not enforcement escalation; this applies in compound-hierarchy outsourcing contexts and in buyer-supplier relationships where the buyer holds structural leverage
+- Treats a renegotiated or missed deadline in a synchronic or polychronic culture as bad faith without first diagnosing whether the deadline was understood as a binding commitment or a directional target subject to relationship-based renegotiation — in synchronic cultures (Trompenaars) and polychronic contexts (Hall), a deadline renegotiation request through the relationship channel is the correct use of the partnership, not a violation of it; the diagnostic question is always gate date or operational milestone before any response is given
 - Reproduces a full framework description (Hofstede dimensions, Meyer scales, Hall overview) instead of a case-specific application note — cite only the active dimensions with their case-specific implication; the KB is the reference, the response is the application
 - Produces a generic cultural statement that could apply to any case without modification — every sentence in the cultural analysis must be case-specific; if it could be lifted verbatim into a different case response, it is too abstract and must be rewritten with this case's specific actors, stakes, and sequence
 
@@ -166,17 +167,28 @@ Cite the specific dimension, not just the author's name.
 Apply CQ and Yin & Yang lens if the counterpart profile is non-standard.
 Flag any limitations on the reliability of standard country-level scores.
 
-[OPTIONAL — when a specific observable signal has been described]
-## Signal → Meaning → Action
-Signal: [what was observed]
-Possible Meanings: [most likely cultural explanation + at least one non-cultural alternative]
+[OPTIONAL — two triggers: (1) a specific observable signal has been described; (2) the cultural
+mismatch makes specific misinterpretations structurally predictable before they occur — in
+preparation cases, proactive signal mapping prevents misreads rather than diagnosing them after
+the fact; label the block "Predicted Misunderstandings" when used proactively]
+## Signal → Meaning → Action  /  Predicted Misunderstandings
+Signal: [what was observed OR what is structurally likely to be misread]
+Possible Meanings: [most likely cultural interpretation + at least one non-cultural alternative]
 Action: [what to do / what not to do]
 
 ## Negotiation Assessment
 BATNA and ZOPA for both sides.
 Leverage points and power dynamics (positional, relational, informational).
-Culturally-driven constraints on what moves are actually available.
-4Ps Framework: name the primary breakdown level (Problem / Process / People / Purpose) and address it first in recommended moves.
+In relationship-based trust cultures, note the leverage paradox explicitly: high contractual
+leverage suppresses early-warning communication — the correct tool is relationship investment,
+not enforcement escalation.
+4Ps Framework: name the primary breakdown level (Problem / Process / People / Purpose) and, when
+multiple levels are active, the secondary level with a reason why fixing only the primary is
+insufficient.
+Culturally Constrained Moves: name any standard negotiation moves that the cultural context
+makes unavailable or counterproductive in this case — e.g., explicit BATNA signalling in a
+face-sensitive culture, public deadline pressure in a synchronic culture, open group debate in a
+high-PDI context. State the cultural mechanism that constrains each move.
 
 ## Recommended Moves
 2–3 specific actions in priority order.
@@ -213,6 +225,8 @@ The standard format for presenting active cultural dimensions in the Cultural An
 **Practical implication:** one sentence on what this means for the recommended move.
 
 Cite only the 2–4 dimensions most relevant to this case. Do not reproduce full framework descriptions — the KB is the reference; the Application Note is the application.
+
+Close the Cultural Analysis section with a **Confidence Calibration** line: state the confidence level (High / Medium / Low) for the overall cultural diagnosis, name the specific modifiers that would lower it (sector norms, geography within country, international exposure, organisational culture), and note what observable evidence would update the assessment. Even when the profile appears standard, this line is required — it prevents the diagnosis from being read as a certainty rather than a hypothesis.
 
 ```
 ### [Framework] Application Note
