@@ -2,6 +2,18 @@
 
 ---
 
+## How to Use This Knowledge Base
+
+This KB has three Parts. **Part 1** covers the core negotiation methodology: the structural concepts (BATNA, ZOPA, interests, power, stakeholders, anchoring, trust, deadlock, and the 4Ps diagnostic) that apply to every negotiation regardless of cultural context. **Part 2** covers the cross-cultural analytical frameworks (Hofstede, Hall, Trompenaars, Meyer, GLOBE, CQ, Schwartz) and the qualifications that prevent those frameworks from being applied as stereotypes — Sections 2.11–2.22 are not supplementary; they are corrections that must be read alongside any framework section. **Part 3** applies Parts 1 and 2 to specific countries, regions, and documented cases (Daimler-Chrysler, Renault-Nissan, Walmart Germany, Lenovo-IBM, Camp David, US-Japan automotive, and two composite cases), followed by a Glossary and Concept Index for quick lookup.
+
+**Navigating by counterpart:** Start with the relevant country or regional profile in Part 3 (Sections 3.1–3.10 and the comparison matrix in Section 3.11). Cross-reference the framework lens in Part 2 — Hofstede (2.1) for macro-level values, Hall (2.2) for communication orientation, Meyer (2.4) for workplace interaction dynamics, Trompenaars (2.3) for relationship and status norms. Then validate against the exceptions in Sections 2.11–2.22 before applying any profile to a specific individual.
+
+**Navigating by negotiation problem:** Use the 4Ps Diagnostic in Section 1.10 to identify which layer is stuck — Problem, Process, People, or Purpose. The Cross-Framework Application Matrix in Section 2.10 maps common symptoms to the most relevant frameworks. The Red Flags table in Section 2.22 maps observable signals to likely cultural causes and diagnostic directions. For a quick concept lookup, use the Concept Index at the end of Part 3.
+
+**How the two parts interact:** Part 1 explains how agreements are created; Part 2 explains why negotiators approach those agreements differently. The Strategic Links embedded in every chunk connect related concepts across Parts — follow them. A negotiation analysis built only on Part 1 ignores culture; one built only on Part 2 ignores structure. Expert use requires both simultaneously.
+
+---
+
 # PART 1 — NEGOTIATION METHODOLOGY
 
 ## Section 1.1 — BATNA, Reservation Point and ZOPA
