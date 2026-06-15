@@ -609,13 +609,15 @@ Japan-adapted version:
 
 When commercial topics must eventually be raised, use these adapted framings:
 
-| Direct (US default) | Face-preserving adaptation |
+| American default | Japan-adapted |
 |---|---|
 | "We need your best price" | "We would welcome the opportunity to understand what a partnership structure might look like for both sides" |
-| "We're evaluating other suppliers" | "We are being thorough in our process and want to ensure we give your proposal the consideration it deserves" |
-| "We need a decision by Friday" | "We are working toward our planning cycle and would be grateful to understand your preferred timeline for this type of discussion" |
-| "Your price is too high" | "On our side, we have some internal parameters we are working within — we would value the chance to explore whether there is a structure that works for both organizations" |
-| "Can you commit to this volume?" | "We would be interested to understand what volumes and timelines would align well with your production planning" |
+| "We're evaluating other suppliers" | "We want to ensure we give your proposal the full consideration it deserves" |
+| "We need a decision by Friday" | "We are working toward our planning cycle and would be grateful to understand your preferred timeline" |
+| "Your price is too high" | "On our side we have some internal parameters — we'd value exploring whether a structure works for both organizations" |
+| "Can you commit to this volume?" | "We'd be interested to understand what volumes and timelines align well with your production planning" |
+
+> **Strategic framing note:** The purpose of the next message is not movement on price. The purpose is restoration of a negotiation channel the Japanese side can legitimately use.
 
 ---
 
