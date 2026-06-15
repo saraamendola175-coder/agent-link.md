@@ -7,27 +7,23 @@
 This Knowledge Base integrates negotiation methodology with cross-cultural analysis to support preparation, diagnosis, and debriefing across any international negotiation context.
 
 **Structure at a glance:**
-- **Part I** — Negotiation methodology: BATNA, interests, power, stakeholders, integrative bargaining, trust, deadlock, 4Ps Diagnostic Model.
-- **Part II** — Cross-cultural frameworks: Hofstede, Hall, Trompenaars, Meyer, GLOBE, CQ, Schwartz, Yin & Yang, dynamic culture theory.
-- **Part III** — Regional negotiation profiles: ten country/region guides.
-- **Part IV** — Exceptions and limitations: individual variation, biculturalism, generational shifts, organizational culture, stereotyping risks, red flags.
-- **Part V** — Real cases: six documented cross-cultural negotiation cases with applied analysis.
+- **Part 1 — Negotiation Methodology:** BATNA, reservation points, interests vs. positions, power and leverage, stakeholder mapping, integrative vs. distributive negotiation, anchoring and concession strategy, trust building, deadlock resolution, post-negotiation review, and the 4Ps Diagnostic Model.
+- **Part 2 — Cross-Cultural Frameworks:** Hofstede, Hall, Trompenaars, Meyer, GLOBE, CQ, Schwartz, Yin & Yang, and dynamic culture theory (Sections 2.1–2.10) — followed by exceptions and qualifications: individual variation, biculturalism, generational shifts, organizational culture, stereotyping risks, and red flags (Sections 2.11–2.22).
+- **Part 3 — Country/Regional Patterns and Case Material:** Ten country and region negotiation profiles (Sections 3.1–3.10), followed by eight documented cross-cultural negotiation cases with applied analysis (Sections 3.11–3.18).
 - **Glossary and Concept Index** at the end for quick reference.
 
 **Navigation logic:**
-1. Diagnose the negotiation structure using Part I (BATNA, interests, power, stakeholders).
-2. Identify the relevant cultural dimensions using Part II (use the Cross-Framework Application Matrix in Section 2.10 when unsure which framework fits).
-3. Consult the regional profile in Part III — treat these as hypotheses to test, not predictions.
-4. Validate the hypothesis against Part IV before applying any framework to a specific individual.
-5. Reference Part V for analogous cases and lessons.
+1. Diagnose the negotiation structure using Part 1 (BATNA, interests, power, stakeholders).
+2. Identify the relevant cultural dimensions using Part 2, Sections 2.1–2.10. Use the Cross-Framework Application Matrix in Section 2.10 when unsure which framework fits.
+3. Before applying any framework to a specific counterpart, consult Sections 2.11–2.22. These are not footnotes — they are structural corrections to how the framework sections should be used.
+4. When the user asks about a specific country, start with Part 3, Sections 3.1–3.10 (the relevant regional profile) and cross-reference Part 2, Sections 2.1–2.10 (the framework lens). Treat profiles as hypotheses to test, not predictions.
+5. Reference Part 3, Sections 3.11–3.18 for analogous documented cases and pattern recognition.
 
 **Strategic Links** throughout the KB mark where concepts reinforce each other across Parts. Follow them — the cross-reasoning between negotiation methodology and cultural dynamics is where expert-level analysis lives.
 
 **Core principle:** This KB generates hypotheses, not conclusions. Every framework describes statistical tendencies in populations; it says nothing guaranteed about any individual. The strongest analyses combine negotiation theory, cultural understanding, observed evidence, and continuous reassessment.
 
----
-
-# PART I — NEGOTIATION METHODOLOGY
+# PART 1 — NEGOTIATION METHODOLOGY
 
 ## Section 1.1 — BATNA, Reservation Point and ZOPA
 
@@ -49,7 +45,7 @@ Every negotiation, regardless of industry, country, or cultural context, is stru
 
 **Cross-cultural note:** BATNA is universal but its communication is culturally dependent. In low-context cultures, BATNA may be stated explicitly and leverage communicated directly. In high-context cultures, BATNA is typically implied — signaling alternatives indirectly through tone, pace, or relationships. A negotiator who mistakes indirect communication for weakness may systematically overestimate their own position.
 
-*Strategic Link — See Section 1.3 (Power and Leverage): BATNA is the foundational source of leverage. See Part II Section 2.2 (Hall): how BATNA is signaled differs sharply across communication contexts.*
+*Strategic Link — See Section 1.3 (Power and Leverage): BATNA is the foundational source of leverage. See Part 2 Section 2.2 (Hall): how BATNA is signaled differs sharply across communication contexts.*
 
 ---
 
@@ -378,7 +374,7 @@ Expert negotiators learn from every negotiation. Post-negotiation review transfo
 
 Every negotiation provides data: about this counterpart's communication preferences, decision-making structures, trust formation pace, and conflict handling style. Accumulated over time, this data dramatically improves future performance — but only if it is systematically captured and reviewed.
 
-*Strategic Link — See entire Part II (Cross-Cultural Frameworks) for the analytical lenses to apply during review.*
+*Strategic Link — See entire Part 2 (Cross-Cultural Frameworks) for the analytical lenses to apply during review.*
 
 ## Section 1.10 — The 4Ps Diagnostic Model
 
@@ -445,13 +441,13 @@ Many cross-cultural negotiations fail because a Process or People problem is tre
 
 ---
 
-**PART I SUMMARY:** The ten sections above provide the structural foundation for all analysis in this KB. Negotiation theory explains how agreements are created; cross-cultural frameworks explain why negotiators approach those agreements differently. The 4Ps model (Section 1.10) connects the two — it diagnoses which layer of the negotiation is stuck and points toward the right cultural lens for intervention. The two parts of the KB are designed to be used together, not separately.
+**PART 1 SUMMARY:** The ten sections above provide the structural foundation for all analysis in this KB. Negotiation theory explains how agreements are created; cross-cultural frameworks explain why negotiators approach those agreements differently. The 4Ps model (Section 1.10) connects the two — it diagnoses which layer of the negotiation is stuck and points toward the right cultural lens for intervention. The two parts of the KB are designed to be used together, not separately.
 
 ---
 
-# PART II — CROSS-CULTURAL FRAMEWORKS
+# PART 2 — CROSS-CULTURAL FRAMEWORKS
 
-**How to Use This Part:** The frameworks here are analytical tools, not predictive models. They describe patterns observed across populations — they do not predict the behavior of specific individuals. Use them as lenses, not labels; as hypotheses, not conclusions; as starting points, not final answers. Expert negotiators use multiple frameworks simultaneously and continuously test assumptions against observed evidence. Before applying any framework, read Part IV (Exceptions and Limitations).
+**How to Use This Part:** The frameworks here are analytical tools, not predictive models. They describe patterns observed across populations — they do not predict the behavior of specific individuals. Use them as lenses, not labels; as hypotheses, not conclusions; as starting points, not final answers. Expert negotiators use multiple frameworks simultaneously and continuously test assumptions against observed evidence. Before applying any framework, consult Sections 2.11–2.22 (Exceptions and Qualifications).
 
 ---
 
@@ -486,9 +482,9 @@ Measures the degree to which less powerful members of a society accept and expec
 
 **Low PDI** (Denmark 18, Sweden 31, Netherlands 38, USA 40): Flat structures. Direct challenge is acceptable and expected. Junior staff can commit within their mandate. Expertise matters more than title. *Negotiation impact:* Junior technical experts may actively participate and hold real decision authority. A senior-only meeting may actually slow things down.
 
-**Example:** A Western company negotiating with a Chinese state-owned enterprise expected a mid-level manager to approve a price agreement immediately. The delay was misread as obstruction. The real cause: only senior executives held decision-making authority. Once the Western team engaged the correct level, the negotiation progressed. *See Section 5.8 for the full case.*
+**Example:** A Western company negotiating with a Chinese state-owned enterprise expected a mid-level manager to approve a price agreement immediately. The delay was misread as obstruction. The real cause: only senior executives held decision-making authority. Once the Western team engaged the correct level, the negotiation progressed. *See Section 3.18 for the full case.*
 
-*Strategic Link — See Section 1.4 (Stakeholder Mapping); Section 2.5 (GLOBE); Part III regional profiles.*
+*Strategic Link — See Section 1.4 (Stakeholder Mapping); Section 2.5 (GLOBE); Part 3 regional profiles.*
 
 ---
 
@@ -796,7 +792,7 @@ See Section 1.7 for the full treatment. **Task-based trust** (USA, Germany, Scan
 
 *Critical note:* This scale is independent of Hofstede's Power Distance. East Asian cultures avoid confrontation *and* have high hierarchy. French culture confronts *and* has relatively high hierarchy. Do not conflate "avoids confrontation" with "low assertiveness" or "agreeable."
 
-*Strategic Link — See Section 1.8 (Deadlock Resolution): what reads as deadlock may actually be face-protecting avoidance of confrontation. See Section 4.1 (Individual Variation): Meyer's scales describe populations, not individuals.*
+*Strategic Link — See Section 1.8 (Deadlock Resolution): what reads as deadlock may actually be face-protecting avoidance of confrontation. See Section 2.11 (Individual Variation): Meyer's scales describe populations, not individuals.*
 
 ---
 
@@ -905,7 +901,7 @@ Cultural identity is not fixed. Individuals can hold two cultural codes simultan
 
 **The negotiator's task:** Read which code is active in each context and adjust accordingly. Signal respect by demonstrating awareness of both codes.
 
-*Strategic Links — See Section 2.6 (CQ): high-CQ individuals are most likely to code-switch deliberately. See Section 4.2 (Bicultural Negotiators): formal treatment of frame-switching.*
+*Strategic Links — See Section 2.6 (CQ): high-CQ individuals are most likely to code-switch deliberately. See Section 2.12 (Bicultural Negotiators): formal treatment of frame-switching.*
 
 **Sources:** Brannen & Thomas (2010), *Bicultural Individuals in Organizations*; Hong et al. (2000), *Multicultural Minds*; course material on Yin & Yang cultural duality
 
@@ -925,7 +921,7 @@ Traditional cultural frameworks often describe culture as a relatively stable ch
 
 **Globalization and convergence:** International managers increasingly share MBA education, global business practices, English-language communication, and multinational work experience. Professional culture sometimes becomes more influential than national culture. A German procurement manager and a Japanese procurement manager may share more behavioral similarities with each other than with members of their own societies in unrelated professions.
 
-*Strategic Links — See Section 2.6 (CQ); Section 2.8 (Yin & Yang); Section 4.2 (Bicultural Negotiators).*
+*Strategic Links — See Section 2.6 (CQ); Section 2.8 (Yin & Yang); Section 2.12 (Bicultural Negotiators).*
 
 **Sources:** Brannen & Thomas (2010); Hong et al. (2000); Thomas & Peterson (2017), *Cross-Cultural Management*
 
@@ -981,9 +977,206 @@ Traditional cultural frameworks often describe culture as a relatively stable ch
 
 ---
 
-# PART III — REGIONAL NEGOTIATION PROFILES
+---
 
-**How to Use This Part:** These profiles identify common tendencies that may influence communication, trust formation, hierarchy, decision-making, and conflict management. They do not predict individual behavior. Interpret every profile alongside Part II (frameworks) and Part IV (exceptions). The regional comparison matrix at the end summarizes patterns across all profiles.
+## Exceptions and Qualifications
+
+The following sections are not supplementary material — they are structural corrections to how Sections 2.1–2.10 should be used. Cultural frameworks describe populations; negotiations occur between individuals. These two things are not the same. When the agent reaches for a framework, it should reach for the qualifications at the same time.
+
+**Opening principle:** The most common mistake in cross-cultural negotiation is assuming that cultural averages describe individuals. Cultural frameworks describe populations. Negotiations occur between people. These are not the same thing. The sections below are not footnotes to Part 2 — they are structural corrections to how Sections 2.1–2.10 should be used.
+
+---
+
+## Section 2.11 — Individual Variation
+
+**Principle:** National culture influences behavior. It does not determine behavior. Individuals vary significantly within every society. Behavior is also shaped by personality, education, profession, organizational culture, international exposure, and life experience — any of which may override national tendencies.
+
+**Example:** Two executives from Germany may differ dramatically. One is highly analytical, direct, and structured; the other is relationship-oriented, flexible, and collaborative. Both are German. Both are authentic. Neither is an exception to the culture; they are both within the normal distribution.
+
+**Correct approach:** Frameworks generate hypotheses. "Indirect disagreement may be more likely given this cultural context, but observation is necessary" — not "He is Japanese, therefore he avoids disagreement."
+
+*Strategic Links — Section 2.6 (CQ); Section 2.9 (Dynamic Culture Theory).*
+
+---
+
+## Section 2.12 — Bicultural Negotiators
+
+Increasing globalization has produced a growing number of bicultural professionals who operate comfortably within two cultural systems and switch between them based on context.
+
+**Example:** An executive born in China, educated in the USA, working in Singapore. Behavior varies by counterpart, language, and organizational setting. In a formal English-language meeting they may operate in low-context, task-first mode. In an informal setting with Chinese counterparts they may shift to high-context, relationship-first mode. *See Section 2.8 (Yin & Yang).*
+
+**Negotiation implication:** Observed behavior may differ significantly from national averages. Bicultural negotiators require individualized analysis rather than framework-based assumptions. The diagnostic: observe which cultural code is active in each context.
+
+*Strategic Links — Section 2.8 (Yin & Yang); Section 2.6 (CQ).*
+
+---
+
+## Section 2.13 — Third-Culture Individuals
+
+Third-Culture Individuals (TCIs) have spent significant portions of their lives across multiple cultural environments — international school graduates, diplomatic families, expatriate children, global executives. They typically develop cultural adaptability, communication flexibility, and hybrid identities.
+
+**Negotiation implication:** Nationality alone provides limited predictive value for TCIs. A Brazilian executive raised in Dubai and educated in London may negotiate very differently from most Brazilian cultural profiles. The more international the individual, the less reliable purely national analysis becomes.
+
+---
+
+## Section 2.14 — Expatriate Adaptation
+
+Long-term residence abroad frequently changes negotiation behavior. An American executive working fifteen years in Japan may adopt more indirect communication, greater patience, and stronger consensus orientation. Adaptation is partial and varies by: length of time abroad, language fluency, whether they worked in a home-culture diaspora bubble or genuinely mixed environment, and individual CQ level.
+
+**Negotiation implication:** Length and depth of international experience should always be investigated before applying national cultural frameworks.
+
+*Strategic Links — Section 2.6 (CQ); Section 2.9 (Dynamic Culture Theory).*
+
+---
+
+## Section 2.15 — Organizational Culture
+
+Many negotiation failures occur because negotiators focus exclusively on national culture and ignore organizational culture. Companies develop their own cultural systems — sometimes stronger than national tendencies. A Chinese technology startup may display lower hierarchy, faster decisions, and more direct communication than traditional expectations suggest.
+
+**Profile types:** Military organizations (hierarchy, procedure, discipline); startups (speed, flexibility, experimentation); consulting firms (analytical thinking, structured communication); family businesses (relationship-based authority, centralized decision-making).
+
+**Negotiation implication:** Always analyze both national culture and organizational culture. When they diverge, organizational culture often wins.
+
+*Strategic Links — Section 2.5 (GLOBE); Section 1.4 (Stakeholder Mapping).*
+
+---
+
+## Section 2.16 — Industry Culture
+
+Industries develop shared norms that often transcend national borders. A German software entrepreneur and an American software entrepreneur may share more behavioral similarities than either shares with professionals from banking in their own country.
+
+**Industry patterns:** Technology (speed, informality, innovation); banking (risk management, regulation, formal processes); manufacturing (reliability, operational precision); engineering (evidence-based reasoning, technical credibility).
+
+**Negotiation implication:** Professional culture frequently interacts with and sometimes overrides national culture. Identify the industry culture before defaulting to national frameworks.
+
+---
+
+## Section 2.17 — Generational Differences
+
+Younger professionals in high-PDI cultures (China, India, South Korea) are often less deferential to hierarchy than older counterparts. Urban, internationally educated, and tech-sector professionals across traditionally high-context cultures have adopted lower-context communication norms in professional settings.
+
+**Example:** A 28-year-old Chinese startup founder may negotiate very differently from a 65-year-old state-owned enterprise executive. Applying the same Hofstede profile to both is analytically indefensible.
+
+**Negotiation implication:** Age and career stage matter. Before applying cultural frameworks, assess the counterpart's generational context, education, and professional environment.
+
+---
+
+## Section 2.18 — Regional Variation Within Countries
+
+Countries are not culturally uniform. Regional variation often exceeds the differences between countries:
+- **Italy:** Northern (Milan, Turin) vs. Southern (Naples, Sicily) — significantly different monochronic vs. polychronic orientations
+- **China:** Coastal (Shanghai, Guangdong) vs. inland; private vs. SOE; Cantonese vs. Shanghainese vs. Beijing business cultures
+- **India:** Gujarat, Maharashtra, Tamil Nadu, Punjab — significantly different negotiating norms
+- **Germany:** Former East vs. West Germany still shows measurable cultural differences
+- **USA:** East Coast (New York), Midwest, South, West Coast (Silicon Valley) show different negotiation styles
+
+**Negotiation implication:** Country-level analysis should be supplemented with regional analysis whenever possible.
+
+---
+
+## Section 2.19 — Globalization and Cultural Convergence
+
+Globalization has created increasing overlap between business cultures. MBA programs, multinational corporations, international law firms, and global consulting firms create shared professional norms. Two executives from different countries who both graduated from the same business school and worked at the same multinational may communicate more similarly than either does with a domestic peer from a different industry.
+
+**Negotiation implication:** Shared professional norms often reduce cultural distance. Test whether shared global experience has produced convergence before applying national frameworks fully.
+
+---
+
+## Section 2.20 — Digital Communication and Virtual Negotiation
+
+Many cultural frameworks were developed before virtual work became widespread. Digital communication alters cultural expression in important ways. Email reduces contextual cues. Video calls provide more context but still limit nonverbal observation. Messaging platforms encourage brevity and speed.
+
+**Key risks:** Indirect communication becomes less visible in text. High-context signals (silence, tone, spatial signals) disappear. Relationship development is harder without social context. A short email from a German manager that reads as abrupt to a Brazilian counterpart may represent a straightforward professional communication — but the medium amplifies the perception.
+
+**Negotiation implication:** Face-to-face interaction remains important for culturally sensitive negotiations. For high-context counterparts especially, where relationship context carries meaning, virtual-only communication significantly increases misread risk.
+
+*Strategic Links — Hall; Meyer; Section 1.7 (Trust Building).*
+
+---
+
+## Section 2.21 — Risks of Stereotyping, Cultural Bias, and Ethnocentrism
+
+The greatest risk in cross-cultural negotiation is replacing ignorance with oversimplification. Three related but distinct cognitive errors undermine good cultural analysis:
+
+---
+
+### Stereotyping
+
+Stereotyping applies group-level statistical tendencies directly to an individual, without evidence, qualification, or hypothesis-testing. It is the error of treating a framework as a prediction instead of a probability.
+
+**Dangerous statement:** "Japanese negotiators avoid conflict."
+**Better statement:** "Japanese negotiators may be more likely to avoid direct confrontation in some contexts, but behavior depends on the individual, situation, organizational environment, and which cultural code is currently active."
+
+---
+
+### Cultural Bias
+
+Cultural bias is the systematic tendency to interpret ambiguous behavior through the lens of one's own cultural expectations — finding confirmation of what you already expect rather than observing what is actually happening.
+
+**Example:** A German negotiator receives a vague response to a direct proposal. Their cultural frame expects directness and precision, so they interpret vagueness as incompetence or bad faith — when the counterpart may be communicating indirectly and clearly within their own cultural system.
+
+**Diagnostic question:** "Am I observing what this behavior means in their context, or am I judging it against my own cultural default?"
+
+---
+
+### Ethnocentrism
+
+Ethnocentrism is the deeper error underlying both stereotyping and cultural bias: treating one's own cultural framework as the natural, normal, or superior standard against which others are measured.
+
+**Effect in negotiation:** An ethnocentric negotiator frames slow decisions as "inefficiency," indirect communication as "evasion," relationship-building time as "wasted time," and formal hierarchy as "bureaucracy" — because all these behaviors diverge from their cultural norm. The counterpart is not performing poorly; they are operating in a different and equally valid system.
+
+**Anti-Ethnocentrism Principle:** The first diagnostic question is not "why is the counterpart behaving oddly?" but "which cultural logic makes this behavior entirely rational in their context?"
+
+---
+
+### The Three-Step Validation Rule
+
+1. Generate a cultural hypothesis based on frameworks.
+2. Collect behavioral evidence from the actual counterpart.
+3. Update the hypothesis — continuously.
+
+Expert negotiators continuously revise assumptions. Poor negotiators search only for evidence that confirms them. The discipline is to treat every cultural framework as a hypothesis-generator, never as a conclusion-provider.
+
+### Common Misinterpretation Checklist
+
+These are the most frequent analytical errors in cross-cultural negotiation — distinct from stereotyping, but equally damaging:
+
+- **Indirect communication ≠ evasion or dishonesty.** In high-context cultures, indirectness is a precision instrument, not a sign of weakness or bad faith.
+- **Slow decision-making ≠ bad faith or poor preparation.** It often reflects legitimate hierarchy (approval required), consensus processes, or high UAI (need for documentation). Diagnose before reacting.
+- **Silence ≠ agreement.** In many high-context cultures, silence signals reflection, disagreement, or consultation need. Filling it prematurely destroys the signal.
+- **Relationship-building time ≠ inefficiency.** In relationship-first cultures, it is a structural prerequisite to substantive exchange. Skipping it produces resistance on the Problem layer that is actually a People layer failure.
+- **Formal hierarchy ≠ bureaucracy.** In high PDI cultures, involving the correct authority level is not slowing down the process — it is the process.
+- **Aggressive opening offer ≠ strength signal in all cultures.** In face-sensitive or relationship-first cultures, an extreme anchor may be read as disrespect and damage the relational foundation before negotiation begins.
+
+**Sources:** Meyer (2014); Earley & Ang (2003); Thomas & Peterson (2017); Brannen & Thomas (2010); House et al. (2004)
+
+---
+
+## Section 2.22 — Cross-Cultural Negotiation Red Flags
+
+These observable signals warrant immediate cultural diagnosis — they frequently indicate a cultural dynamic rather than a purely commercial one. When a red flag appears, apply the 4Ps diagnostic (Section 1.10) before concluding the issue is substantive.
+
+| Red Flag | Most Likely Cultural Cause | Diagnostic Direction |
+|---|---|---|
+| Repeated delays without explicit refusal | High-context indirect rejection; high-PDI approval process; high-UAI documentation need | Hall 2.2; Hofstede 2.1 PDI/UAI; Meyer 2.4 Deciding |
+| Silence after a proposal | Reflection, disagreement, or consultation — not agreement | Hall 2.2 (Silence); Meyer 2.4 Communicating |
+| Unclear or shifting decision authority | High PDI with multiple approval layers; hidden stakeholders | Hofstede 2.1 PDI; Section 1.4 Stakeholder Mapping |
+| Junior negotiators present but not committing | High PDI: commitment requires senior sign-off | Section 2.1 PDI; Section 1.4 |
+| Fast movement to contract before relationship-building | Low-context, individualist counterpart vs. relationship-first counterpart | Hall 2.2; Meyer 2.4 Trusting; Hofstede 2.1 IDV |
+| Public criticism or direct blame | May destroy face in face-sensitive cultures; destroys trust | Sections 1.2, 2.3; Part 3 |
+| Missed deadlines treated as bad faith | Polychronic time orientation — deadlines are targets, not commitments | Hall 2.2 Monochronic/Polychronic |
+| Refusal to participate in informal events | High-restraint culture (Hofstede IVR); formal professional norms | Section 2.1 IVR |
+| Overly aggressive opening offers | May backfire in face-sensitive or relationship-first cultures | Section 1.6 Anchoring; Section 2.21 |
+| Assumptions based only on nationality | Stereotyping risk; individual, organizational, generational variation may dominate | Sections 2.11–2.22; Section 2.21 |
+| Counterpart behavior inconsistent with national profile | Bicultural, expatriate, high-CQ, or generationally divergent individual | Sections 2.12, 2.13, 2.17, 2.6 |
+
+*Strategic Links — Section 1.10 (4Ps Diagnostic); Section 2.21 (Stereotyping, Cultural Bias, Ethnocentrism); Part 2 (Framework Selection); System Instructions §8.4 (Quick Diagnostic Reference).*
+
+---
+
+# PART 3 — COUNTRY/REGIONAL PATTERNS AND CASE MATERIAL
+
+**How to Use This Part:** This Part applies the analytical lenses from Parts 1 and 2 to specific countries, regions, and documented negotiation cases. Sections 3.1–3.10 provide country and regional negotiation profiles. Sections 3.11–3.18 provide documented cases with applied analysis. When navigating by counterpart, start with the relevant regional profile (Sections 3.1–3.10) and cross-reference the framework lens in Part 2 (Sections 2.1–2.10). When navigating by case pattern, locate an analogous case in Sections 3.11–3.18. Treat all profiles as hypotheses to test — validate against Part 2 exceptions (Sections 2.11–2.22) before applying to any individual.
 
 ---
 
@@ -1091,7 +1284,7 @@ Italy combines strong relationship orientation with flexibility, creativity, and
 
 **Common mistakes:** Ignoring relationship-building, assuming excessive formality is always preferred, underestimating regional variation.
 
-*Strategic Links — Trompenaars (Affective, Diffuse); Hall (Polychronic); Section 4.8 (Regional Variation Within Countries).*
+*Strategic Links — Trompenaars (Affective, Diffuse); Hall (Polychronic); Section 2.18 (Regional Variation Within Countries).*
 
 ---
 
@@ -1113,7 +1306,7 @@ China is one of the most important and frequently misunderstood negotiation envi
 
 **Common mistakes:** Pushing for immediate decisions, neglecting relationship-building, public criticism, treating *guanxi* investment as a delay rather than as the process.
 
-*Strategic Links — Hall (High-Context); Hofstede (PDI 80, LTO 87, IDV 20); Section 2.4 (Meyer, Trusting); Section 4.8 (Regional Variation: coastal vs. inland).*
+*Strategic Links — Hall (High-Context); Hofstede (PDI 80, LTO 87, IDV 20); Section 2.4 (Meyer, Trusting); Section 2.18 (Regional Variation: coastal vs. inland).*
 
 ---
 
@@ -1151,11 +1344,11 @@ India presents one of the most complex negotiation environments due to its extra
 
 **Time:** Polychronic. Relationship considerations influence schedules and deadlines. Hofstede PDI 77.
 
-**Regional variation:** South Indian business culture differs significantly from North Indian; Gujarati trading culture from Delhi political culture; tech-sector culture from traditional manufacturing. *See Section 4.8.*
+**Regional variation:** South Indian business culture differs significantly from North Indian; Gujarati trading culture from Delhi political culture; tech-sector culture from traditional manufacturing. *See Section 2.18.*
 
 **Common mistakes:** Assuming immediate decisions, underestimating hierarchy, ignoring relationship-building, treating regional variation as negligible.
 
-*Strategic Links — Hofstede (PDI 77); Hall (High-Context, Polychronic); Section 2.4 (Meyer, Leading; Trusting); Section 4.8 (Regional Variation).*
+*Strategic Links — Hofstede (PDI 77); Hall (High-Context, Polychronic); Section 2.4 (Meyer, Leading; Trusting); Section 2.18 (Regional Variation).*
 
 ---
 
@@ -1216,206 +1409,15 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-# PART IV — EXCEPTIONS, LIMITATIONS AND ADVANCED CULTURAL ANALYSIS
+---
 
-**Opening principle:** The most common mistake in cross-cultural negotiation is assuming that cultural averages describe individuals. Cultural frameworks describe populations. Negotiations occur between people. These are not the same thing. The sections below are not footnotes to Part II — they are structural corrections to how Part II should be used.
+## Documented Cases and Applied Analysis
+
+**How to Use This Section:** These cases illustrate how negotiation frameworks interact with cultural dynamics in real organizational contexts. Each case contains: background, negotiation context, cultural frictions, relevant frameworks, and key lessons. The goal is not historical summary but applied pattern recognition. Cross-reference the regional profiles in Sections 3.1–3.10 and the framework sections in Part 2 when analysing each case.
 
 ---
 
-## Section 4.1 — Individual Variation
-
-**Principle:** National culture influences behavior. It does not determine behavior. Individuals vary significantly within every society. Behavior is also shaped by personality, education, profession, organizational culture, international exposure, and life experience — any of which may override national tendencies.
-
-**Example:** Two executives from Germany may differ dramatically. One is highly analytical, direct, and structured; the other is relationship-oriented, flexible, and collaborative. Both are German. Both are authentic. Neither is an exception to the culture; they are both within the normal distribution.
-
-**Correct approach:** Frameworks generate hypotheses. "Indirect disagreement may be more likely given this cultural context, but observation is necessary" — not "He is Japanese, therefore he avoids disagreement."
-
-*Strategic Links — Section 2.6 (CQ); Section 2.9 (Dynamic Culture Theory).*
-
----
-
-## Section 4.2 — Bicultural Negotiators
-
-Increasing globalization has produced a growing number of bicultural professionals who operate comfortably within two cultural systems and switch between them based on context.
-
-**Example:** An executive born in China, educated in the USA, working in Singapore. Behavior varies by counterpart, language, and organizational setting. In a formal English-language meeting they may operate in low-context, task-first mode. In an informal setting with Chinese counterparts they may shift to high-context, relationship-first mode. *See Section 2.8 (Yin & Yang).*
-
-**Negotiation implication:** Observed behavior may differ significantly from national averages. Bicultural negotiators require individualized analysis rather than framework-based assumptions. The diagnostic: observe which cultural code is active in each context.
-
-*Strategic Links — Section 2.8 (Yin & Yang); Section 2.6 (CQ).*
-
----
-
-## Section 4.3 — Third-Culture Individuals
-
-Third-Culture Individuals (TCIs) have spent significant portions of their lives across multiple cultural environments — international school graduates, diplomatic families, expatriate children, global executives. They typically develop cultural adaptability, communication flexibility, and hybrid identities.
-
-**Negotiation implication:** Nationality alone provides limited predictive value for TCIs. A Brazilian executive raised in Dubai and educated in London may negotiate very differently from most Brazilian cultural profiles. The more international the individual, the less reliable purely national analysis becomes.
-
----
-
-## Section 4.4 — Expatriate Adaptation
-
-Long-term residence abroad frequently changes negotiation behavior. An American executive working fifteen years in Japan may adopt more indirect communication, greater patience, and stronger consensus orientation. Adaptation is partial and varies by: length of time abroad, language fluency, whether they worked in a home-culture diaspora bubble or genuinely mixed environment, and individual CQ level.
-
-**Negotiation implication:** Length and depth of international experience should always be investigated before applying national cultural frameworks.
-
-*Strategic Links — Section 2.6 (CQ); Section 2.9 (Dynamic Culture Theory).*
-
----
-
-## Section 4.5 — Organizational Culture
-
-Many negotiation failures occur because negotiators focus exclusively on national culture and ignore organizational culture. Companies develop their own cultural systems — sometimes stronger than national tendencies. A Chinese technology startup may display lower hierarchy, faster decisions, and more direct communication than traditional expectations suggest.
-
-**Profile types:** Military organizations (hierarchy, procedure, discipline); startups (speed, flexibility, experimentation); consulting firms (analytical thinking, structured communication); family businesses (relationship-based authority, centralized decision-making).
-
-**Negotiation implication:** Always analyze both national culture and organizational culture. When they diverge, organizational culture often wins.
-
-*Strategic Links — Section 2.5 (GLOBE); Section 1.4 (Stakeholder Mapping).*
-
----
-
-## Section 4.6 — Industry Culture
-
-Industries develop shared norms that often transcend national borders. A German software entrepreneur and an American software entrepreneur may share more behavioral similarities than either shares with professionals from banking in their own country.
-
-**Industry patterns:** Technology (speed, informality, innovation); banking (risk management, regulation, formal processes); manufacturing (reliability, operational precision); engineering (evidence-based reasoning, technical credibility).
-
-**Negotiation implication:** Professional culture frequently interacts with and sometimes overrides national culture. Identify the industry culture before defaulting to national frameworks.
-
----
-
-## Section 4.7 — Generational Differences
-
-Younger professionals in high-PDI cultures (China, India, South Korea) are often less deferential to hierarchy than older counterparts. Urban, internationally educated, and tech-sector professionals across traditionally high-context cultures have adopted lower-context communication norms in professional settings.
-
-**Example:** A 28-year-old Chinese startup founder may negotiate very differently from a 65-year-old state-owned enterprise executive. Applying the same Hofstede profile to both is analytically indefensible.
-
-**Negotiation implication:** Age and career stage matter. Before applying cultural frameworks, assess the counterpart's generational context, education, and professional environment.
-
----
-
-## Section 4.8 — Regional Variation Within Countries
-
-Countries are not culturally uniform. Regional variation often exceeds the differences between countries:
-- **Italy:** Northern (Milan, Turin) vs. Southern (Naples, Sicily) — significantly different monochronic vs. polychronic orientations
-- **China:** Coastal (Shanghai, Guangdong) vs. inland; private vs. SOE; Cantonese vs. Shanghainese vs. Beijing business cultures
-- **India:** Gujarat, Maharashtra, Tamil Nadu, Punjab — significantly different negotiating norms
-- **Germany:** Former East vs. West Germany still shows measurable cultural differences
-- **USA:** East Coast (New York), Midwest, South, West Coast (Silicon Valley) show different negotiation styles
-
-**Negotiation implication:** Country-level analysis should be supplemented with regional analysis whenever possible.
-
----
-
-## Section 4.9 — Globalization and Cultural Convergence
-
-Globalization has created increasing overlap between business cultures. MBA programs, multinational corporations, international law firms, and global consulting firms create shared professional norms. Two executives from different countries who both graduated from the same business school and worked at the same multinational may communicate more similarly than either does with a domestic peer from a different industry.
-
-**Negotiation implication:** Shared professional norms often reduce cultural distance. Test whether shared global experience has produced convergence before applying national frameworks fully.
-
----
-
-## Section 4.10 — Digital Communication and Virtual Negotiation
-
-Many cultural frameworks were developed before virtual work became widespread. Digital communication alters cultural expression in important ways. Email reduces contextual cues. Video calls provide more context but still limit nonverbal observation. Messaging platforms encourage brevity and speed.
-
-**Key risks:** Indirect communication becomes less visible in text. High-context signals (silence, tone, spatial signals) disappear. Relationship development is harder without social context. A short email from a German manager that reads as abrupt to a Brazilian counterpart may represent a straightforward professional communication — but the medium amplifies the perception.
-
-**Negotiation implication:** Face-to-face interaction remains important for culturally sensitive negotiations. For high-context counterparts especially, where relationship context carries meaning, virtual-only communication significantly increases misread risk.
-
-*Strategic Links — Hall; Meyer; Section 1.7 (Trust Building).*
-
----
-
-## Section 4.11 — Risks of Stereotyping, Cultural Bias, and Ethnocentrism
-
-The greatest risk in cross-cultural negotiation is replacing ignorance with oversimplification. Three related but distinct cognitive errors undermine good cultural analysis:
-
----
-
-### Stereotyping
-
-Stereotyping applies group-level statistical tendencies directly to an individual, without evidence, qualification, or hypothesis-testing. It is the error of treating a framework as a prediction instead of a probability.
-
-**Dangerous statement:** "Japanese negotiators avoid conflict."
-**Better statement:** "Japanese negotiators may be more likely to avoid direct confrontation in some contexts, but behavior depends on the individual, situation, organizational environment, and which cultural code is currently active."
-
----
-
-### Cultural Bias
-
-Cultural bias is the systematic tendency to interpret ambiguous behavior through the lens of one's own cultural expectations — finding confirmation of what you already expect rather than observing what is actually happening.
-
-**Example:** A German negotiator receives a vague response to a direct proposal. Their cultural frame expects directness and precision, so they interpret vagueness as incompetence or bad faith — when the counterpart may be communicating indirectly and clearly within their own cultural system.
-
-**Diagnostic question:** "Am I observing what this behavior means in their context, or am I judging it against my own cultural default?"
-
----
-
-### Ethnocentrism
-
-Ethnocentrism is the deeper error underlying both stereotyping and cultural bias: treating one's own cultural framework as the natural, normal, or superior standard against which others are measured.
-
-**Effect in negotiation:** An ethnocentric negotiator frames slow decisions as "inefficiency," indirect communication as "evasion," relationship-building time as "wasted time," and formal hierarchy as "bureaucracy" — because all these behaviors diverge from their cultural norm. The counterpart is not performing poorly; they are operating in a different and equally valid system.
-
-**Anti-Ethnocentrism Principle:** The first diagnostic question is not "why is the counterpart behaving oddly?" but "which cultural logic makes this behavior entirely rational in their context?"
-
----
-
-### The Three-Step Validation Rule
-
-1. Generate a cultural hypothesis based on frameworks.
-2. Collect behavioral evidence from the actual counterpart.
-3. Update the hypothesis — continuously.
-
-Expert negotiators continuously revise assumptions. Poor negotiators search only for evidence that confirms them. The discipline is to treat every cultural framework as a hypothesis-generator, never as a conclusion-provider.
-
-### Common Misinterpretation Checklist
-
-These are the most frequent analytical errors in cross-cultural negotiation — distinct from stereotyping, but equally damaging:
-
-- **Indirect communication ≠ evasion or dishonesty.** In high-context cultures, indirectness is a precision instrument, not a sign of weakness or bad faith.
-- **Slow decision-making ≠ bad faith or poor preparation.** It often reflects legitimate hierarchy (approval required), consensus processes, or high UAI (need for documentation). Diagnose before reacting.
-- **Silence ≠ agreement.** In many high-context cultures, silence signals reflection, disagreement, or consultation need. Filling it prematurely destroys the signal.
-- **Relationship-building time ≠ inefficiency.** In relationship-first cultures, it is a structural prerequisite to substantive exchange. Skipping it produces resistance on the Problem layer that is actually a People layer failure.
-- **Formal hierarchy ≠ bureaucracy.** In high PDI cultures, involving the correct authority level is not slowing down the process — it is the process.
-- **Aggressive opening offer ≠ strength signal in all cultures.** In face-sensitive or relationship-first cultures, an extreme anchor may be read as disrespect and damage the relational foundation before negotiation begins.
-
-**Sources:** Meyer (2014); Earley & Ang (2003); Thomas & Peterson (2017); Brannen & Thomas (2010); House et al. (2004)
-
----
-
-## Section 4.12 — Cross-Cultural Negotiation Red Flags
-
-These observable signals warrant immediate cultural diagnosis — they frequently indicate a cultural dynamic rather than a purely commercial one. When a red flag appears, apply the 4Ps diagnostic (Section 1.10) before concluding the issue is substantive.
-
-| Red Flag | Most Likely Cultural Cause | Diagnostic Direction |
-|---|---|---|
-| Repeated delays without explicit refusal | High-context indirect rejection; high-PDI approval process; high-UAI documentation need | Hall 2.2; Hofstede 2.1 PDI/UAI; Meyer 2.4 Deciding |
-| Silence after a proposal | Reflection, disagreement, or consultation — not agreement | Hall 2.2 (Silence); Meyer 2.4 Communicating |
-| Unclear or shifting decision authority | High PDI with multiple approval layers; hidden stakeholders | Hofstede 2.1 PDI; Section 1.4 Stakeholder Mapping |
-| Junior negotiators present but not committing | High PDI: commitment requires senior sign-off | Section 2.1 PDI; Section 1.4 |
-| Fast movement to contract before relationship-building | Low-context, individualist counterpart vs. relationship-first counterpart | Hall 2.2; Meyer 2.4 Trusting; Hofstede 2.1 IDV |
-| Public criticism or direct blame | May destroy face in face-sensitive cultures; destroys trust | Sections 1.2, 2.3; Part III |
-| Missed deadlines treated as bad faith | Polychronic time orientation — deadlines are targets, not commitments | Hall 2.2 Monochronic/Polychronic |
-| Refusal to participate in informal events | High-restraint culture (Hofstede IVR); formal professional norms | Section 2.1 IVR |
-| Overly aggressive opening offers | May backfire in face-sensitive or relationship-first cultures | Section 1.6 Anchoring; Section 4.11 |
-| Assumptions based only on nationality | Stereotyping risk; individual, organizational, generational variation may dominate | Part IV entirely; Section 4.11 |
-| Counterpart behavior inconsistent with national profile | Bicultural, expatriate, high-CQ, or generationally divergent individual | Sections 4.2, 4.3, 4.7, 2.6 |
-
-*Strategic Links — Section 1.10 (4Ps Diagnostic); Section 4.11 (Stereotyping, Cultural Bias, Ethnocentrism); Part II (Framework Selection); Section 6.4 (Signal-to-Framework Map — real-time lookup version of these red flags with confidence calibration).*
-
----
-
-# PART V — REAL CASES AND APPLIED ANALYSIS
-
-**How to Use This Part:** These cases illustrate how negotiation frameworks interact with cultural dynamics in real organizational contexts. Each case contains: background, negotiation context, cultural frictions, relevant frameworks, and key lessons. The goal is not historical summary but applied pattern recognition.
-
----
-
-## Section 5.1 — Daimler-Benz and Chrysler (1998–2007)
+## Section 3.11 — Daimler-Benz and Chrysler (1998–2007)
 
 **Background:** In 1998, German automaker Daimler-Benz and American automaker Chrysler announced what was described as a "merger of equals," valued at approximately $36 billion. Within a few years, severe organizational and cultural problems emerged. The partnership ultimately failed; Chrysler was sold at a loss in 2007.
 
@@ -1433,7 +1435,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 ---
 
-## Section 5.2 — Renault–Nissan Alliance (1999)
+## Section 3.12 — Renault–Nissan Alliance (1999)
 
 **Background:** French automaker Renault acquired a 36.8% equity stake in near-bankrupt Nissan (debt estimated at over 2 trillion yen, ~$16.7B). Carlos Ghosn, a French-Brazilian Renault executive, was sent to lead the turnaround. The alliance subsequently developed into a cross-shareholding structure.
 
@@ -1451,7 +1453,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 ---
 
-## Section 5.3 — Walmart Germany (1997–2006)
+## Section 3.13 — Walmart Germany (1997–2006)
 
 **Background:** Walmart entered Germany in 1997 expecting to replicate its successful American business model. The company withdrew in 2006 after significant losses — estimated at $1 billion.
 
@@ -1466,7 +1468,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 ---
 
-## Section 5.4 — Lenovo Acquisition of IBM PC Division (2005)
+## Section 3.14 — Lenovo Acquisition of IBM PC Division (2005)
 
 **Background:** In 2005, Lenovo acquired IBM's personal computer division for approximately $1.75 billion — one of the most significant Chinese acquisitions of a major Western business at that time.
 
@@ -1482,7 +1484,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 ---
 
-## Section 5.5 — International Supplier Crisis Case
+## Section 3.15 — International Supplier Crisis Case
 
 **Background (composite case):** A European manufacturer depends on a strategic Asian supplier. The supplier requests a significant price increase following raw material market disruptions. Negotiations become tense.
 
@@ -1503,7 +1505,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 ---
 
-## Section 5.6 — Camp David Accords (1978)
+## Section 3.16 — Camp David Accords (1978)
 
 **Background:** US-mediated negotiation between Egypt (Sadat) and Israel (Begin) resulting in the Egypt–Israel Peace Treaty. One of the most studied cases of cross-cultural mediation.
 
@@ -1520,7 +1522,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 ---
 
-## Section 5.7 — US–Japan Automotive Trade Negotiations (1990s)
+## Section 3.17 — US–Japan Automotive Trade Negotiations (1990s)
 
 **Background:** A recurring series of bilateral negotiations over Japanese import barriers to US automotive products, culminating in the 1995 Geneva agreement on auto parts.
 
@@ -1536,7 +1538,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 ---
 
-## Section 5.8 — Dutch Industrial Firm and Chinese State-Owned Enterprise
+## Section 3.18 — Dutch Industrial Firm and Chinese State-Owned Enterprise
 
 **Background:** A Dutch industrial manufacturer engaged in procurement negotiations with a Chinese state-owned enterprise (SOE). The Dutch team operated from a low-PDI, individualist cultural framework; the Chinese side from a high-PDI, collectivist one.
 
@@ -1560,13 +1562,14 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 ---
 
-**Part V Summary — Recurring themes across all cases:**
+**Part 3 Cases Summary — Recurring themes across all cases:**
 1. Cultural differences alone rarely cause failure — poor management of differences does.
 2. The 4Ps diagnostic (Problem, Process, People, Purpose) consistently reveals where interventions are needed.
 3. Trust and communication repeatedly emerge as the most fragile variables.
 4. Face-saving and public framing are structural constraints, not personality issues.
 5. Commercial agreements require cultural process design to become durable agreements.
 
+---
 ---
 
 # Glossary
@@ -1577,7 +1580,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 **BATNA (Best Alternative to a Negotiated Agreement):** The best realistic alternative available if the current negotiation fails. *See Section 1.1.*
 
-**Bicultural Negotiator:** An individual who operates within two cultural systems and switches between them based on context. *See Sections 2.8 and 4.2.*
+**Bicultural Negotiator:** An individual who operates within two cultural systems and switches between them based on context. *See Sections 2.8 and 2.12.*
 
 **Code-Switching:** The process through which bicultural individuals activate different cultural frames depending on context. *See Section 2.8.*
 
@@ -1621,7 +1624,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 **Task-Based Trust:** Trust built through competence and performance. *See Sections 1.7 and 2.4.*
 
-**Third-Culture Individual (TCI):** A person shaped by multiple cultural environments. *See Section 4.3.*
+**Third-Culture Individual (TCI):** A person shaped by multiple cultural environments. *See Section 2.13.*
 
 **Universalism:** The view that rules should apply consistently across all situations. *See Trompenaars, Section 2.3.*
 
@@ -1636,37 +1639,37 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 | 4Ps Diagnostic Model | 1.10 |
 | Anchoring | 1.6 |
 | BATNA | 1.1 |
-| Bicultural Negotiators | 2.8, 4.2 |
-| Camp David case | 5.6 |
+| Bicultural Negotiators | 2.8, 2.12 |
+| Camp David case | 3.16 |
 | Code-Switching | 2.8 |
 | Concession Strategy | 1.6 |
 | CQ | 2.6 |
-| Cultural Bias | 4.11 |
-| Cultural Stereotyping | 4.11 |
-| Cross-Cultural Red Flags | 4.12 |
-| Daimler-Chrysler case | 5.1 |
+| Cultural Bias | 2.21 |
+| Cultural Stereotyping | 2.21 |
+| Cross-Cultural Red Flags | 2.22 |
+| Daimler-Chrysler case | 3.11 |
 | Deadlock Resolution | 1.8 |
 | Direct Communication | 2.2 |
 | Distributive Negotiation | 1.5 |
-| Dutch-Chinese SOE case | 5.8 |
-| Ethnocentrism | 4.11 |
-| Expatriate Adaptation | 4.4 |
-| Face / Mianzi | 1.2, 2.3, 3.6, 5.6 |
-| Face-Saving | 1.2, 2.3, 3.6, 5.6 |
+| Dutch-Chinese SOE case | 3.18 |
+| Ethnocentrism | 2.21 |
+| Expatriate Adaptation | 2.14 |
+| Face / Mianzi | 1.2, 2.3, 3.6, 3.16 |
+| Face-Saving | 1.2, 2.3, 3.6, 3.16 |
 | Formality and Hierarchy | 2.1, 2.5 |
-| Generational Differences | 4.7 |
+| Generational Differences | 2.17 |
 | GLOBE | 2.5 |
 | Guanxi | 3.6 |
 | Hall | 2.2 |
 | High-Context Communication | 2.2 |
 | Hofstede | 2.1 |
 | Indulgence vs. Restraint | 2.1 |
-| Individual Variation | 4.1 |
+| Individual Variation | 2.11 |
 | Indirect Communication | 2.2 |
-| Industry Culture | 4.6 |
+| Industry Culture | 2.16 |
 | Integrative Negotiation | 1.5 |
 | Interests vs. Positions | 1.2 |
-| Lenovo-IBM case | 5.4 |
+| Lenovo-IBM case | 3.14 |
 | Long-Term Orientation | 2.1 |
 | Low-Context Communication | 2.2 |
 | Masculinity vs. Femininity | 2.1 |
@@ -1676,26 +1679,26 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 | Nemawashi / Ringi-sho | 2.4, 3.7 |
 | Non-Verbal Communication | 2.2 |
 | Opening Offer | 1.6 |
-| Organizational Culture | 4.5 |
+| Organizational Culture | 2.15 |
 | Polychronic Time | 2.2 |
 | Post-Negotiation Review | 1.9 |
 | Problem-Process-People-Purpose | 1.10 |
 | Power and Leverage | 1.3 |
 | Power Distance | 2.1, 2.4 |
 | Proxemics / Personal Space | 2.2 |
-| Regional Variation | 4.8 |
-| Renault-Nissan case | 5.2 |
+| Regional Variation | 2.18 |
+| Renault-Nissan case | 3.12 |
 | Reservation Point | 1.1 |
 | Schwartz Value Theory | 2.7 |
 | Silence | 2.2 |
 | Stakeholder Mapping | 1.4 |
 | Target Point | 1.1 |
-| Third-Culture Individuals | 4.3 |
+| Third-Culture Individuals | 2.13 |
 | Trompenaars | 2.3 |
 | Trust Building | 1.7 |
 | Uncertainty Avoidance | 2.1 |
-| US-Japan Automotive case | 5.7 |
-| Walmart Germany case | 5.3 |
+| US-Japan Automotive case | 3.17 |
+| Walmart Germany case | 3.13 |
 | Yin & Yang / Duality | 2.8 |
 | ZOPA | 1.1 |
 | Zhongjianren / Intermediary | 3.6 |
