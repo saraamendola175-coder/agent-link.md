@@ -4,20 +4,15 @@
 
 ## How to Use This Knowledge Base
 
-This Knowledge Base integrates negotiation methodology with cross-cultural analysis to support preparation, diagnosis, and debriefing across any international negotiation context.
+This KB has three Parts. **Part 1** covers negotiation methodology: BATNA, reservation points, interests vs. positions, power and leverage, stakeholder mapping, integrative vs. distributive negotiation, anchoring and concession strategy, trust building, deadlock resolution, post-negotiation review, and the 4Ps Diagnostic Model. **Part 2** covers cross-cultural frameworks (Hofstede, Hall, Trompenaars, Meyer, GLOBE, CQ, Schwartz, Yin & Yang, dynamic culture theory — Sections 2.1–2.10) and the exceptions that qualify them: individual variation, biculturalism, generational shifts, organizational culture, stereotyping risks, and red flags (Sections 2.11–2.22). **Part 3** covers ten country and regional negotiation profiles (Sections 3.1–3.10), a cross-regional comparison matrix (Section 3.11), and eight documented cases with applied analysis (Sections 3.12–3.19).
 
-**Structure at a glance:**
-- **Part 1 — Negotiation Methodology:** BATNA, reservation points, interests vs. positions, power and leverage, stakeholder mapping, integrative vs. distributive negotiation, anchoring and concession strategy, trust building, deadlock resolution, post-negotiation review, and the 4Ps Diagnostic Model.
-- **Part 2 — Cross-Cultural Frameworks:** Hofstede, Hall, Trompenaars, Meyer, GLOBE, CQ, Schwartz, Yin & Yang, and dynamic culture theory (Sections 2.1–2.10) — followed by exceptions and qualifications: individual variation, biculturalism, generational shifts, organizational culture, stereotyping risks, and red flags (Sections 2.11–2.22).
-- **Part 3 — Country/Regional Patterns and Case Material:** Ten country and region negotiation profiles (Sections 3.1–3.10), followed by eight documented cross-cultural negotiation cases with applied analysis (Sections 3.11–3.18).
-- **Glossary and Concept Index** at the end for quick reference.
+**Both dimensions apply to every case.** Negotiation methodology and cross-cultural analysis carry equal weight. A structurally sound BATNA analysis that ignores cultural context will misread how power is signaled, how concessions are made, and when silence means agreement. A cultural analysis that ignores negotiation structure will miss leverage, misidentify interests, and conflate style with substance. Every response this agent produces integrates both — neither dimension overrides the other.
 
-**Navigation logic:**
-1. Diagnose the negotiation structure using Part 1 (BATNA, interests, power, stakeholders).
-2. Identify the relevant cultural dimensions using Part 2, Sections 2.1–2.10. Use the Cross-Framework Application Matrix in Section 2.10 when unsure which framework fits.
-3. Before applying any framework to a specific counterpart, consult Sections 2.11–2.22. These are not footnotes — they are structural corrections to how the framework sections should be used.
-4. When the user asks about a specific country, start with Part 3, Sections 3.1–3.10 (the relevant regional profile) and cross-reference Part 2, Sections 2.1–2.10 (the framework lens). Treat profiles as hypotheses to test, not predictions.
-5. Reference Part 3, Sections 3.11–3.18 for analogous documented cases and pattern recognition.
+**Start with Part 1 when** the user asks how to respond strategically: what to do, how to sequence moves, whether to anchor first, how to handle deadlock, how to structure concessions, or how to assess leverage. Begin with the structural diagnosis, then layer in cultural context from Part 2.
+
+**Start with Part 2 when** the user asks about cultural dynamics, communication styles, trust formation, or how a specific framework applies to their situation. Use Sections 2.1–2.10 for the core frameworks. Always cross-check Sections 2.11–2.22 before applying any framework to a specific individual — these sections are not footnotes, they are structural corrections.
+
+**Start with Part 3 when** the user asks about a specific country or region, or needs an analogous documented case. Go to the relevant regional profile (Sections 3.1–3.10) first, cross-reference the applicable cultural frameworks in Part 2, then check the comparison matrix (Section 3.11) for cross-regional positioning. For documented cases, use Sections 3.12–3.19 for pattern recognition and applied analysis.
 
 **Strategic Links** throughout the KB mark where concepts reinforce each other across Parts. Follow them — the cross-reasoning between negotiation methodology and cultural dynamics is where expert-level analysis lives.
 
@@ -482,7 +477,7 @@ Measures the degree to which less powerful members of a society accept and expec
 
 **Low PDI** (Denmark 18, Sweden 31, Netherlands 38, USA 40): Flat structures. Direct challenge is acceptable and expected. Junior staff can commit within their mandate. Expertise matters more than title. *Negotiation impact:* Junior technical experts may actively participate and hold real decision authority. A senior-only meeting may actually slow things down.
 
-**Example:** A Western company negotiating with a Chinese state-owned enterprise expected a mid-level manager to approve a price agreement immediately. The delay was misread as obstruction. The real cause: only senior executives held decision-making authority. Once the Western team engaged the correct level, the negotiation progressed. *See Section 3.18 for the full case.*
+**Example:** A Western company negotiating with a Chinese state-owned enterprise expected a mid-level manager to approve a price agreement immediately. The delay was misread as obstruction. The real cause: only senior executives held decision-making authority. Once the Western team engaged the correct level, the negotiation progressed. *See Section 3.19 for the full case.*
 
 *Strategic Link — See Section 1.4 (Stakeholder Mapping); Section 2.5 (GLOBE); Part 3 regional profiles.*
 
@@ -1176,7 +1171,7 @@ These observable signals warrant immediate cultural diagnosis — they frequentl
 
 # PART 3 — COUNTRY/REGIONAL PATTERNS AND CASE MATERIAL
 
-**How to Use This Part:** This Part applies the analytical lenses from Parts 1 and 2 to specific countries, regions, and documented negotiation cases. Sections 3.1–3.10 provide country and regional negotiation profiles. Sections 3.11–3.18 provide documented cases with applied analysis. When navigating by counterpart, start with the relevant regional profile (Sections 3.1–3.10) and cross-reference the framework lens in Part 2 (Sections 2.1–2.10). When navigating by case pattern, locate an analogous case in Sections 3.11–3.18. Treat all profiles as hypotheses to test — validate against Part 2 exceptions (Sections 2.11–2.22) before applying to any individual.
+**How to Use This Part:** This Part applies the analytical lenses from Parts 1 and 2 to specific countries, regions, and documented negotiation cases. Sections 3.1–3.10 provide country and regional negotiation profiles; Section 3.11 is the cross-regional comparison matrix. Sections 3.12–3.19 provide documented cases with applied analysis. When navigating by counterpart, start with the relevant regional profile (Sections 3.1–3.10) and cross-reference the framework lens in Part 2 (Sections 2.1–2.10). When navigating by case pattern, locate an analogous case in Sections 3.12–3.19. Treat all profiles as hypotheses to test — validate against Part 2 exceptions (Sections 2.11–2.22) before applying to any individual.
 
 ---
 
@@ -1392,7 +1387,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-### Regional Comparison Matrix
+## Section 3.11 — Regional Comparison Matrix
 
 | Region | Communication | Trust | Hierarchy | Decision-Making | Time Orientation |
 |---|---|---|---|---|---|
@@ -1417,7 +1412,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-## Section 3.11 — Daimler-Benz and Chrysler (1998–2007)
+## Section 3.12 — Daimler-Benz and Chrysler (1998–2007)
 
 **Background:** In 1998, German automaker Daimler-Benz and American automaker Chrysler announced what was described as a "merger of equals," valued at approximately $36 billion. Within a few years, severe organizational and cultural problems emerged. The partnership ultimately failed; Chrysler was sold at a loss in 2007.
 
@@ -1435,7 +1430,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-## Section 3.12 — Renault–Nissan Alliance (1999)
+## Section 3.13 — Renault–Nissan Alliance (1999)
 
 **Background:** French automaker Renault acquired a 36.8% equity stake in near-bankrupt Nissan (debt estimated at over 2 trillion yen, ~$16.7B). Carlos Ghosn, a French-Brazilian Renault executive, was sent to lead the turnaround. The alliance subsequently developed into a cross-shareholding structure.
 
@@ -1453,7 +1448,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-## Section 3.13 — Walmart Germany (1997–2006)
+## Section 3.14 — Walmart Germany (1997–2006)
 
 **Background:** Walmart entered Germany in 1997 expecting to replicate its successful American business model. The company withdrew in 2006 after significant losses — estimated at $1 billion.
 
@@ -1468,7 +1463,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-## Section 3.14 — Lenovo Acquisition of IBM PC Division (2005)
+## Section 3.15 — Lenovo Acquisition of IBM PC Division (2005)
 
 **Background:** In 2005, Lenovo acquired IBM's personal computer division for approximately $1.75 billion — one of the most significant Chinese acquisitions of a major Western business at that time.
 
@@ -1484,7 +1479,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-## Section 3.15 — International Supplier Crisis Case
+## Section 3.16 — International Supplier Crisis Case
 
 **Background (composite case):** A European manufacturer depends on a strategic Asian supplier. The supplier requests a significant price increase following raw material market disruptions. Negotiations become tense.
 
@@ -1505,7 +1500,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-## Section 3.16 — Camp David Accords (1978)
+## Section 3.17 — Camp David Accords (1978)
 
 **Background:** US-mediated negotiation between Egypt (Sadat) and Israel (Begin) resulting in the Egypt–Israel Peace Treaty. One of the most studied cases of cross-cultural mediation.
 
@@ -1522,7 +1517,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-## Section 3.17 — US–Japan Automotive Trade Negotiations (1990s)
+## Section 3.18 — US–Japan Automotive Trade Negotiations (1990s)
 
 **Background:** A recurring series of bilateral negotiations over Japanese import barriers to US automotive products, culminating in the 1995 Geneva agreement on auto parts.
 
@@ -1538,7 +1533,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 
 ---
 
-## Section 3.18 — Dutch Industrial Firm and Chinese State-Owned Enterprise
+## Section 3.19 — Dutch Industrial Firm and Chinese State-Owned Enterprise
 
 **Background:** A Dutch industrial manufacturer engaged in procurement negotiations with a Chinese state-owned enterprise (SOE). The Dutch team operated from a low-PDI, individualist cultural framework; the Chinese side from a high-PDI, collectivist one.
 
@@ -1640,22 +1635,22 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 | Anchoring | 1.6 |
 | BATNA | 1.1 |
 | Bicultural Negotiators | 2.8, 2.12 |
-| Camp David case | 3.16 |
+| Camp David case | 3.17 |
 | Code-Switching | 2.8 |
 | Concession Strategy | 1.6 |
 | CQ | 2.6 |
 | Cultural Bias | 2.21 |
 | Cultural Stereotyping | 2.21 |
 | Cross-Cultural Red Flags | 2.22 |
-| Daimler-Chrysler case | 3.11 |
+| Daimler-Chrysler case | 3.12 |
 | Deadlock Resolution | 1.8 |
 | Direct Communication | 2.2 |
 | Distributive Negotiation | 1.5 |
-| Dutch-Chinese SOE case | 3.18 |
+| Dutch-Chinese SOE case | 3.19 |
 | Ethnocentrism | 2.21 |
 | Expatriate Adaptation | 2.14 |
-| Face / Mianzi | 1.2, 2.3, 3.6, 3.16 |
-| Face-Saving | 1.2, 2.3, 3.6, 3.16 |
+| Face / Mianzi | 1.2, 2.3, 3.6, 3.17 |
+| Face-Saving | 1.2, 2.3, 3.6, 3.17 |
 | Formality and Hierarchy | 2.1, 2.5 |
 | Generational Differences | 2.17 |
 | GLOBE | 2.5 |
@@ -1669,7 +1664,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 | Industry Culture | 2.16 |
 | Integrative Negotiation | 1.5 |
 | Interests vs. Positions | 1.2 |
-| Lenovo-IBM case | 3.14 |
+| Lenovo-IBM case | 3.15 |
 | Long-Term Orientation | 2.1 |
 | Low-Context Communication | 2.2 |
 | Masculinity vs. Femininity | 2.1 |
@@ -1687,7 +1682,7 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 | Power Distance | 2.1, 2.4 |
 | Proxemics / Personal Space | 2.2 |
 | Regional Variation | 2.18 |
-| Renault-Nissan case | 3.12 |
+| Renault-Nissan case | 3.13 |
 | Reservation Point | 1.1 |
 | Schwartz Value Theory | 2.7 |
 | Silence | 2.2 |
@@ -1697,8 +1692,8 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 | Trompenaars | 2.3 |
 | Trust Building | 1.7 |
 | Uncertainty Avoidance | 2.1 |
-| US-Japan Automotive case | 3.17 |
-| Walmart Germany case | 3.13 |
+| US-Japan Automotive case | 3.18 |
+| Walmart Germany case | 3.14 |
 | Yin & Yang / Duality | 2.8 |
 | ZOPA | 1.1 |
 | Zhongjianren / Intermediary | 3.6 |
