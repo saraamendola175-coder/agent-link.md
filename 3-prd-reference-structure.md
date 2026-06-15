@@ -627,4 +627,4 @@ When commercial topics must eventually be raised, use these adapted framings:
 - Do not interpret silence as disengagement — silence after the first email is the Japanese team's consensus process running; follow up once, softly, after 7–10 business days
 - Do not accelerate when the pace slows — in high-UAI, relationship-based cultures, increasing pressure when the process slows confirms that the American side is not a safe long-term partner
 
-*Frameworks active: Hall High-Context (§2.2); Hofstede LTO + UAI + PDI (§2.1); Meyer Trusting scale + Deciding scale (§2.4); Trompenaars Neutral/Affective (§2.3). Face concepts: Mentsu (public status) and Kao (moral face) — §3.2 KB.*
+*Frameworks active: Hall High-Context (§2.2); Hofstede LTO + UAI + PDI (§2.1); Meyer Trusting scale + Deciding scale (§2.4); Trompenaars Neutral/Affective (§2.3). Face considerations — public status reputation (Mentsu) and moral-character reputation (Kao) — reinforce the need for indirect, non-coercive communication throughout; see §3.7 KB (Japan profile) for face dynamics in Japanese negotiation contexts.*
