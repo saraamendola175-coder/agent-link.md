@@ -1,4 +1,4 @@
-# Knowledge Base — Cross-Cultural Business Negotiation
+# 2 — Knowledge Base
 
 ---
 

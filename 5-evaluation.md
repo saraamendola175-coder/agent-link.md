@@ -1,4 +1,4 @@
-# 5. Evaluation
+# 5 — Evaluation
 
 > Step 5 of 5. One self-evaluation of the SI against the PRD on paper. One real-case evaluation of the deployed agent against the Definition of Success from PRD §7. Done as a group.
 

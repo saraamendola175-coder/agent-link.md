@@ -1,4 +1,4 @@
-# Step 1 — Brainstorming
+# 1 — Brainstorming
 
 ---
 

@@ -1,4 +1,4 @@
-# 3. PRD — Product Requirements Document
+# 3 — PRD
 
 ### 1. Agent Identity & Role
 
