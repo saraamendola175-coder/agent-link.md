@@ -1,5 +1,7 @@
 # 3 — PRD — Product Requirements Document
 
+> Step 3 of 5. Specification for the Culturae agent: what it is, who it is for, what it does, and how we will know it is working. Source of truth for the System Instructions in Step 4. Substantive domain content lives in the Knowledge Base; this document defines requirements, not domain facts.
+
 ---
 
 ## 1. Agent Identity & Role
@@ -137,9 +139,13 @@ Listed in priority order. Each capability names the **category** of Knowledge Ba
 
 ---
 
-## 8. Annotated Case Examples (condensed)
+*End of the formal specification. The seven sections above are the PRD. The appendix below is calibration reference only.*
 
-> These are calibration references, not part of the formal seven-section specification. Each is compressed to its essential teaching point; the full worked versions and all domain content (scores, rewrites, application notes) live in the Knowledge Base and the evaluation report. Use them to gauge the expected level of specificity, not as templates to reproduce verbatim.
+---
+
+## Appendix — Annotated Case Examples (condensed)
+
+> Not part of the seven-section specification — kept as an appendix so the PRD body stays a pure spec. Each example is compressed to its essential teaching point; the full worked versions and all domain content (scores, rewrites, application notes) live in the Knowledge Base and the evaluation report. Use them to gauge the expected level of specificity, not as templates to reproduce verbatim.
 
 1. **Chinese investor vs Italian startup — Hofstede application note.** Long-term-orientation and collectivism gaps mean commercial discussion must follow trust formation and internal alignment; the move is to surface that sequencing, not to predict that the investor "moves slowly".
 2. **American → Japanese written ultimatum — failure mode.** A direct written deadline in a high-context, neutral culture is a values violation, not aggressive commerce; the correct read is relationship disengagement risk, and the fix is relational re-framing.
