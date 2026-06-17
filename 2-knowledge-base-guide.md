@@ -4,13 +4,39 @@
 
 ## How to Use This Knowledge Base
 
-This KB has three Parts. **Part 1** covers the core negotiation methodology: the structural concepts (BATNA, ZOPA, interests, power, stakeholders, anchoring, trust, deadlock, and the 4Ps diagnostic) that apply to every negotiation regardless of cultural context. **Part 2** covers the cross-cultural analytical frameworks (Hofstede, Hall, Trompenaars, Meyer, GLOBE, CQ, Schwartz) and the qualifications that prevent those frameworks from being applied as stereotypes — Sections 2.11–2.22 are not supplementary; they are corrections that must be read alongside any framework section. **Part 3** applies Parts 1 and 2 to specific countries, regions, and documented cases (Daimler-Chrysler, Renault-Nissan, Walmart Germany, Lenovo-IBM, Camp David, US-Japan automotive, and two composite cases), followed by a Glossary and Concept Index for quick lookup.
+---
 
-**Navigating by counterpart:** Start with the relevant country or regional profile in Part 3 (Sections 3.1–3.10 and the comparison matrix in Section 3.11). Cross-reference the framework lens in Part 2 — Hofstede (2.1) for macro-level values, Hall (2.2) for communication orientation, Meyer (2.4) for workplace interaction dynamics, Trompenaars (2.3) for relationship and status norms. Then validate against the exceptions in Sections 2.11–2.22 before applying any profile to a specific individual.
+### Block 1 — What Is in This Knowledge Base
 
-**Navigating by negotiation problem:** Use the 4Ps Diagnostic in Section 1.10 to identify which layer is stuck — Problem, Process, People, or Purpose. The Cross-Framework Application Matrix in Section 2.10 maps common symptoms to the most relevant frameworks. The Red Flags table in Section 2.22 maps observable signals to likely cultural causes and diagnostic directions. For a quick concept lookup, use the Concept Index at the end of Part 3.
+This KB is organized into three Parts that build on each other.
 
-**How the two parts interact:** Part 1 explains how agreements are created; Part 2 explains why negotiators approach those agreements differently. The Strategic Links embedded in every chunk connect related concepts across Parts — follow them. A negotiation analysis built only on Part 1 ignores culture; one built only on Part 2 ignores structure. Expert use requires both simultaneously.
+**Part 1 — Negotiation Methodology** (Sections 1.1–1.10) covers the structural concepts that apply to every negotiation regardless of cultural context: BATNA, Reservation Point, ZOPA, Interests vs. Positions, Power and Leverage, Stakeholder Mapping, Integrative vs. Distributive Negotiation, Anchoring and Concession Strategy, Trust Building and Repair, Deadlock Resolution, Post-Negotiation Review, and the 4Ps Diagnostic. These are the analytical tools used to describe *how* agreements are created.
+
+**Part 2 — Cross-Cultural Frameworks** (Sections 2.1–2.22) covers the seven analytical frameworks — Hofstede, Hall, Trompenaars, Meyer, GLOBE, CQ, and Schwartz — followed by twelve sections of qualifications and exceptions (2.11–2.22). Those qualification sections are not supplementary; they are structural corrections to how the frameworks must be used. No framework section should be applied without reading the corresponding exceptions.
+
+**Part 3 — Country Profiles and Cases** (Sections 3.1–3.19) applies Parts 1 and 2 to ten country and regional negotiation profiles, a cross-regional comparison matrix, and seven documented cases — including three flagship cases (Daimler-Chrysler, Renault-Nissan, Camp David) rated as essential priority reference. The Part closes with a Glossary and Concept Index.
+
+---
+
+### Block 2 — How to Navigate
+
+Choose the entry point that matches your immediate need.
+
+**Navigate by counterpart →** Start with the relevant country or regional profile in Part 3 (Sections 3.1–3.10 and the comparison matrix in 3.11). Cross-reference the framework lens in Part 2: Hofstede (2.1) for macro-level values, Hall (2.2) for communication orientation, Meyer (2.4) for workplace interaction dynamics, Trompenaars (2.3) for relationship and status norms. Validate against the exceptions in Sections 2.11–2.22 before applying any profile to a specific individual.
+
+**Navigate by negotiation problem →** Use the 4Ps Diagnostic in Section 1.10 to identify which layer is stuck — Problem, Process, People, or Purpose. The Cross-Framework Application Matrix in Section 2.10 maps common symptoms to the most relevant frameworks. The Red Flags table in Section 2.22 maps observable signals to likely cultural causes and diagnostic directions. For concept lookup, use the Index at the end of Part 3.
+
+**Navigate by case →** Go directly to the **Flagship Cases — Priority Reference** block at the start of the Documented Cases section in Part 3. It ranks all cases by analytical weight and identifies the top three for presentations. The three highest-priority cases are Daimler-Chrysler (3.12), Renault-Nissan (3.13), and Camp David (3.17) — together they cover M&A failure and success, diplomatic mediation, face-saving, trust, communication, and leadership across cultures.
+
+---
+
+### Block 3 — How to Read This KB
+
+**Part 1 and Part 2 must be used together.** Part 1 explains how agreements are created; Part 2 explains why negotiators approach those agreements differently. A negotiation analysis built only on Part 1 ignores culture; one built only on Part 2 ignores structure. Expert use requires both simultaneously.
+
+**Frameworks are hypotheses, not conclusions.** Every cultural framework describes population-level tendencies. They generate starting assumptions to test against observed behavior — not labels to apply to individuals. Always validate any framework-based hypothesis against the exceptions in Sections 2.11–2.22 (Individual Variation, Bicultural Negotiators, Organizational Culture, Generational Differences, and the Anti-Stereotyping principles).
+
+**Follow the Strategic Links.** Every section contains cross-references (Strategic Links) connecting related concepts across Parts. These links are the fastest path to multi-framework analysis. A negotiation question that begins in Section 1.2 (Interests) will connect to Section 2.4 (Meyer, Trusting), which connects to Section 3.13 (Renault-Nissan). Following the links builds integrated analysis rather than isolated framework use.
 
 ---
 
@@ -1405,6 +1431,69 @@ Latin America includes considerable national diversity. Argentina and Chile are 
 ## Documented Cases and Applied Analysis
 
 **How to Use This Section:** These cases illustrate how negotiation frameworks interact with cultural dynamics in real organizational contexts. Each case contains: background, negotiation context, cultural frictions, relevant frameworks, and key lessons. The goal is not historical summary but applied pattern recognition. Cross-reference the regional profiles in Sections 3.1–3.10 and the framework sections in Part 2 when analysing each case.
+
+---
+
+## Flagship Cases — Priority Reference
+
+**These are the highest-weight cases in the Knowledge Base.** When time is limited, begin here. These cases carry the broadest analytical coverage across frameworks, cultural contexts, and negotiation failure modes. They are the primary reference points for exam analysis, presentation preparation, and applied negotiation diagnosis.
+
+---
+
+### Priority Ranking
+
+| Priority | Case | Section | Core Pattern |
+|---|---|---|---|
+| ★★★ ESSENTIAL | Daimler-Benz and Chrysler (1998–2007) | 3.12 | Cross-cultural merger failure — German/American management clash |
+| ★★★ ESSENTIAL | Renault–Nissan Alliance (1999) | 3.13 | Cross-cultural merger success — French/Japanese integration |
+| ★★★ ESSENTIAL | Camp David Accords (1978) | 3.17 | Diplomatic negotiation and mediation — face-saving as structural constraint |
+| ★★ IMPORTANT | Lenovo Acquisition of IBM PC Division (2005) | 3.15 | Chinese/Western integration — trust, legitimacy, power sharing |
+| ★★ IMPORTANT | U.S.–Japan Automotive Trade Negotiations (1990s) | 3.18 | Communication framing — indirect rejection, public pressure, concession framing |
+
+---
+
+### Top 3 Cases — For Presentations and Comprehensive Analysis
+
+If only three cases can be selected, use these. Together they cover the full range of themes in the Knowledge Base.
+
+**1. Daimler-Benz and Chrysler — Cross-Cultural Merger Failure (Section 3.12)**
+The most widely cited example of cultural integration failure in international M&A. German and American management cultures clashed at every layer: leadership authority, decision-making pace, communication directness, and trust formation. The commercial logic of the deal was sound; the failure was entirely at the People and Process levels. **Core lesson:** Strategic and financial fit cannot compensate for cultural misalignment. Cultural due diligence is as important as financial due diligence.
+*Primary frameworks: Hofstede (PDI, UAI); Hall (communication context); Meyer (Leading, Deciding, Evaluating); GLOBE*
+
+**2. Renault–Nissan Alliance — Cross-Cultural Merger Success (Section 3.13)**
+The counterexample to Daimler-Chrysler. Profound French–Japanese cultural differences were managed effectively through tactical adaptation: building internal consensus before external announcements, preserving Nissan's organizational identity, and allowing Japanese employees to own the restructuring narrative. The commercial objectives were held firm; the process was culturally adapted. **Core lesson:** Cross-cultural differences do not cause failure. Failure occurs when those differences are poorly managed. Effective adaptation can transform cultural diversity into a strategic advantage.
+*Primary frameworks: Meyer (Communicating, Deciding, Trusting); Hall (High- vs. Low-Context); Hofstede (PDI, LTO)*
+
+**3. Camp David Accords — Diplomatic Negotiation and Mediation (Section 3.17)**
+The most important diplomatic negotiation case in the KB. Jimmy Carter's mediation team redesigned the negotiation process to allow Egypt to frame concessions as sovereign Egyptian decisions — not capitulations to Israeli demands. The 13-day isolation format eliminated domestic political audiences and removed the primary face-threat. **Core lesson:** Face-saving is not a cultural preference but a structural requirement. Mediation design must account for the audience not in the room. The framing of concessions often matters more than their substance.
+*Primary frameworks: Hall (High-Context Arab culture); Meyer (Disagreeing); Face-Saving Theory; Section 1.4 (Stakeholder Mapping — the absent domestic audience)*
+
+---
+
+### Complete Flagship Coverage — All Five Cases
+
+**4. Lenovo Acquisition of IBM PC Division — Chinese/Western Integration (Section 3.15)**
+One of the most successful Chinese acquisitions of a major Western business. Success relied on symbolic reciprocity (retaining the IBM brand), power sharing, and active cultural integration management. Where Daimler-Chrysler ignored cultural differences, Lenovo actively addressed them through governance design. **Core lesson:** Cross-cultural integration succeeds when differences are actively managed rather than ignored. Organizational legitimacy can be negotiated — structure creates conditions for cooperation.
+*Primary frameworks: Hofstede (PDI, LTO); Meyer (Leading, Trusting, Deciding); GLOBE*
+
+**5. U.S.–Japan Automotive Trade Negotiations — Communication Framing (Section 3.18)**
+American negotiators systematically misread Japanese indirect rejection as conditional openness. US public pressure tactics — naming Japanese obstruction at press conferences — were experienced as face-threatening violations of private negotiation space, closing the path to agreement. The 1995 breakthrough came only when Japan could present concessions as domestic industrial policy, not capitulation to US demands. **Core lesson:** In high-context negotiations, the framing of concessions is as important as the concessions themselves. A commercially acceptable outcome delivered through a face-threatening process may be structurally unavailable.
+*Primary frameworks: Hall (High-Context: "we will study this" as rejection); Meyer (Communicating, Disagreeing); Section 1.6 (Concession framing)*
+
+---
+
+### Themes Covered Across the Flagship Set
+
+| Theme | Cases |
+|---|---|
+| International M&A and post-merger integration | Daimler-Chrysler, Renault-Nissan, Lenovo-IBM |
+| Communication style mismatch | Daimler-Chrysler, US-Japan, Camp David |
+| Face-saving as structural constraint | Camp David, US-Japan, Daimler-Chrysler |
+| Trust formation across cultures | Renault-Nissan, Lenovo-IBM, Camp David |
+| Leadership and decision-making incompatibility | Daimler-Chrysler, Renault-Nissan, Lenovo-IBM |
+| Mediation and process design | Camp David, US-Japan |
+| Cultural adaptation as competitive advantage | Renault-Nissan, Lenovo-IBM |
+| Diplomatic negotiation | Camp David, US-Japan |
 
 ---
 
