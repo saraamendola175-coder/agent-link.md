@@ -164,11 +164,51 @@ Traced from the gap above and from the Part A findings, the highest-priority SI 
 
 ## The agent's second output after the fix
 
-**Honest status: the second run was not captured.** The SI revisions above were applied to the System Instructions document, but the same case was not re-run through the redeployed agent and its full second output recorded. The guidance is explicit that the loop must close on a real captured output, and that hidden or absent results should be surfaced rather than disguised — so rather than reconstruct a plausible second output (which would not be evidence of anything), this report states the gap directly.
+**Status: this section is prepared for the re-run but not yet completed.** The SI revisions above were applied to the System Instructions document. To close the loop, the *same* primary case must be re-run through the redeployed agent and its full second output pasted below, then scored against the same seven criteria. The scaffolding is laid out here so the loop closes cleanly once the real output exists. Per the methodology, the second output must be the **real captured re-run** — it is not reconstructed or invented, and the scoring tables below are completed against that real output, not pre-filled.
 
-**What the fix is expected to change, stated as a falsifiable prediction to test on the re-run:** with the mandatory non-standard-profile step in place, a re-run should move the one "Partial" criterion to "Met" — the output should not merely flag that an internationally experienced Japanese executive might be more direct, but should develop that alternative reading (which scores to distrust, how the recommended moves change if the active cultural code is the US-professional one rather than the traditional high-context one). No other criterion is expected to change, since all six were already "Met". If the re-run does **not** move that criterion, the correct conclusion is that the Step 2 wording is still too weak to fire — which would itself be the finding.
+### Second output (to paste)
 
-*This is the one place the loop is open. It is recorded as an open item, not closed with invented output.*
+> *[Paste the full second output of the re-run here. Do not summarise — capture it in full, as for the first output above.]*
+
+### Part B — Scoring against PRD §7 (second output)
+
+*Complete each row against the real re-run output.*
+
+| Criterion from PRD §7 | Result | Observed in the output |
+|---|---|---|
+| Names a specific dimension linked to a concrete behaviour | Met / Partial / Not met | … |
+| Distinguishes cultural from commercial drivers | Met / Partial / Not met | … |
+| At least one specific sequenced move | Met / Partial / Not met | … |
+| Flags / works the non-standard-profile limitation | Met / Partial / Not met | … |
+| Includes an Immediate Next Step | Met / Partial / Not met | … |
+| Applies the 4Ps with primary level named | Met / Partial / Not met | … |
+| Uses multiple frameworks when warranted | Met / Partial / Not met | … |
+
+### Before vs After — same case, after SI revision
+
+*The first-output column is fixed (it is the scoring already recorded above). Fill the second-output column from the table above; only the non-standard-profile row is expected to move.*
+
+| Criterion | First output | Second output | Change |
+|---|---|---|---|
+| Names a specific dimension linked to a concrete behaviour | Met | … | … |
+| Distinguishes cultural from commercial drivers | Met | … | … |
+| At least one specific sequenced move | Met | … | … |
+| Flags / works the non-standard-profile limitation | Partial | … | … |
+| Includes an Immediate Next Step | Met | … | … |
+| Applies the 4Ps with primary level named | Met | … | … |
+| Uses multiple frameworks when warranted | Met | … | … |
+
+### Retest verdict
+
+Use **one** of the two verdicts below, depending on what the re-run actually shows. Do not pick in advance — the prediction in the main report is that the non-standard-profile criterion moves from Partial to Met, but the verdict is decided by the captured output, not by the prediction.
+
+**If the revision improved the weak criterion:**
+> The second run improved the one criterion that had been only partially met in the first output — non-standard-profile handling. The revised Step 2 no longer merely flags the possibility of an internationally experienced counterpart; it integrates that alternative reading into the diagnosis, stating which scores are unreliable, why, and how the recommended move changes if the active cultural code is more internationalised than the national baseline. All other criteria remained strong and unchanged, which indicates the revision targeted the correct weakness and produced the intended effect. This closes the primary evaluation loop: same case, revised SI, second output captured, rescored against the same criteria.
+
+**If the revision did not improve it:**
+> The second run did not materially improve the non-standard-profile criterion. The revised Step 2 is still too weak to fire consistently even though the intended behaviour is now more explicit. The next iteration would add a stronger self-check at the end of Step 2, requiring the agent to confirm it has actually *worked* the alternative reading rather than merely flagged it. The loop is methodologically closed — same case, revised SI, second output captured and rescored — but the revision did not fully solve the structural weakness it targeted, and that is itself the finding.
+
+*Until the re-run is pasted in, this remains the one open item in the report — recorded honestly as open, not closed with invented output.*
 
 ---
 
@@ -176,9 +216,9 @@ Traced from the gap above and from the Part A findings, the highest-priority SI 
 
 The agent performs at a high level on its core task: it names specific dimensions, separates cultural from commercial drivers, and produces a concrete, sequenced move rather than culture commentary. Its strongest move on this case — decomposing a single message into its simultaneous face-threatening mechanisms before rewriting, rather than softening the tone — is exactly the behaviour the PRD's "abstract style advice" failure mode is meant to prevent.
 
-The consistent weakness, visible here and across the appendix cases, is the **non-standard-profile criterion**: the agent reliably *flags* that frameworks may not apply to an internationally experienced or bicultural counterpart, but does not always *work* the alternative reading. This was a failure of execution rather than of knowledge — the directive existed but was too weak to fire consistently — which is why the highest-priority SI fix strengthened Step 2 from an optional flag to a mandatory worked step.
+The consistent weakness, visible here and across the appendix cases, is the **non-standard-profile criterion**: the agent reliably *flags* that frameworks may not apply to an internationally experienced or bicultural counterpart, but does not always *work* the alternative reading. This was a failure of execution rather than of knowledge — the directive existed but was too weak to fire consistently — which is why the highest-priority SI fix strengthened Step 2 from an optional flag to a mandatory worked step. The main improvement Revision 1 targets is not a broad increase in quality but a targeted correction of the one criterion that remained only partially satisfied in the first run.
 
-**Where the agent still falls short:** the loop on this primary case is not yet closed with a captured second output (stated above). And the deeper limitation, untestable from a single case, is generalisation — the agent has been exercised on several axes (see appendices), but the non-standard-profile gap recurred on more than one, which is a sign it is structural rather than case-specific.
+**Where the agent still falls short:** the loop on this primary case closes only once the captured second output is pasted into the prepared section above. And the deeper limitation, untestable from a single case, is generalisation — the agent has been exercised on several axes (see appendices), but the non-standard-profile gap recurred on more than one, which is a sign it is structural rather than case-specific.
 
 **What we would do with another round:** (1) re-run this exact case through the redeployed agent and capture the full second output, scoring it against the same seven criteria to close the loop or surface that the fix did not fire; (2) add a short "framework checklist" self-check at the end of Step 2 so the agent confirms it has both named *and* worked any non-standard profile; (3) test one further axis the group does not know well, to put pressure on generalisation rather than on the cases the agent has already been tuned against.
 
