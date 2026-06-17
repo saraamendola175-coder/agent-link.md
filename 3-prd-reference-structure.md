@@ -1,7 +1,5 @@
 # 3 — PRD — Product Requirements Document
 
-> Step 3 of 5. Specification for the Culturae agent: what it is, who it is for, what it does, and how we will know it is working. Source of truth for the System Instructions in Step 4. Substantive domain content lives in the Knowledge Base; this document defines requirements, not domain facts.
-
 ---
 
 ## 1. Agent Identity & Role
