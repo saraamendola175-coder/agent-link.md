@@ -206,4 +206,3 @@ Rewrite your Friday email around their planning timeline rather than your deadli
 
 ---
 
-> **Note on the applied execution layer.** Earlier drafts of this SI embedded an "Execution Layer" (action patterns, language patterns, scenario library, communication templates, step-based strategies). That is domain content and now lives in the Knowledge Base; the agent reaches it through the §3 rule on consulting the KB's applied execution material. It was removed from the SI to keep the KB/SI separation clean, per the Step 4 guidance.
