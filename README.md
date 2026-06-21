@@ -1,6 +1,6 @@
 # Cross-Cultural Negotiation 2026 — Student Project
 
-*Amendola Sara*: developped the AI agent 
+*Amendola Sara*: developped the AI agent (KB, PRD; SI; evaluation coding part) 
 
 *Bejko Angelo*: researched module I of the programm for the knowledge based + researched cases for the evaluation part. 
 
