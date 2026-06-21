@@ -1,6 +1,6 @@
 # 4 — System Instructions
 
-> Operational instructions for the Culturae agent.All substantive domain content (frameworks, country patterns, signal libraries, language patterns, templates) lives in the Knowledge Base — this document tells the agent how to behave, not what to know.
+> Operational instructions for the Culturae agent. All substantive domain content (frameworks, country patterns, signal libraries, language patterns, templates) lives in the Knowledge Base — this document tells the agent how to behave, not what to know.
 
 ---
 
