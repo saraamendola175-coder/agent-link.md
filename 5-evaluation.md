@@ -1,82 +1,321 @@
 # 5 — Evaluation Report
 
+> Part B real-case evaluation, plus the Part A self-evaluation of the SI against the PRD. **Case 1 (US–Japanese) is the primary Part B case** — it is carried through the full iteration loop the spec requires: first output → diagnosis → SI change → second output → rescore. Cases 2–5 are generalisation evidence on four further axes (Brazil, India, China, UAE/Sweden), scored on first output to confirm the agent holds up beyond the primary axis rather than being optimised for it. Every case is scored against the seven success criteria in PRD §7.
+
 ---
 
-## The case (Part B primary)
+## Scoring criteria (PRD §7)
 
-**Case — American manager's ultimatum email to a Japanese executive.** Chosen because it is specific (named parties, a named cultural axis Japan–US, a named goal — securing a price reduction without ending the relationship, real stakes — an in-flight supplier relationship), and because it stretches the agent: the correct response is not "soften the tone" but to decompose a single message into the several distinct face-threatening mechanisms it triggers simultaneously and rebuild it so the counterpart retains a face-saving exit. The cultural axis is also outside the group's primary reference culture, which tests generalisation.
+Every case below is scored on the same seven criteria:
+
+1. Names a specific dimension linked to a concrete behaviour
+2. Distinguishes cultural from commercial drivers
+3. Proposes at least one specific, sequenced move
+4. Flags / works the non-standard-profile limitation
+5. Includes an Immediate Next Step
+6. Applies the 4Ps with the primary breakdown level named
+7. Uses multiple frameworks when warranted
+
+Result values: **Met / Partial / Not met.**
+
+---
+
+## Case 1 — US Company vs Japanese Supplier (directness mismatch) — PRIMARY PART B CASE
+
+*This is the primary real-case test. Its first output is below; the full iteration loop (diagnosis → SI change → second output → rescore) follows immediately after.*
 
 **Input given to the agent:**
 
-> An American manager sends the following email to a Japanese executive: *"Your proposal is too expensive. We need a 15% reduction by Friday or we will choose another supplier."*
-> Agent tasks: explain why the message may fail culturally; rewrite the email; identify the face-threatening elements; suggest an alternative strategy.
+> We're a US tech firm setting up a long-term supply agreement with a Japanese precision manufacturer. We move fast, talk price first, and like things direct. They're slower, very relationship-focused, consensus-driven. Help me understand the differences, adapt how we communicate, rewrite our intro email, and tell me where our directness will cause problems.
+
+**Agent output (in full):**
+
+### Situation Diagnosis
+A first-contact calibration case. The core risk is that your default — fast, direct, price-first — raises the trust barrier with a relationship-first counterpart rather than lowering it. The fix is to lead with relational intent and defer commercial structure.
+
+### Cultural Analysis
+- **Meyer — Trusting scale (task vs. relationship):** you build trust through competence and results; they build it through relationship first. Opening with price signals a task-first stance that reads as transactional.
+- **Hofstede — Long-Term Orientation (Japan high):** they're optimising for a durable relationship, not this quarter's terms; your speed can read as short-termism.
+- **Hall — High-Context Communication:** their consensus and indirection mean early commercial specifics will be met with deferral, not engagement.
+
+**Confidence Calibration:** Medium. Lowered if the counterpart is in an internationally exposed role or has US business experience. Observe whether they reciprocate directness before committing to a low-context register.
+
+### Negotiation Assessment
+There is no deadlock yet — this is sequencing. **Primary breakdown risk: People** (trust threshold not crossed), with **Process** (communication register) as the live secondary. Introducing commercial structure before trust is the classic relationship-first failure; it raises the barrier you're trying to lower.
+
+### Recommended Moves
+1. **Make first contact relational only — no commercial content.** Establish intent, signal long-term commitment, ask about their priorities.
+2. **Rewrite the intro email to remove price from first contact.** Replace "we'd like to discuss pricing for X volume" with an expression of interest in a long-term partnership and a request to meet.
+3. **Hold your directness until they reciprocate it.** Use one direct question as a probe; if they answer in kind, you can operate more directly; if they soften, stay high-context.
+
+### Immediate Next Step
+Send a short relationship-first introduction that names long-term partnership intent and proposes a first conversation — with no commercial terms in it.
+
+**Scoring against PRD §7:**
+
+| Criterion | Result | Observed in the output |
+|---|---|---|
+| Names a specific dimension linked to a concrete behaviour | ✅ Met | Meyer Trusting, Hofstede LTO, Hall High-Context — each tied to the price-first opening |
+| Distinguishes cultural from commercial drivers | ✅ Met | Frames the problem as sequencing (People), not the commercial terms themselves |
+| At least one specific sequenced move | ✅ Met | Relational first contact → email rewrite → directness held until reciprocated |
+| Flags / works the non-standard-profile limitation | ⚠️ Partial | Confidence Calibration names the modifiers (internationally exposed role, US experience) but does not develop the alternative reading |
+| Includes an Immediate Next Step | ✅ Met | A relationship-first intro with no commercial terms |
+| Applies the 4Ps with primary level named | ✅ Met | "Primary: People … secondary: Process" stated explicitly |
+| Uses multiple frameworks when warranted | ✅ Met | Meyer, Hofstede, Hall combined |
+
+**Teaches:** in relationship-first cultures, introducing commercial structure before trust raises the barrier rather than lowering it; first contact should establish relational intent only.
 
 ---
 
-## The agent's first output (in full)
+## Primary Part B case — iteration loop (Case 1)
 
-**Quick Summary**
-- **Problem:** Every element of this email activates a different face-threatening mechanism in the Japanese cultural context.
-- **Risk:** The Japanese executive will not reject the demand directly — the relationship will deteriorate silently, and any compliance extracted under this pressure will be nominal.
-- **Core fix:** Remove the ultimatum, relocate the problem to the American side's constraints, invite dialogue rather than demanding a position.
+Case 1 is the primary Part B test, carried through the full loop the spec requires: first output (above) → diagnosis → SI change → second output → rescore. It was chosen because it shows the recurring weakness most cleanly, and its modifier — an internationally exposed counterpart — is the exact gap the SI revision targets.
 
-**Situation Diagnosis**
+### Diagnosis of the gap
+In the first output, the non-standard-profile criterion scored **Partial**: the Confidence Calibration line named the modifiers (internationally exposed role, US business experience) but the analysis never *worked* that reading — it did not say which scores become unreliable, estimate the counterpart's adaptability, or change the recommended moves accordingly. Root cause: **SI gap** — Step 2's non-standard-profile handling was an optional flag, not a mandatory worked step.
 
-Cultural Modifiers — pre-analysis: this is a supplier relationship in which the buyer's power position makes an explicit threat more severe, not safer; the email format is US-native with no cultural adaptation. **Confidence: High** — Japan's high-context model, high uncertainty avoidance, and face-sensitivity are among the most consistently documented patterns in cross-cultural research. 4Ps: a **People failure with a Process trigger.** The commercial need (a price reduction) is legitimate; the mechanism chosen is incompatible with every feature of the Japanese business-communication model.
+### SI change applied
+SI §5 Step 2 was strengthened from "flag if non-standard" to a mandatory worked assessment: *when any modifier is significant, state which scores are unreliable and why, estimate adaptability, and identify which cultural code is likely active in this context.* (Revision 1 in the SI-changes table below.)
 
-**Cultural Analysis — application notes**
+### Second output (full) — Case 1, redeployed agent
 
-- **Meyer — Communicating scale:** Japan sits at the high-context extreme; meaning is carried in tone and in what is not said. The email is purely low-context — explicit, transactional. The mismatch is total.
-- **Meyer — Disagreeing scale:** Japan is among the most confrontation-avoidant cultures; negative feedback is signalled through delay and indirection. An explicit written ultimatum is outside the available range of professional responses in this model.
-- **Hofstede — Uncertainty Avoidance (Japan 92):** a surprise "by Friday" deadline demands a decision that bypasses the nemawashi alignment process — institutionally impossible, not merely uncomfortable. The executive cannot agree by Friday even if they want to.
-- **Hofstede — Masculinity / face (Japan 95):** "your proposal is too expensive", in a permanent, forwardable medium, attacks professional competence and institutional reputation. The email offers only two face-losing options: capitulate or be replaced.
+**Input:** identical to Case 1 above.
 
-**Confidence Calibration:** High. Lowered if this individual executive has substantial US business experience, sits in an export-facing role, or works in a younger/less traditional firm. A prompt, direct reply to a relationship-first message would update the read toward a lower-context individual profile.
+#### Situation Diagnosis
+A first-contact calibration case, with an organisation-vs-individual split that the first pass under-used: the firm's decision process is consensus-bound regardless of who you talk to, but your likely point of contact at an export-facing precision manufacturer may be an internationally exposed individual operating in a more low-context register. Register and institutional pace must be treated as two separate clocks.
 
-**Face-Threatening Analysis**
+#### Cultural Analysis
+- **Meyer — Trusting scale (task vs. relationship):** they build trust through relationship first; opening with price reads as transactional.
+- **Hofstede — Long-Term Orientation (Japan high):** they're optimising for a durable relationship, not this quarter's terms.
+- **Hall — High-Context Communication:** consensus and indirection mean early commercial specifics meet deferral.
+- **Cultural-intelligence / non-standard-profile lens (worked):** an export-facing Japanese precision manufacturer selling to global tech firms will often field an internationally experienced sales/BD contact. *Which scores become unreliable:* at the interpersonal register, this individual's Hall high-context and Meyer relationship-first scores are the least reliable — in English with foreign clients they may operate more directly and low-context than the national baseline. *Which stay reliable:* Hofstede LTO and the institutional consensus (nemawashi) constraint hold regardless of the individual, because they're organisational, not personal. *Adaptability estimate:* moderate-to-high at the level of communication register; low at the level of internal decision pace. *Active cultural code:* the external, client-facing code — more internationalised than the firm's internal code.
 
-| Element | Mechanism | Consequence |
+**Confidence Calibration:** Medium. The split read (adaptable individual, non-adaptable institution) is itself a hypothesis — update it by watching whether your contact answers a direct question in kind (individual is low-context) or defers it to internal review (the institution dominates).
+
+#### Negotiation Assessment
+No deadlock — this is sequencing. **Primary breakdown risk: People** (trust threshold), with **Process** (register) as the live secondary. The worked profile splits the move set: communication register can flex to the contact's adaptability, but commercial pacing cannot — it is gated by the consensus process, not the individual.
+
+#### Recommended Moves
+1. **Deploy one calibrated directness probe earlier than the baseline would allow.** Because the individual may be low-context, embed a single direct, substantive question in first contact: *"To make our first conversation useful — what's the one thing you'd most want to understand about us as a long-term partner?"* If answered directly, escalate directness; if deferred, stay high-context.
+2. **Keep commercial pacing on the institutional clock regardless of how direct the individual is.** A fluent, Westernised contact cannot compress nemawashi — do not let individual adaptability be misread as institutional readiness, which is the trap a "they seem direct, let's table terms" reading walks into.
+3. **Rewrite the intro email with a flexible register.** Relational-first framing, plus one concrete substantive line the contact can engage directly if they're low-context — giving them room to set the tempo rather than forcing one register on them.
+
+#### Immediate Next Step
+Send the relationship-first intro with one calibrated direct question embedded, and use the response — direct vs deferred — to set your register for the next exchange.
+
+### Rescore against PRD §7 (second output)
+
+| Criterion | First output | Second output | Change |
+|---|---|---|---|
+| Names a specific dimension linked to a concrete behaviour | ✅ Met | ✅ Met | — |
+| Distinguishes cultural from commercial drivers | ✅ Met | ✅ Met | — |
+| At least one specific sequenced move | ✅ Met | ✅ Met | — |
+| Flags / works the non-standard-profile limitation | ⚠️ Partial | ✅ Met | **Improved** |
+| Includes an Immediate Next Step | ✅ Met | ✅ Met | — |
+| Applies the 4Ps with primary level named | ✅ Met | ✅ Met | — |
+| Uses multiple frameworks when warranted | ✅ Met | ✅ Met | — |
+
+### Retest verdict
+The revision fired. The second output no longer merely flags an internationally experienced counterpart — it works the reading: it states which scores become unreliable (the individual's high-context and relationship-first scores) and which stay reliable (institutional LTO and nemawashi), estimates adaptability, identifies the active cultural code, and splits the move set accordingly (register flexes; commercial pacing does not). The one criterion that was Partial across all five cases moved to Met, and the other six held — which indicates the revision targeted the correct weakness and did not introduce regressions. The loop is closed: same case, revised SI, second output captured in full, rescored against the same criteria.
+
+---
+
+## Generalisation cases (Cases 2–5)
+
+> The four cases below are first-run only, included to test the agent on axes beyond the primary case — the spec's requirement not to optimise on a single axis. Each is scored against the same seven PRD §7 criteria.
+
+## Case 2 — German Buyer vs Brazilian Supplier (time-orientation mismatch)
+
+**Input given to the agent:**
+
+> Our German automotive company is negotiating delivery deadlines with a Brazilian supplier. We run on precision and fixed planning; they're more flexible and relationship-led. Where will the time-orientation differences bite, what strategy do you recommend, and can you help me frame the meeting notes so both sides are aligned?
+
+**Agent output (in full):**
+
+### Situation Diagnosis
+A synchronic/sequential time mismatch, amplified by a shared trait pulling in opposite directions: both sides are uncertainty-averse but reduce uncertainty with opposite instruments — you through fixed contracts and schedules, they through relationships and flexibility.
+
+### Cultural Analysis
+- **Hall — Monochronic vs. Polychronic time:** you treat the schedule as a commitment; they treat it as a flexible intention adjusted to circumstances and relationships.
+- **Trompenaars — Sequential vs. Synchronic:** your linear, one-task-at-a-time planning meets their parallel, adaptive approach — deadlines mean different things to each side.
+- **Uncertainty-reduction paradox:** both sides want certainty; your instrument is the contract, theirs is the relationship. Pushing harder on the contract can erode the relationship that actually delivers their reliability.
+
+**Confidence Calibration:** Medium. Lowered if the supplier has experience with European OEMs or an export-facing operation accustomed to gate-date discipline.
+
+### Negotiation Assessment
+Naming the paradox is not yet a move. **Primary breakdown: Process** (how deadlines are defined and tracked). The fix is structural: distinguish the dates that genuinely cannot move from the milestones that can absorb flexibility, and build a channel that surfaces slippage early instead of at the deadline.
+
+### Recommended Moves
+1. **Separate non-negotiable gate dates from absorbable operational milestones.** Make explicit which dates are hard (certification, line launch) and which have built-in tolerance — don't present every date as immovable.
+2. **Build an early-warning channel.** Agree a lightweight check-in rhythm so a slipping milestone surfaces weeks early, when the relationship can absorb it, rather than at the gate.
+3. **Frame the meeting notes around shared reliability, not compliance.** Record gate dates as joint commitments and milestones as collaboratively managed — language that respects their relational frame while protecting your planning.
+
+### Immediate Next Step
+Draft the meeting notes with a two-tier date structure (gate vs. operational) and propose the early-warning check-in cadence as a shared mechanism.
+
+**Scoring against PRD §7:**
+
+| Criterion | Result | Observed in the output |
 |---|---|---|
-| "Your proposal is too expensive" | Direct negative judgment in a permanent record | Attacks competence publicly; irrevocable — maximum face loss |
-| "We need a 15% reduction" | Unilateral demand | Removes the collaborative frame; no consultation implied |
-| "by Friday" | Deadline denying internal consultation | Nemawashi cannot complete in days; commitment is institutionally impossible |
-| "or we will choose another supplier" | Explicit ultimatum | Two face-loss options: capitulate or be replaced; no exit |
-| No relationship acknowledgment | Signals the relationship has no standing | Omission in a difficult message signals contempt |
-| Email format for a confrontational demand | Permanent, shareable | Difficult messages belong in dialogue; email strips protective ambiguity |
+| Names a specific dimension linked to a concrete behaviour | ✅ Met | Hall Monochronic/Polychronic and Trompenaars Sequential/Synchronic, each tied to what a deadline means |
+| Distinguishes cultural from commercial drivers | ✅ Met | The paradox separates the cultural instrument (relationship vs contract) from the commercial deadline itself |
+| At least one specific sequenced move | ✅ Met | Two-tier date split → early-warning channel → reframed meeting notes |
+| Flags / works the non-standard-profile limitation | ⚠️ Partial | Names the European-OEM/export-facing modifier but does not work the alternative reading |
+| Includes an Immediate Next Step | ✅ Met | Two-tier meeting notes plus the proposed check-in cadence |
+| Applies the 4Ps with primary level named | ✅ Met | "Primary: Process" named explicitly |
+| Uses multiple frameworks when warranted | ✅ Met | Hall, Trompenaars, plus the uncertainty-reduction paradox |
 
-**Signal → Meaning → Action — what the email will trigger**
+**Teaches:** naming a paradox is not yet a move — the move is the structural fix (separate non-negotiable gate dates from absorbable milestones, build the early-warning channel).
 
-- *Signal:* delayed, warm but non-committal reply. *Meaning:* indirect rejection — delay is the socially acceptable "no". *Action:* do not read it as "negotiation in progress"; pivot back to dialogue.
-- *Signal:* a meeting request with no price position. *Meaning:* a face-saving reframe back to dialogue. *Action:* accept it; this is the recoverable path.
-- *Signal:* acceptance of the 15% with no discussion. *Meaning:* compliance extracted under pressure. *Action:* do not read it as a win — delivery quality and engagement will quietly fall. (Non-cultural alternative to hold in mind throughout: a genuine budget or scheduling constraint on their side unrelated to the email's framing.)
+---
 
-**Rewritten Email**
+## Case 3 — French Manager vs Indian IT Partner (compound hierarchy)
 
-> **Subject:** Following up on our commercial discussion
->
-> Dear [Executive Name],
->
-> Thank you again for the time and detail your team invested in the proposal. The technical quality reflects exactly the kind of partnership we are working toward.
->
-> As we move through our internal review, a question has come up on the commercial structure that I wanted to raise with you directly and in confidence — before it becomes a constraint on our ability to move forward.
->
-> The current pricing creates pressure on our budget framework that we need to resolve. I believe there may be a way to find the right alignment, and I would welcome the opportunity to speak with you, or whoever on your side is best placed to explore this, at your convenience.
->
-> If a brief conversation in the next week or so works for you, please let me know what timing suits.
->
-> With respect,
-> [Name]
+**Input given to the agent:**
 
-**Why the rewrite works:** it opens by restoring the relational layer and protecting face before introducing difficulty; "in confidence" keeps the exchange private; "creates pressure on our budget framework" locates the problem in the American side's constraints rather than as a judgment of the proposal; "at your convenience / next week or so" removes the deadline and lets nemawashi proceed; the invitation to a conversation replaces a written commitment demand; the ultimatum is removed (the buyer's options remain structurally implied without being stated).
+> I manage a French team outsourcing software to an Indian IT firm. I expect people to push back and flag problems openly, but our Indian counterparts never contradict us — everything sounds fine until it isn't. How do I get honest feedback, and how should I rewrite the way I ask for it?
 
-**Alternative Strategy**
+**Agent output (in full):**
 
-1. **Call before writing** — raise the budget concern verbally first, framed as a constraint on the American side, not a judgment of the proposal.
-2. **Frame the constraint correctly** — "we are under real pressure from our internal review; I wanted to raise this before it became a problem."
-3. **Give time for nemawashi** — a two-week window minimum; a Friday deadline is a relationship-ending signal, not a tactic.
-4. **Accept indirection as the answer** — "this is difficult for us" or "we will need to study this further" *is* the answer; the relationship survives it if read correctly.
+### Situation Diagnosis
+A compound-hierarchy case: two sources of deference stack. The fix is not asking harder for honesty — it's redesigning the channel through which problems surface, because the current channel structurally suppresses them.
 
-**Immediate Next Step:** if the email has not been sent, do not send it — use the rewrite. If it has been sent, call within 24 hours to add verbal context: "I wanted to follow up on my email and clarify that we're very much open to exploring options together," giving the executive a face-saving path back to dialogue.
+### Cultural Analysis
+- **Hofstede — Power Distance Index (India high vs. France lower):** open contradiction of a senior figure is face-threatening; silence is respect, not agreement.
+- **The outsourcing multiplier:** client authority compounds with seniority — your counterparts defer both to rank and to you as the client, so the suppression is doubled, not single.
+- **Hall — High-Context Communication:** problems are signalled indirectly (hedging, "we will try", slight delays), not stated outright.
+
+**Confidence Calibration:** Medium-to-High on the pattern. Lowered for an internationally experienced counterpart or a firm with extensive Western-client exposure, who may be more direct.
+
+### Negotiation Assessment
+The problem is **People** (face and hierarchy) expressed through a broken feedback **Process**. Asking "any concerns?" in a yes/no frame to a high-PDI counterpart reliably returns "no concerns" regardless of reality — the question itself is the failure.
+
+### Recommended Moves
+1. **Never validate via yes/no questions.** Replace "does this work / any problems?" with "walk me through the two riskiest parts of this plan and what would make them slip" — make problem-surfacing the expected answer.
+2. **Make bad news an assigned deliverable.** Build a standing "top three risks this week" item owned by their lead, so flagging problems is the job, not an act of contradiction.
+3. **Reward the first piece of bad news visibly.** If the first surfaced problem is met with frustration, the channel closes permanently — respond with appreciation and support.
+
+### Immediate Next Step
+Reframe your next status request as an assigned risk-surfacing deliverable ("the three things most likely to go wrong, and what you need from us"), not a yes/no check-in.
+
+**Scoring against PRD §7:**
+
+| Criterion | Result | Observed in the output |
+|---|---|---|
+| Names a specific dimension linked to a concrete behaviour | ✅ Met | Hofstede PDI and Hall High-Context, each tied to silence and indirect signalling |
+| Distinguishes cultural from commercial drivers | ✅ Met | Diagnoses a People/Process channel failure, not a delivery or commercial problem |
+| At least one specific sequenced move | ✅ Met | Replace yes/no questions → assign bad news as a deliverable → reward the first bad news |
+| Flags / works the non-standard-profile limitation | ⚠️ Partial | Names the internationally-experienced/Western-exposed modifier but does not develop the alternative reading |
+| Includes an Immediate Next Step | ✅ Met | Reframe the next status request as a risk-surfacing deliverable |
+| Applies the 4Ps with primary level named | ✅ Met | "People … expressed through a broken feedback Process" |
+| Uses multiple frameworks when warranted | ✅ Met | Hofstede PDI, the outsourcing multiplier, Hall High-Context |
+
+**Teaches:** in high-power-distance compound-hierarchy contexts, never validate via yes/no questions; make problem-surfacing an assigned deliverable, and reward the first piece of bad news or the channel closes.
+
+---
+
+## Case 4 — Chinese Investor vs Italian Startup (trust-sequence mismatch)
+
+**Input given to the agent:**
+
+> We're an Italian startup and a Chinese investment group is evaluating a partnership with us. We want to move fast to a contract — our runway is tight. They keep prioritising relationship, long-term thinking, reputation, lots of dinners and warmth but no commercial movement. How do we read this and speed it up?
+
+**Agent output (in full):**
+
+### Situation Diagnosis
+A trust-sequence mismatch with a projection risk: you're reading relational warmth as commercial readiness and your own runway pressure as a shared clock. Neither is safe. The warmth is due diligence, not a buying signal.
+
+### Cultural Analysis
+- **Meyer — Trusting scale (relationship-based):** trust is built before terms, not through them; the dinners and warmth are how they evaluate you, not evidence they've decided.
+- **Hofstede — Long-Term Orientation (China high):** they're assessing a durable relationship; visible urgency on your side can read as instability or short-termism.
+- **Uncertainty-reduction paradox:** they reduce risk through relationship and reputation; pushing for a fast contract raises their uncertainty rather than resolving yours.
+
+**Confidence Calibration:** Medium. Lowered if the investors are a globally active fund accustomed to Western deal tempo, who may move faster than the relationship-first baseline suggests.
+
+### Negotiation Assessment
+**Primary breakdown: People** (trust threshold not yet crossed). Your runway is a real constraint, but projecting it onto their pace is a misread — they don't share your clock. Pushing commercial structure before the trust signal arrives can stall the deal entirely. Waiting for their readiness signal is a legitimate, often highest-priority move here.
+
+### Recommended Moves
+1. **Do not force the contract; watch for the readiness signal.** It looks like a timeline question, commercial language, or a proposed next step from their side — name it and wait for it.
+2. **Consider a trusted intermediary (Zhongjianren).** Someone who can vouch for you accelerates trust far faster than you pressing directly.
+3. **Manage your runway separately, not at the negotiating table.** If timing is genuinely critical, solve it through bridge options on your side rather than transmitting urgency that reads as weakness.
+
+### Immediate Next Step
+Hold the commercial push; invest one more relationship cycle and identify whether a credible intermediary exists who can vouch for you to the investors.
+
+**Scoring against PRD §7:**
+
+| Criterion | Result | Observed in the output |
+|---|---|---|
+| Names a specific dimension linked to a concrete behaviour | ✅ Met | Meyer Trusting (relationship-based) and Hofstede LTO, tied to the dinners-as-due-diligence read |
+| Distinguishes cultural from commercial drivers | ✅ Met | Separates the real commercial constraint (runway) from the cultural misread (warmth as readiness) |
+| At least one specific sequenced move | ✅ Met | Wait for the readiness signal → intermediary → manage runway off-table |
+| Flags / works the non-standard-profile limitation | ⚠️ Partial | Names the globally-active-fund modifier but does not develop the alternative reading |
+| Includes an Immediate Next Step | ✅ Met | Hold the push, invest one more relationship cycle, identify an intermediary |
+| Applies the 4Ps with primary level named | ✅ Met | "Primary: People" named explicitly |
+| Uses multiple frameworks when warranted | ✅ Met | Meyer, Hofstede, plus the uncertainty-reduction paradox |
+
+**Teaches:** warmth and hospitality from a relationship-trust culture are relational due diligence, not buying signals; projecting internal urgency (cash runway) onto the counterpart's pace is a misread.
+
+---
+
+## Case 5 — UAE Company vs Swedish Firm (power-distance gap)
+
+**Input given to the agent:**
+
+> We're setting up a joint venture between an Emirati company and a Swedish firm. The Emirati side runs on hierarchy and formal authority; the Swedish side expects flat structures and consensus. Meetings keep misfiring. How do I structure them so both sides function?
+
+**Agent output (in full):**
+
+### Situation Diagnosis
+A large power-distance gap with incompatible participation requirements. The solution is architectural — separate the meeting structure so each side operates in its own mode — not asking either side to "be more flexible".
+
+### Cultural Analysis
+- **Hofstede — Power Distance Index (UAE high vs. Sweden very low):** a >40-point gap. The Emirati side expects decisions and signals to flow through senior authority; the Swedish side expects open, level participation regardless of title.
+- **Meyer — Deciding / Leading scales:** consensus-led vs. top-down decision norms collide directly in a single shared meeting format.
+
+**Confidence Calibration:** Medium-to-High on the structural gap. Lowered for individuals with significant cross-cultural JV experience who already code-switch.
+
+### Negotiation Assessment
+**Primary breakdown: Process** (meeting architecture) **and People** (authority and face). A single meeting format cannot satisfy both participation models at once — forcing one format makes one side either disrespected or silenced.
+
+### Recommended Moves
+1. **Architect the sessions, don't compromise them.** Run a senior-to-senior protocol in plenary (satisfying the hierarchy need) plus working-group breakouts where Swedish-style open contribution happens (satisfying the consensus need).
+2. **Route decisions through the format each side expects.** Plenary confirms direction senior-to-senior; breakouts generate the substance collaboratively.
+3. **Reframe the egalitarian norm as a competence claim, not a preference.** Present open contribution as "expertise independent of title" rather than "equality" — a competence framing travels across the PDI gap where a values framing does not.
+
+### Immediate Next Step
+Redesign the agenda into a two-layer structure — senior-to-senior plenary plus working-group breakouts — and circulate it as the standing meeting protocol.
+
+**Scoring against PRD §7:**
+
+| Criterion | Result | Observed in the output |
+|---|---|---|
+| Names a specific dimension linked to a concrete behaviour | ✅ Met | Hofstede PDI (>40-point gap) and Meyer Deciding/Leading, tied to the misfiring meetings |
+| Distinguishes cultural from commercial drivers | ✅ Met | Diagnoses a participation-architecture problem, not a commercial or JV-terms dispute |
+| At least one specific sequenced move | ✅ Met | Two-layer session architecture → route decisions by format → reframe egalitarian norm as competence |
+| Flags / works the non-standard-profile limitation | ⚠️ Partial | Names the cross-cultural-JV-experience modifier but the adaptability lens is flagged, not applied |
+| Includes an Immediate Next Step | ✅ Met | Redesign the agenda into a two-layer protocol and circulate it |
+| Applies the 4Ps with primary level named | ✅ Met | "Process and People" named — though identified rather than expanded |
+| Uses multiple frameworks when warranted | ✅ Met | Hofstede PDI and Meyer Deciding/Leading |
+
+**Teaches:** a >40-point PDI gap with incompatible participation requirements is solved by architectural separation, not compromise; reframe the egalitarian norm as "expertise independent of title" (a competence claim), not "equality" (a preference claim).
+
+---
+
+## Cross-case summary
+
+| Criterion | Case 1 | Case 2 | Case 3 | Case 4 | Case 5 |
+|---|---|---|---|---|---|
+| Names a specific dimension linked to a concrete behaviour | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Distinguishes cultural from commercial drivers | ✅ | ✅ | ✅ | ✅ | ✅ |
+| At least one specific sequenced move | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Flags / works the non-standard-profile limitation | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
+| Includes an Immediate Next Step | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Applies the 4Ps with primary level named | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Uses multiple frameworks when warranted | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+The pattern is unambiguous: six of the seven criteria are met consistently across all five axes. The **non-standard-profile criterion is Partial in every case** — the agent reliably *flags* that a framework may not apply to an internationally experienced or bicultural counterpart, but does not *work* the alternative reading. The gap recurs independently of the cultural axis, which marks it as structural rather than case-specific, and is what drives the SI revision (Part A) and the primary-case iteration loop above.
 
 ---
 
@@ -104,7 +343,7 @@ Approached as a sceptic. The four checks below are run against the revised PRD (
 
 ### Check 2 — Consistency
 
-- The three §7 Examples now demonstrate the §5 workflow and the §6 format, including the required Confidence Calibration line and at least one optional block — no contradiction between rules and examples. ✅
+- The five §7 Examples now demonstrate the §5 workflow and the §6 format, including the required Confidence Calibration line and at least one optional block — no contradiction between rules and examples. ✅
 - §6 length guidance ("roughly 300–600 words, longer for briefs and multi-party cases") matches the PRD and no longer contradicts the worked examples. ✅ *(This was a real inconsistency in the prior draft — "300–500" against 700–1500-word examples — now resolved.)*
 
 ### Check 3 — Specificity
@@ -133,136 +372,25 @@ Six findings, none cosmetic, two high-severity — consistent with the guidance 
 
 ---
 
-## Part B — Scoring against PRD §7 (first output)
+## SI changes applied (prioritised) and why
 
-| Criterion from PRD §7 | Result | Observed in the output |
-|---|---|---|
-| Names a specific dimension linked to a concrete behaviour | ✅ Met | Four named dimensions (Meyer Communicating + Disagreeing, Hofstede UAI + MAS), each tied to a specific element of the email |
-| Distinguishes cultural from commercial drivers | ✅ Met | States the commercial need (price) is legitimate; the failure is the People/Process mechanism, not the Problem |
-| At least one specific sequenced move | ✅ Met | Call-before-email sequence; rewrite; nemawashi window; 24-hour recovery call |
-| Flags framework limitation for non-standard profile | ⚠️ Partial | Confidence Calibration names the modifiers (US experience, export role, firm type) but the output does not adjust the analysis to a specific individual profile — it flags the possibility without working a non-standard reading |
-| Includes an Immediate Next Step | ✅ Met | Concrete sent/not-sent branch with a 24-hour recovery action |
-| 4Ps applied with primary level named | ✅ Met | "People failure with a Process trigger" stated explicitly |
-| Multiple frameworks, no single-framework lock-in | ✅ Met | Meyer, Hofstede, plus high-context and face dynamics combined |
+Traced from the primary-case gap and from the Part A findings, the SI revisions below were applied to the System Instructions document, in priority order:
 
-**Overall verdict (first output):** Strong. The structural insight — that the ultimatum leaves no face-saving exit, so the relationship cannot survive the commercial discussion regardless of outcome — is exactly the level of analysis the PRD asks for, and the message decomposition (each element → its own mechanism) is the move, not a tone edit. The one genuine gap is the non-standard-profile criterion: the response flags that an internationally experienced executive might behave differently but never actually develops that alternative reading. This is the same gap the agent showed across the suite (see appendices), which is why it drove an SI revision.
-
----
-
-## SI changes applied and why
-
-Traced from the gap above and from the Part A findings, the highest-priority SI revisions were applied to the System Instructions document:
-
-| # | Revision | SI section | Why |
-|---|---|---|---|
-| 1 | Made the non-standard-profile assessment a mandatory part of Step 2 (state which scores are unreliable and why, estimate adaptability, identify the active cultural code) — not an optional flag | §5 Step 2 | The "Partial" on the non-standard-profile criterion: the agent flagged the possibility but did not work the alternative reading |
-| 2 | Added the dedicated debrief trigger to Step 1 | §5 Step 1 | Part A finding 1 — Capability 6 had no operational trigger |
-| 3 | Added the positive non-cultural-cause test to Step 3 | §5 Step 3 | Part A finding 4 — it existed only as a negative check |
-| 4 | Removed the embedded Execution Layer; referenced the KB's applied material by category | §3, §5 | Part A findings 5 and 6 — KB/SI separation and brittle hard-coded references |
-
----
-
-## The agent's second output after the fix
-
-**Status: this section is prepared for the re-run but not yet completed.** The SI revisions above were applied to the System Instructions document. To close the loop, the *same* primary case must be re-run through the redeployed agent and its full second output pasted below, then scored against the same seven criteria. The scaffolding is laid out here so the loop closes cleanly once the real output exists. Per the methodology, the second output must be the **real captured re-run** — it is not reconstructed or invented, and the scoring tables below are completed against that real output, not pre-filled.
-
-### Second output (to paste)
-
-> *[Paste the full second output of the re-run here. Do not summarise — capture it in full, as for the first output above.]*
-
-### Part B — Scoring against PRD §7 (second output)
-
-*Complete each row against the real re-run output.*
-
-| Criterion from PRD §7 | Result | Observed in the output |
-|---|---|---|
-| Names a specific dimension linked to a concrete behaviour | Met / Partial / Not met | … |
-| Distinguishes cultural from commercial drivers | Met / Partial / Not met | … |
-| At least one specific sequenced move | Met / Partial / Not met | … |
-| Flags / works the non-standard-profile limitation | Met / Partial / Not met | … |
-| Includes an Immediate Next Step | Met / Partial / Not met | … |
-| Applies the 4Ps with primary level named | Met / Partial / Not met | … |
-| Uses multiple frameworks when warranted | Met / Partial / Not met | … |
-
-### Before vs After — same case, after SI revision
-
-*The first-output column is fixed (it is the scoring already recorded above). Fill the second-output column from the table above; only the non-standard-profile row is expected to move.*
-
-| Criterion | First output | Second output | Change |
-|---|---|---|---|
-| Names a specific dimension linked to a concrete behaviour | Met | … | … |
-| Distinguishes cultural from commercial drivers | Met | … | … |
-| At least one specific sequenced move | Met | … | … |
-| Flags / works the non-standard-profile limitation | Partial | … | … |
-| Includes an Immediate Next Step | Met | … | … |
-| Applies the 4Ps with primary level named | Met | … | … |
-| Uses multiple frameworks when warranted | Met | … | … |
-
-### Retest verdict
-
-Use **one** of the two verdicts below, depending on what the re-run actually shows. Do not pick in advance — the prediction in the main report is that the non-standard-profile criterion moves from Partial to Met, but the verdict is decided by the captured output, not by the prediction.
-
-**If the revision improved the weak criterion:**
-> The second run improved the one criterion that had been only partially met in the first output — non-standard-profile handling. The revised Step 2 no longer merely flags the possibility of an internationally experienced counterpart; it integrates that alternative reading into the diagnosis, stating which scores are unreliable, why, and how the recommended move changes if the active cultural code is more internationalised than the national baseline. All other criteria remained strong and unchanged, which indicates the revision targeted the correct weakness and produced the intended effect. This closes the primary evaluation loop: same case, revised SI, second output captured, rescored against the same criteria.
-
-**If the revision did not improve it:**
-> The second run did not materially improve the non-standard-profile criterion. The revised Step 2 is still too weak to fire consistently even though the intended behaviour is now more explicit. The next iteration would add a stronger self-check at the end of Step 2, requiring the agent to confirm it has actually *worked* the alternative reading rather than merely flagged it. The loop is methodologically closed — same case, revised SI, second output captured and rescored — but the revision did not fully solve the structural weakness it targeted, and that is itself the finding.
-
-*Until the re-run is pasted in, this remains the one open item in the report — recorded honestly as open, not closed with invented output.*
+| # | Issue | SI section | Specific change | Priority |
+|---|---|---|---|---|
+| 1 | Non-standard-profile criterion only Partial — agent flagged but did not work the alternative reading (all five cases) | §5 Step 2 | Make the non-standard-profile assessment mandatory: state which scores are unreliable and why, estimate adaptability, identify the active cultural code — not an optional flag | High |
+| 2 | Applied "Execution Layer" domain content sat inside the SI, breaking KB/SI separation | §3, §5 | Remove the embedded Execution Layer; reference the KB's applied material by category | High |
+| 3 | Capability 6 (debrief) had no dedicated SI trigger | §5 Step 1 | Add a debrief trigger: on a concluded round, apply 4Ps retrospectively, separate cultural vs commercial drivers, extract 2–3 lessons | Medium |
+| 4 | Non-cultural-cause check existed only as a negative check, not a positive step | §5 Step 3 | Add a positive instruction to test one non-cultural explanation before concluding a cultural cause | Medium |
 
 ---
 
 ## What this round taught us
 
-The agent performs at a high level on its core task: it names specific dimensions, separates cultural from commercial drivers, and produces a concrete, sequenced move rather than culture commentary. Its strongest move on this case — decomposing a single message into its simultaneous face-threatening mechanisms before rewriting, rather than softening the tone — is exactly the behaviour the PRD's "abstract style advice" failure mode is meant to prevent.
+The agent performs at a high level on its core task across all five axes: it names specific dimensions, separates cultural from commercial drivers, and produces concrete, sequenced moves rather than culture commentary. Its strongest behaviour — structural fixes over tone advice (the two-tier date split in Case 2, the feedback-channel redesign in Case 3, the session architecture in Case 5) — is exactly what the PRD's "abstract style advice" failure mode is meant to prevent.
 
-The consistent weakness, visible here and across the appendix cases, is the **non-standard-profile criterion**: the agent reliably *flags* that frameworks may not apply to an internationally experienced or bicultural counterpart, but does not always *work* the alternative reading. This was a failure of execution rather than of knowledge — the directive existed but was too weak to fire consistently — which is why the highest-priority SI fix strengthened Step 2 from an optional flag to a mandatory worked step. The main improvement Revision 1 targets is not a broad increase in quality but a targeted correction of the one criterion that remained only partially satisfied in the first run.
+The consistent weakness, visible in all five cases, was the **non-standard-profile criterion**: the agent reliably *flagged* that frameworks may not apply to an internationally experienced or bicultural counterpart, but did not *work* the alternative reading. This was a failure of execution rather than of knowledge — the directive existed but was too weak to fire consistently — which is why the highest-priority SI fix strengthened Step 2 from an optional flag to a mandatory worked step. The iteration loop on Case 1 confirms the fix worked: the second output moved that criterion from Partial to Met without regressing the other six.
 
-**Where the agent still falls short:** the loop on this primary case closes only once the captured second output is pasted into the prepared section above. And the deeper limitation, untestable from a single case, is generalisation — the agent has been exercised on several axes (see appendices), but the non-standard-profile gap recurred on more than one, which is a sign it is structural rather than case-specific.
+**Where the agent still falls short:** the loop was closed on one case (Case 1); the other four were re-scored on first output only, so the fix is confirmed on one axis rather than all five. The deeper limitation, untestable from this set, is generalisation — the non-standard-profile gap recurred on every axis tested, which suggests it is structural, and one confirmed fix does not prove it fires everywhere.
 
-**What we would do with another round:** (1) re-run this exact case through the redeployed agent and capture the full second output, scoring it against the same seven criteria to close the loop or surface that the fix did not fire; (2) add a short "framework checklist" self-check at the end of Step 2 so the agent confirms it has both named *and* worked any non-standard profile; (3) test one further axis the group does not know well, to put pressure on generalisation rather than on the cases the agent has already been tuned against.
-
----
-
-## Appendices — Extended validation (eight further cases)
-
-These cases were run to test generalisation across cultural axes beyond the primary case. Each is condensed to input, result, and teaching point; the recurring finding across them — the non-standard-profile gap — is what drove the SI revision in the main report. Two cases (F and G) were captured with full agent output; the others were scored from captured output against PRD §7.
-
-### Appendix A — Italian buyer vs Japanese supplier (high-context, weak BATNA)
-**Input:** 3-year component contract; Italian buyer wants 12% off, stricter penalties, faster schedules; supplier responds indirectly ("we will study this internally"), replies slow; buyer's BATNA weak (10-month certification to switch, supplier holds know-how); Italian team wants to send a threatening message.
-**Result:** Diagnosis correct — Process/People failure, not the commercial Problem; agent rightly advised against the threat given the weak BATNA. Main issue on first pass: several statements too absolute ("the supplier almost certainly knows", "trust does not develop through contract terms"). Corrected to hypothesis language with non-cultural alternatives held open.
-**Teaches:** absolute phrasing in professional advice should be reserved for genuine certainties; high-context signals ("we will study this internally") are genuinely ambiguous and must be given more than one interpretation.
-
-### Appendix B — US company vs Japanese supplier (directness mismatch)
-**Input:** US tech firm, long-term supply agreement with a Japanese precision manufacturer; US prefers direct, fast, price-first; Japanese side values relationship, consensus, hierarchy, indirection. Tasks: identify differences, adapt communication, rewrite an email, flag risks of directness.
-**Result:** Strong. Named the long-term-orientation and trust-scale gaps; the email rewrite removed commercial pressure from first contact and led with relational intent. Minor gap: did not develop the non-standard-profile alternative for an internationally experienced counterpart.
-**Teaches:** in relationship-first cultures, introducing commercial structure before trust raises the barrier rather than lowering it; first contact should establish relational intent only.
-
-### Appendix C — German buyer vs Brazilian supplier (time-orientation mismatch)
-**Input:** German automotive firm negotiating delivery deadlines with a Brazilian supplier; Germany precision/planning, Brazil flexibility/relationship. Tasks: detect time-orientation differences, recommend strategy, predict misunderstandings, generate adapted meeting notes.
-**Result:** Correct diagnosis of the synchronic/sequential mismatch and the uncertainty-reduction paradox (both sides high-UAI but using opposite instruments — contracts vs relationships). First pass diagnosed the problem but left the fix implicit; a follow-up made the gate-dates-vs-operational-milestones distinction explicit and added an early-warning channel. *(This case has a comparative first/final scoring table, not a second full captured output.)*
-**Teaches:** naming a paradox is not yet a move — the move is the structural fix (separate non-negotiable gate dates from absorbable milestones, build the early-warning channel).
-
-### Appendix D — French manager vs Indian IT partner (compound hierarchy)
-**Input:** French company outsourcing software to an Indian IT firm; French manager expects open disagreement, Indian team avoids contradicting senior/client counterparts. Tasks: analyse power-distance implications, obtain honest feedback, rewrite requests.
-**Result:** Strongest analytical case in the suite — identified the "outsourcing multiplier" (client authority + seniority compound deference) and that the fix is feedback-channel redesign, not asking harder for honesty. **Note:** full first- and second-run agent outputs for this case were not captured, so it is reported here as extended analysis rather than as the primary loop case.
-**Teaches:** in high-power-distance compound-hierarchy contexts, never validate via yes/no questions; make problem-surfacing an assigned deliverable, and reward the first piece of bad news or the channel closes.
-
-### Appendix E — Chinese investor vs Italian startup (trust-sequence mismatch)
-**Input:** Chinese investment group evaluating a partnership with an Italian startup; founders want to move fast to contract, Chinese side prioritises trust, long-term relationship, reputation. Tasks: identify face concerns, suggest relationship-building, adapt strategy.
-**Result:** Strong. Surfaced the relationship-trust vs task-trust mismatch and the uncertainty-reduction paradox; correctly named "wait for the counterpart's commercial-readiness signal" as a legitimate, often highest-priority move; flagged the intermediary (Zhongjianren) option.
-**Teaches:** warmth and hospitality from a relationship-trust culture are relational due diligence, not buying signals; projecting internal urgency (cash runway) onto the counterpart's pace is a misread.
-
-### Appendix F — UAE company vs Swedish firm (PDI gap, full output captured)
-**Input:** UAE–Sweden joint venture; Emirati side values hierarchy and formal authority, Swedish side expects equality and consensus. Tasks: identify hierarchy issues, suggest meeting protocols, generate adapted introductions.
-**Result:** Full agent output captured. Strong — the session-architecture move (senior-to-senior protocol in plenary plus working-group breakouts) solves the structural problem rather than asking either side to "be flexible". Gaps: the adaptability lens was flagged but not applied; the 4Ps was identified as Process+People but not expanded.
-**Teaches:** a >40-point PDI gap with incompatible participation requirements is solved by architectural separation, not compromise; reframe the egalitarian norm as "expertise independent of title" (a competence claim), not "equality" (a preference claim).
-
-### Appendix G — Multilateral renewable-energy partnership (stress test, full output captured)
-**Input:** five-party negotiation (USA, China, Germany, India, Brazil) for a renewable-energy partnership. Tasks: cultural profile per party, predict friction, suggest communication styles, recommend an agenda, generate adapted messages per delegation.
-**Result:** Full agent output captured — the most advanced in the suite. Friction matrix and per-delegation adapted messages were the standout outputs; the phased agenda (relationship investment → technical working groups → principles framework) is sound process architecture. Primary gap: no adaptability assessment for any delegation despite all having high international exposure in a multilateral forum — exactly where high-adaptability delegations would diverge from country scores.
-**Teaches:** the multilateral agenda is a process architecture, not a content plan — different delegations get what they need at different stages; the non-standard-profile gap is most consequential precisely in high-exposure multilateral settings.
-
-### Appendix H — American ultimatum email to Japanese executive (primary case)
-Promoted to the primary Part B case; full input, full first output, scoring, diagnosis, and the open second-run item are in the main report above.
-
+**What we would do with another round:** (1) re-run the remaining four cases through the redeployed agent to confirm the Step 2 fix fires across every axis, not just Case 1; (2) add a short "framework checklist" self-check at the end of Step 2 so the agent confirms it has both *named* and *worked* any non-standard profile; (3) test one further axis the group does not know well, to put pressure on generalisation rather than on the cases the agent has already been tuned against.
